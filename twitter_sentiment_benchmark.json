@@ -1,0 +1,564 @@
+{
+  "dataset_name": "Twitter-Sentiment-Benchmark-TR",
+  "total_questions": 40,
+  "questions": [
+ {
+   "id": "TW_M_01",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "YKBNK",
+   "window_label": "son 2 hafta",
+   "question": "YKBNK hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "YKBNK hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 64.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 46.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 111.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların YKBNK hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_02",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "YKBNK",
+   "window_label": "son 3 ay",
+   "question": "YKBNK hissesi için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "YKBNK hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 28.0 düzeyinde zayıf kalmıştır. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 70.3 olarak gerçekleşmiştir. Bu durum, yatırımcıların YKBNK hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_03",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "VAKBN",
+   "window_label": "son 1 ay",
+   "question": "VAKBN hissesinde son bir aylık dönemde gözlemlenen Twitter metriklerine göre yatırımcı algısı nedir?",
+   "gold_answer": "VAKBN hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 33.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 21.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 25.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların VAKBN hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_04",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "VAKBN",
+   "window_label": "son 6 ay",
+   "question": "VAKBN için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "VAKBN hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 18.9, negatif tweet ortalaması 20.4 ile birbirine yakın seyretmiştir. Genel etki skoru 16.1 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_05",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TUPRS",
+   "window_label": "guncel",
+   "question": "TUPRS için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "TUPRS hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 187.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 97.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 174.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_06",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TUPRS",
+   "window_label": "son 3 ay",
+   "question": "TUPRS için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "TUPRS hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 416.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 204.8 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 347.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_07",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TTKOM",
+   "window_label": "son 2 hafta",
+   "question": "TTKOM hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TTKOM hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 53.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 26.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 46.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_08",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TTKOM",
+   "window_label": "son 6 ay",
+   "question": "TTKOM hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "TTKOM hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 87.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 50.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 67.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_09",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TOASO",
+   "window_label": "son 1 ay",
+   "question": "TOASO hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TOASO hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 58.7, negatif tweet ortalaması 59.0 ile birbirine yakın seyretmiştir. Genel etki skoru 54.6 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_10",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TOASO",
+   "window_label": "son 3 ay",
+   "question": "TOASO hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "TOASO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 98.3 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 65.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 77.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TOASO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_11",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "THYAO",
+   "window_label": "guncel",
+   "question": "THYAO için son hafta itibarıyla pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+   "gold_answer": "THYAO hissesi için güncel dönem incelendiğinde pozitif tweet ortalaması 195.9, negatif tweet ortalaması 244.1 ile birbirine yakın seyretmiştir. Genel etki skoru 291.4 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_12",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "THYAO",
+   "window_label": "son 2 hafta",
+   "question": "THYAO hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "THYAO hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 202.1, negatif tweet ortalaması 260.2 ile üzerinde seyretmiştir. Genel etki skoru 293.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_13",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "THYAO",
+   "window_label": "son 6 ay",
+   "question": "THYAO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "THYAO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 443.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 334.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 420.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların THYAO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_14",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TCELL",
+   "window_label": "son 1 ay",
+   "question": "TCELL hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TCELL hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.3 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 59.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_15",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TCELL",
+   "window_label": "son 3 ay",
+   "question": "TCELL için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "TCELL hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 101.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 36.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 74.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_16",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SISE",
+   "window_label": "son 2 hafta",
+   "question": "SISE için son iki haftalık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "SISE hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 151.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 57.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 125.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_17",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SISE",
+   "window_label": "son 6 ay",
+   "question": "SISE hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "SISE hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 184.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 159.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_18",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SASA",
+   "window_label": "guncel",
+   "question": "SASA hissesinde son hafta itibarıyla Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "SASA hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 393.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 325.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 369.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_19",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SASA",
+   "window_label": "son 1 ay",
+   "question": "SASA hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "SASA hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 440.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 262.0 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 343.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_20",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "GARAN",
+   "window_label": "son 2 hafta",
+   "question": "GARAN hissesinde son iki haftalık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "GARAN hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 40.8, negatif tweet ortalaması 50.8 ile üzerinde seyretmiştir. Genel etki skoru 102.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_21",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "GARAN",
+   "window_label": "son 3 ay",
+   "question": "GARAN için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "GARAN hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 30.8, negatif tweet ortalaması 34.3 ile birbirine yakın seyretmiştir. Genel etki skoru 77.2 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_22",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "FROTO",
+   "window_label": "son 1 ay",
+   "question": "FROTO hissesinde son bir aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "FROTO hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 118.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 107.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_23",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "FROTO",
+   "window_label": "son 6 ay",
+   "question": "FROTO için son altı aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+   "gold_answer": "FROTO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 290.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 115.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 217.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_24",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "EREGL",
+   "window_label": "guncel",
+   "question": "EREGL için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "EREGL hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 62.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 51.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 129.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların EREGL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_25",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "EREGL",
+   "window_label": "son 3 ay",
+   "question": "EREGL için son üç aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+   "gold_answer": "EREGL hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 82.3, negatif tweet ortalaması 92.4 ile birbirine yakın seyretmiştir. Genel etki skoru 114.9 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_26",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "EREGL",
+   "window_label": "son 6 ay",
+   "question": "EREGL hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "EREGL hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 109.4, negatif tweet ortalaması 118.9 ile birbirine yakın seyretmiştir. Genel etki skoru 134.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_27",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SASA",
+   "window_label": "son 6 ay",
+   "question": "SASA hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "SASA hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 370.2 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 195.4 düzeyinde zayıf kalmıştır. Negatif sentimentte belirgin bir artış eğilimi ve etki skoru ortalaması 230.1 olarak gerçekleşmiştir. Bu durum, yatırımcıların SASA hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_28",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TOASO",
+   "window_label": "son 6 ay",
+   "question": "TOASO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TOASO hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 119.8 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 110.2 düzeyinde zayıf kalmıştır. Negatif sentimentte azalış eğilimi görülmekle birlikte etki skoru ortalaması 100.5 olarak gerçekleşmiştir. Bu durum, yatırımcıların TOASO hissesine ilişkin temkinli yaklaşımlarının sürdüğüne işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_29",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "YKBNK",
+   "window_label": "son 6 ay",
+   "question": "YKBNK hissesi için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "YKBNK hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 58.3 ile yüksek seyretmiş, pozitif tweet ortalaması 37.4 düzeyinde kalmıştır. Genel etki skoru ortalaması 40.7 olarak gerçekleşmiştir. P/N oranının 0.64 seviyesinde bulunması, negatif sinyallerin baskın olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_30",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "FROTO",
+   "window_label": "son 3 ay",
+   "question": "FROTO için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "FROTO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 119.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 87.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 113.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_31",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "VAKBN",
+   "window_label": "son 3 ay",
+   "question": "VAKBN hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "VAKBN hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 20.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 30.3 ile üzerinde seyretmiştir. Etki skoru ortalaması 16.1 düzeyinde kalmıştır. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_32",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TTKOM",
+   "window_label": "son 3 ay",
+   "question": "TTKOM için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TTKOM hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 68.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 38.6 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte güçlü artış gözlemlenirken genel etki skoru 64.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_33",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "GARAN",
+   "window_label": "son 1 ay",
+   "question": "GARAN hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "GARAN hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 40.5, negatif tweet ortalaması 47.6 ile birbirine yakın seyretmiştir. Genel etki skoru 102.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_34",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "THYAO",
+   "window_label": "son 3 ay",
+   "question": "THYAO hissesinde son üç aylık dönemde Twitter metriklerine göre yatırımcı algısı nedir?",
+   "gold_answer": "THYAO hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 285.4 ile yüksek seyretmiş, pozitif tweet ortalaması 270.3 ile birbirine yakın kalmıştır. Genel etki skoru ortalaması 396.6 düzeyinde seyretmiştir. Dengeli görünen bu tabloda negatif trendin hafif baskın olması temkinli bir yaklaşımı desteklemektedir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "neutral",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_35",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "SISE",
+   "window_label": "son 3 ay",
+   "question": "SISE hissesi için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+   "gold_answer": "SISE hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 181.5 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 80.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 157.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_36",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TUPRS",
+   "window_label": "son 6 ay",
+   "question": "TUPRS hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TUPRS hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 375.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 228.6 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 350.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik güçlü olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_37",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "EREGL",
+   "window_label": "son 1 ay",
+   "question": "EREGL için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "EREGL hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 68.3, negatif tweet ortalaması 83.1 ile üzerinde seyretmiştir. Genel etki skoru 113.7 düzeyindedir. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_38",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "TCELL",
+   "window_label": "son 6 ay",
+   "question": "TCELL hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "TCELL hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 82.1 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.3 ile belirgin biçimde üzerinde seyretmiştir. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 73.9 olarak gerçekleşmiştir. Bu durum, yatırımcıların TCELL hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "negative",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_39",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "VAKBN",
+   "window_label": "guncel",
+   "question": "VAKBN için son hafta itibarıyla Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+   "gold_answer": "VAKBN hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme değeri 30.0 seviyesinde gerçekleşmiş, negatif tweet değeri 18.0 düzeyinde kalmıştır. Genel etki skoru 27.9 seviyesindedir. P/N oranı 1.67 ile pozitif bölgede yer almakta ve yatırımcı ilgisinin arttığına işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   
+   "human_validation_required": true
+ },
+ {
+   "id": "TW_M_40",
+   "source_type": "MCP-Twitter-Metrics",
+   "company": "GARAN",
+   "window_label": "son 6 ay",
+   "question": "GARAN hissesi için son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+   "gold_answer": "GARAN hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 51.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.9 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 40.2 düzeyinde seyretmiştir. P/N oranı 2.7 ile güçlü pozitif bölgede yer almakta ve yatırımcıların GARAN hissesine olan olumlu algısının kalıcı olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+   "reasoning_type": [
+     "metric_sentiment_reasoning"
+   ],
+   "expected_sentiment": "positive",
+   "human_validation_required": true
+ }
+]
+}
