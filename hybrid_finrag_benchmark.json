@@ -1,201 +1,4584 @@
 {
-  "dataset_name": "KAP-Benchmark-TR",
+  "dataset_name": "Hybrid Multi-Source FinRAG Benchmark v2",
   "total_questions": 20,
+  "tool_distribution": {
+    "3_tools": 9,
+    "2_tools": 11
+  },
+  "sentiment_distribution": {
+    "positive": 10,
+    "negative": 6,
+    "neutral": 4
+  },
   "questions": [
-  {
-    "id": "HYB_01",
-    "source_type": "HybridFinRAG",
-    "company": "THYAO",
-    "inputs": {
-      "price_signal": "Son 7 günde hisse fiyatı %12 yükseldi.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.81",
-      "kap_summary": "Şirket yeni uluslararası uçuş hattı yatırımı açıkladı."
+    {
+      "id": "HYB_01",
+      "source_type": "Hybrid",
+      "company": "AKBNK",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "Akbank'ın Mayıs 2026'da erken itfa ettiği sermaye benzeri tahvilin bilgileri nedir; bu dönemde AKBNK hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "KAP": "2021 yılında ihraç edilen toplam 500 milyon ABD Doları tutarındaki sürdürülebilir sermaye benzeri tahvil (ISIN: XS2355183091 ve US00971YAJ91). 10 yıl vadeli, 5. yılda erken itfa opsiyonlu. Erken itfa için BDDK onayı alınmıştır. Kaynak: KAP #1608065",
+        "Price": "AKBNK hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 75.25 TL seviyesinden 22 May 2026 itibarıyla 63.60 TL'ye gerilemiş ve %15.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 63.60 TL (22 May 2026), en yüksek kapanış ise 75.25 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "AKBNK hissesi için son 2 hafta (2026-05-09 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 185.47 ile yüksek seyretmiş, pozitif tweet ortalaması 61.42 düzeyinde zayıf kalmıştır. P/N oranı 0.33 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 99.83, like oranı 2.64, retweet oranı 0.23 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_13",
+        "Price": "PRICE_03"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-05-09",
+            "P": 69.17,
+            "N": 148.99,
+            "E": 71.24,
+            "D": 56.87,
+            "L": 3,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 65.15,
+            "N": 131.59,
+            "E": 71.15,
+            "D": 69.13,
+            "L": 2.86,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-23",
+            "P": 64.07,
+            "N": 118.62,
+            "E": 69.41,
+            "D": 67.64,
+            "L": 2.86,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-30",
+            "P": 50.78,
+            "N": 265.59,
+            "E": 89.15,
+            "D": 66.49,
+            "L": 2.09,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-06",
+            "P": 47.62,
+            "N": 235.03,
+            "E": 81.49,
+            "D": 63,
+            "L": 2.16,
+            "R": 0.22
+          },
+          {
+            "date": "2026-06-13",
+            "P": 64.31,
+            "N": 219.48,
+            "E": 88.22,
+            "D": 60.81,
+            "L": 2.07,
+            "R": 0.21
+          },
+          {
+            "date": "2026-06-20",
+            "P": 72.71,
+            "N": 207.82,
+            "E": 90.71,
+            "D": 57.42,
+            "L": 2.06,
+            "R": 0.21
+          },
+          {
+            "date": "2026-06-27",
+            "P": 60.35,
+            "N": 210.19,
+            "E": 120.36,
+            "D": 196.69,
+            "L": 2.1,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-04",
+            "P": 57.69,
+            "N": 199.84,
+            "E": 118.42,
+            "D": 192.43,
+            "L": 2.27,
+            "R": 0.21
+          },
+          {
+            "date": "2026-07-11",
+            "P": 56.74,
+            "N": 202.78,
+            "E": 114.94,
+            "D": 172.48,
+            "L": 2.44,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-18",
+            "P": 54.29,
+            "N": 201.63,
+            "E": 120.74,
+            "D": 178.85,
+            "L": 2.81,
+            "R": 0.25
+          },
+          {
+            "date": "2026-07-25",
+            "P": 60.5,
+            "N": 187.91,
+            "E": 117.49,
+            "D": 163.44,
+            "L": 2.93,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-01",
+            "P": 55.5,
+            "N": 176.14,
+            "E": 115.62,
+            "D": 174.92,
+            "L": 2.92,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-08",
+            "P": 64.54,
+            "N": 146.88,
+            "E": 109.35,
+            "D": 153.13,
+            "L": 3.19,
+            "R": 0.27
+          },
+          {
+            "date": "2026-08-15",
+            "P": 70.33,
+            "N": 160.37,
+            "E": 112.94,
+            "D": 148.77,
+            "L": 3.17,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-22",
+            "P": 68.92,
+            "N": 154.66,
+            "E": 105.99,
+            "D": 127.75,
+            "L": 3.3,
+            "R": 0.25
+          }
+        ],
+        "Price": {
+          "start_price": 75.25,
+          "start_date": "08 May 2026",
+          "end_price": 63.6,
+          "end_date": "22 May 2026",
+          "total_change_pct": -15.5,
+          "min_price": 63.6,
+          "min_date": "22 May 2026",
+          "max_price": 75.25,
+          "max_date": "08 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "AKBNK",
+          "start_date": "2026-05-09",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "Bu veriler ışığında THYAO hissesi için genel yatırımcı algısı nasıl değerlendirilebilir?",
-    "gold_answer": "THYAO hissesinde son dönemde gözlenen fiyat artışı, sosyal medya üzerindeki güçlü pozitif yatırımcı sentimenti ve yeni uluslararası uçuş hattı yatırımı birlikte değerlendirildiğinde yatırımcı algısının genel olarak olumlu olduğu görülmektedir. Özellikle büyüme odaklı yatırım açıklamaları piyasa beklentilerini desteklemektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_02",
-    "source_type": "HybridFinRAG",
-    "company": "ASELS",
-    "inputs": {
-      "price_signal": "Son 1 haftada hisse fiyatı yükseliş trendi göstermiştir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.76",
-      "kap_summary": "Şirket yeni savunma sanayi sözleşmesi açıkladı."
+    {
+      "id": "HYB_02",
+      "source_type": "Hybrid",
+      "company": "BIMAS",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "BİM Birleşik Mağazalar 2026 birinci çeyreğinde temettü ödemiş midir; bu dönemde BIMAS hissesinin fiyat hareketi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "KAP": "BİM, 2026 birinci çeyreğinde 22.000 bin TL temettü ödemiştir. Bu ödeme finansman faaliyetleri nakit akış tablosunda gösterilmekte olup azınlık hissedarlarına yapılan ödemeyi kapsamaktadır. Kaynak: KAP #1605794",
+        "Price": "BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "BIMAS hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 158.63 ile yüksek seyretmiş, pozitif tweet ortalaması 124.3 düzeyinde zayıf kalmıştır. P/N oranı 0.78 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 118.93, like oranı 2.81, retweet oranı 0.21 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_08",
+        "Price": "PRICE_07"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 92.96,
+            "N": 435.6,
+            "E": 106.04,
+            "D": 52.14,
+            "L": 2.6,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-02",
+            "P": 116.79,
+            "N": 385.16,
+            "E": 117.4,
+            "D": 50.7,
+            "L": 2.38,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 104.62,
+            "N": 350.2,
+            "E": 108.18,
+            "D": 57.05,
+            "L": 2.46,
+            "R": 0.22
+          },
+          {
+            "date": "2026-05-16",
+            "P": 103.83,
+            "N": 309.31,
+            "E": 104.78,
+            "D": 58.36,
+            "L": 2.81,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-23",
+            "P": 102.1,
+            "N": 278.81,
+            "E": 102.21,
+            "D": 57.1,
+            "L": 2.81,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-30",
+            "P": 125.72,
+            "N": 79.92,
+            "E": 129.85,
+            "D": 172.09,
+            "L": 1.51,
+            "R": 0.14
+          },
+          {
+            "date": "2026-06-06",
+            "P": 112.62,
+            "N": 70.73,
+            "E": 117.6,
+            "D": 163.05,
+            "L": 1.55,
+            "R": 0.15
+          },
+          {
+            "date": "2026-06-13",
+            "P": 122.13,
+            "N": 73.04,
+            "E": 126.13,
+            "D": 172.02,
+            "L": 2.46,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-20",
+            "P": 116.71,
+            "N": 77.45,
+            "E": 121.34,
+            "D": 162.44,
+            "L": 2.46,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-27",
+            "P": 133.95,
+            "N": 111.05,
+            "E": 129.59,
+            "D": 131.94,
+            "L": 2.75,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-04",
+            "P": 132.22,
+            "N": 102.26,
+            "E": 125.33,
+            "D": 125.06,
+            "L": 2.87,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-11",
+            "P": 135.6,
+            "N": 93.04,
+            "E": 124.51,
+            "D": 121.76,
+            "L": 2.99,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-18",
+            "P": 141.92,
+            "N": 83.41,
+            "E": 120.56,
+            "D": 107.12,
+            "L": 3.25,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-25",
+            "P": 143.66,
+            "N": 88.05,
+            "E": 118.9,
+            "D": 99.05,
+            "L": 3.33,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-01",
+            "P": 131.8,
+            "N": 82.54,
+            "E": 112.34,
+            "D": 97.87,
+            "L": 3.33,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-08",
+            "P": 144.21,
+            "N": 82.27,
+            "E": 129.82,
+            "D": 132.57,
+            "L": 3.61,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-15",
+            "P": 146.99,
+            "N": 76.56,
+            "E": 128.62,
+            "D": 128.8,
+            "L": 3.61,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-22",
+            "P": 129.61,
+            "N": 75.94,
+            "E": 117.45,
+            "D": 122.96,
+            "L": 3.75,
+            "R": 0.27
+          }
+        ],
+        "Price": {
+          "start_price": 380.0,
+          "start_date": "24 Apr 2026",
+          "end_price": 392.75,
+          "end_date": "22 May 2026",
+          "total_change_pct": 3.4,
+          "min_price": 370.75,
+          "min_date": "01 May 2026",
+          "max_price": 405.25,
+          "max_date": "15 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "BIMAS",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "ASELS hissesi için yatırımcı davranışı nasıl yorumlanabilir?",
-    "gold_answer": "ASELS tarafından açıklanan yeni savunma sanayi sözleşmesi ve pozitif yatırımcı sentimenti, hisse üzerindeki olumlu beklentileri desteklemektedir. Hisse fiyatındaki yükseliş eğilimi yatırımcı güveninin güçlendiğine işaret etmektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_03",
-    "source_type": "HybridFinRAG",
-    "company": "PGSUS",
-    "inputs": {
-      "price_signal": "Hisse fiyatında son günlerde düşüş gözlemlenmiştir.",
-      "twitter_sentiment": "Negatif sentiment skoru: 0.69",
-      "kap_summary": "Artan yakıt maliyetlerine ilişkin risk açıklaması yapılmıştır."
+    {
+      "id": "HYB_03",
+      "source_type": "Hybrid",
+      "company": "BIMAS",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "BİM'in 31 Mart 2026 itibarıyla nakit ve finansal yatırım pozisyonu nedir; son bir aylık fiyat hareketi ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "KAP": "31.03.2026: Nakit 4.980.275 bin TL + Finansal Yatırımlar 24.977.581 bin TL = Toplam 29.957.856 bin TL. 31.12.2025: Nakit 3.808.085 bin TL + Finansal Yatırımlar 11.764.683 bin TL = Toplam 15.572.768 bin TL. Artış yaklaşık 14,4 milyar TL. Kaynak: KAP #1605794",
+        "Price": "BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "BIMAS hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 158.63 ile yüksek seyretmiş, pozitif tweet ortalaması 124.3 düzeyinde zayıf kalmıştır. P/N oranı 0.78 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 118.93, like oranı 2.81, retweet oranı 0.21 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_19",
+        "Price": "PRICE_07"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 92.96,
+            "N": 435.6,
+            "E": 106.04,
+            "D": 52.14,
+            "L": 2.6,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-02",
+            "P": 116.79,
+            "N": 385.16,
+            "E": 117.4,
+            "D": 50.7,
+            "L": 2.38,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 104.62,
+            "N": 350.2,
+            "E": 108.18,
+            "D": 57.05,
+            "L": 2.46,
+            "R": 0.22
+          },
+          {
+            "date": "2026-05-16",
+            "P": 103.83,
+            "N": 309.31,
+            "E": 104.78,
+            "D": 58.36,
+            "L": 2.81,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-23",
+            "P": 102.1,
+            "N": 278.81,
+            "E": 102.21,
+            "D": 57.1,
+            "L": 2.81,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-30",
+            "P": 125.72,
+            "N": 79.92,
+            "E": 129.85,
+            "D": 172.09,
+            "L": 1.51,
+            "R": 0.14
+          },
+          {
+            "date": "2026-06-06",
+            "P": 112.62,
+            "N": 70.73,
+            "E": 117.6,
+            "D": 163.05,
+            "L": 1.55,
+            "R": 0.15
+          },
+          {
+            "date": "2026-06-13",
+            "P": 122.13,
+            "N": 73.04,
+            "E": 126.13,
+            "D": 172.02,
+            "L": 2.46,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-20",
+            "P": 116.71,
+            "N": 77.45,
+            "E": 121.34,
+            "D": 162.44,
+            "L": 2.46,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-27",
+            "P": 133.95,
+            "N": 111.05,
+            "E": 129.59,
+            "D": 131.94,
+            "L": 2.75,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-04",
+            "P": 132.22,
+            "N": 102.26,
+            "E": 125.33,
+            "D": 125.06,
+            "L": 2.87,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-11",
+            "P": 135.6,
+            "N": 93.04,
+            "E": 124.51,
+            "D": 121.76,
+            "L": 2.99,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-18",
+            "P": 141.92,
+            "N": 83.41,
+            "E": 120.56,
+            "D": 107.12,
+            "L": 3.25,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-25",
+            "P": 143.66,
+            "N": 88.05,
+            "E": 118.9,
+            "D": 99.05,
+            "L": 3.33,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-01",
+            "P": 131.8,
+            "N": 82.54,
+            "E": 112.34,
+            "D": 97.87,
+            "L": 3.33,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-08",
+            "P": 144.21,
+            "N": 82.27,
+            "E": 129.82,
+            "D": 132.57,
+            "L": 3.61,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-15",
+            "P": 146.99,
+            "N": 76.56,
+            "E": 128.62,
+            "D": 128.8,
+            "L": 3.61,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-22",
+            "P": 129.61,
+            "N": 75.94,
+            "E": 117.45,
+            "D": 122.96,
+            "L": 3.75,
+            "R": 0.27
+          }
+        ],
+        "Price": {
+          "start_price": 380.0,
+          "start_date": "24 Apr 2026",
+          "end_price": 392.75,
+          "end_date": "22 May 2026",
+          "total_change_pct": 3.4,
+          "min_price": 370.75,
+          "min_date": "01 May 2026",
+          "max_price": 405.25,
+          "max_date": "15 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "BIMAS",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "PGSUS hissesi için piyasa algısı nasıl değerlendirilmektedir?",
-    "gold_answer": "PGSUS hissesinde gözlenen fiyat düşüşü ve negatif yatırımcı sentimenti, artan yakıt maliyetlerine ilişkin risk açıklamalarıyla birlikte değerlendirildiğinde piyasa algısının olumsuz yönde şekillendiği görülmektedir. Operasyonel maliyet baskısı yatırımcı beklentilerini zayıflatmaktadır.",
-    "expected_sentiment": "negative"
-  },
-  {
-    "id": "HYB_04",
-    "source_type": "HybridFinRAG",
-    "company": "EREGL",
-    "inputs": {
-      "price_signal": "Hisse fiyatı yatay seyir göstermektedir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.64",
-      "kap_summary": "Şirket temettü dağıtım kararı açıkladı."
+    {
+      "id": "HYB_04",
+      "source_type": "Hybrid",
+      "company": "FROTO",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "Ford Otosan'ın 2026 birinci çeyrek yurt içi perakende satışları nasıl gerçekleşmiştir; bu dönemde FROTO hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "KAP": "2026Q1 yurt içi perakende satışlar 18.707 adet (-yüzde 20 yıllık). Toplam pazar payı yüzde 6,9 (2025Q1: yüzde 8,3). HTA payı yüzde 18,2 (2025Q1: yüzde 21,6), OTA payı yüzde 32,2 (2025Q1: yüzde 37,6). Kaynak: KAP #1601423",
+        "Price": "FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "FROTO hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 140.41 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 85.87 ile düşük kalmıştır. P/N oranı 1.64 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 116.22, like oranı 4.05, retweet oranı 0.27 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_03",
+        "Price": "PRICE_08"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 123.69,
+            "N": 56.22,
+            "E": 106.81,
+            "D": 81.28,
+            "L": 3.33,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 115.15,
+            "N": 49.71,
+            "E": 100.28,
+            "D": 80.04,
+            "L": 3.35,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-09",
+            "P": 116.92,
+            "N": 107.09,
+            "E": 111.14,
+            "D": 99.43,
+            "L": 3.63,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 119.4,
+            "N": 148.55,
+            "E": 113.28,
+            "D": 92.42,
+            "L": 3.74,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-23",
+            "P": 125.65,
+            "N": 153.39,
+            "E": 118.07,
+            "D": 93.58,
+            "L": 3.8,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-30",
+            "P": 84.52,
+            "N": 43.97,
+            "E": 73.84,
+            "D": 67.69,
+            "L": 3.79,
+            "R": 0.25
+          },
+          {
+            "date": "2026-06-06",
+            "P": 76.84,
+            "N": 38.91,
+            "E": 67.75,
+            "D": 64.14,
+            "L": 3.83,
+            "R": 0.26
+          },
+          {
+            "date": "2026-06-13",
+            "P": 78.28,
+            "N": 36.34,
+            "E": 66.8,
+            "D": 58.07,
+            "L": 3.81,
+            "R": 0.26
+          },
+          {
+            "date": "2026-06-20",
+            "P": 83.68,
+            "N": 46.98,
+            "E": 70.91,
+            "D": 54.84,
+            "L": 4.09,
+            "R": 0.29
+          },
+          {
+            "date": "2026-06-27",
+            "P": 126.34,
+            "N": 35.72,
+            "E": 89.24,
+            "D": 40.75,
+            "L": 4.24,
+            "R": 0.29
+          },
+          {
+            "date": "2026-07-04",
+            "P": 141.83,
+            "N": 65.09,
+            "E": 102.48,
+            "D": 45.52,
+            "L": 4.12,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-11",
+            "P": 160.26,
+            "N": 117.71,
+            "E": 126.38,
+            "D": 69.2,
+            "L": 4.38,
+            "R": 0.28
+          },
+          {
+            "date": "2026-07-18",
+            "P": 177.81,
+            "N": 111.41,
+            "E": 137.03,
+            "D": 90.07,
+            "L": 4.46,
+            "R": 0.28
+          },
+          {
+            "date": "2026-07-25",
+            "P": 195.47,
+            "N": 121.12,
+            "E": 164.11,
+            "D": 140.69,
+            "L": 4.47,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-01",
+            "P": 200.59,
+            "N": 113.53,
+            "E": 165.66,
+            "D": 139.02,
+            "L": 4.43,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-08",
+            "P": 194.97,
+            "N": 101.31,
+            "E": 156.97,
+            "D": 131.16,
+            "L": 4.54,
+            "R": 0.29
+          },
+          {
+            "date": "2026-08-15",
+            "P": 202.81,
+            "N": 94.28,
+            "E": 159.59,
+            "D": 131.76,
+            "L": 4.47,
+            "R": 0.29
+          },
+          {
+            "date": "2026-08-22",
+            "P": 203.23,
+            "N": 104.27,
+            "E": 161.69,
+            "D": 138.75,
+            "L": 4.35,
+            "R": 0.28
+          }
+        ],
+        "Price": {
+          "start_price": 104.5,
+          "start_date": "24 Apr 2026",
+          "end_price": 86.85,
+          "end_date": "22 May 2026",
+          "total_change_pct": -16.9,
+          "min_price": 86.85,
+          "min_date": "22 May 2026",
+          "max_price": 104.5,
+          "max_date": "24 Apr 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "FROTO",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "easy",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "EREGL hissesi için yatırımcı beklentileri nasıl yorumlanabilir?",
-    "gold_answer": "EREGL tarafından açıklanan temettü kararı yatırımcı duyarlılığını olumlu desteklemektedir. Ancak hisse fiyatındaki yatay seyir, piyasanın mevcut gelişmeleri dengeli şekilde fiyatladığını göstermektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_05",
-    "source_type": "HybridFinRAG",
-    "company": "AKBNK",
-    "inputs": {
-      "price_signal": "Bankacılık hisselerinde volatilite artmıştır.",
-      "twitter_sentiment": "Nötr sentiment skoru: 0.51",
-      "kap_summary": "Banka sendikasyon kredisi anlaşmasını yeniledi."
+    {
+      "id": "HYB_05",
+      "source_type": "Hybrid",
+      "company": "FROTO",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "Ford Otosan 2026 birinci çeyrek raporunda yurt içi satışlardaki düşüşü nasıl açıklamaktadır; bu dönemde hisse fiyatı ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "KAP": "Şirket, Focus modelinin üretiminin sonlanması ardından binek araç satışlarında zayıflama yaşandığını belirtmektedir. Ayrıca daha rekabetçi fiyatlama ortamının ve artan araç bulunabilirliğinin özellikle orta ticari araç satışları üzerinde baskı oluşturduğunu açıklamaktadır. Kaynak: KAP #1601423",
+        "Price": "FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "FROTO hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 140.41 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 85.87 ile düşük kalmıştır. P/N oranı 1.64 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 116.22, like oranı 4.05, retweet oranı 0.27 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_04",
+        "Price": "PRICE_08"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 123.69,
+            "N": 56.22,
+            "E": 106.81,
+            "D": 81.28,
+            "L": 3.33,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 115.15,
+            "N": 49.71,
+            "E": 100.28,
+            "D": 80.04,
+            "L": 3.35,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-09",
+            "P": 116.92,
+            "N": 107.09,
+            "E": 111.14,
+            "D": 99.43,
+            "L": 3.63,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 119.4,
+            "N": 148.55,
+            "E": 113.28,
+            "D": 92.42,
+            "L": 3.74,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-23",
+            "P": 125.65,
+            "N": 153.39,
+            "E": 118.07,
+            "D": 93.58,
+            "L": 3.8,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-30",
+            "P": 84.52,
+            "N": 43.97,
+            "E": 73.84,
+            "D": 67.69,
+            "L": 3.79,
+            "R": 0.25
+          },
+          {
+            "date": "2026-06-06",
+            "P": 76.84,
+            "N": 38.91,
+            "E": 67.75,
+            "D": 64.14,
+            "L": 3.83,
+            "R": 0.26
+          },
+          {
+            "date": "2026-06-13",
+            "P": 78.28,
+            "N": 36.34,
+            "E": 66.8,
+            "D": 58.07,
+            "L": 3.81,
+            "R": 0.26
+          },
+          {
+            "date": "2026-06-20",
+            "P": 83.68,
+            "N": 46.98,
+            "E": 70.91,
+            "D": 54.84,
+            "L": 4.09,
+            "R": 0.29
+          },
+          {
+            "date": "2026-06-27",
+            "P": 126.34,
+            "N": 35.72,
+            "E": 89.24,
+            "D": 40.75,
+            "L": 4.24,
+            "R": 0.29
+          },
+          {
+            "date": "2026-07-04",
+            "P": 141.83,
+            "N": 65.09,
+            "E": 102.48,
+            "D": 45.52,
+            "L": 4.12,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-11",
+            "P": 160.26,
+            "N": 117.71,
+            "E": 126.38,
+            "D": 69.2,
+            "L": 4.38,
+            "R": 0.28
+          },
+          {
+            "date": "2026-07-18",
+            "P": 177.81,
+            "N": 111.41,
+            "E": 137.03,
+            "D": 90.07,
+            "L": 4.46,
+            "R": 0.28
+          },
+          {
+            "date": "2026-07-25",
+            "P": 195.47,
+            "N": 121.12,
+            "E": 164.11,
+            "D": 140.69,
+            "L": 4.47,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-01",
+            "P": 200.59,
+            "N": 113.53,
+            "E": 165.66,
+            "D": 139.02,
+            "L": 4.43,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-08",
+            "P": 194.97,
+            "N": 101.31,
+            "E": 156.97,
+            "D": 131.16,
+            "L": 4.54,
+            "R": 0.29
+          },
+          {
+            "date": "2026-08-15",
+            "P": 202.81,
+            "N": 94.28,
+            "E": 159.59,
+            "D": 131.76,
+            "L": 4.47,
+            "R": 0.29
+          },
+          {
+            "date": "2026-08-22",
+            "P": 203.23,
+            "N": 104.27,
+            "E": 161.69,
+            "D": 138.75,
+            "L": 4.35,
+            "R": 0.28
+          }
+        ],
+        "Price": {
+          "start_price": 104.5,
+          "start_date": "24 Apr 2026",
+          "end_price": 86.85,
+          "end_date": "22 May 2026",
+          "total_change_pct": -16.9,
+          "min_price": 86.85,
+          "min_date": "22 May 2026",
+          "max_price": 104.5,
+          "max_date": "24 Apr 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "FROTO",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "hard",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "AKBNK hissesi için genel piyasa görünümü nasıl değerlendirilmektedir?",
-    "gold_answer": "AKBNK tarafından sendikasyon kredisi anlaşmasının yenilenmesi finansal açıdan olumlu değerlendirilse de bankacılık sektöründeki volatilite yatırımcı algısını sınırlamaktadır. Bu nedenle genel piyasa görünümü dengeli ve temkinli görünmektedir.",
-    "expected_sentiment": "neutral"
-  },
-  {
-    "id": "HYB_06",
-    "source_type": "HybridFinRAG",
-    "company": "SASA",
-    "inputs": {
-      "price_signal": "Hisse fiyatında güçlü yükseliş trendi gözlemlenmektedir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.88",
-      "kap_summary": "Yeni yatırım teşvik belgesi açıklandı."
+    {
+      "id": "HYB_06",
+      "source_type": "Hybrid",
+      "company": "THYAO",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "THY'nin Nisan 2026 trafik sonuçlarına göre yolcu sayısı ve ASK verileri nedir; bu dönemde THYAO hissesinin fiyat hareketi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "KAP": "Nisan 2026 yolcu sayısı 7,2 milyon olup bir önceki yılın aynı dönemine göre yüzde 2,9 gerilemiştir. Yolcu doluluk oranı yüzde 83,4 olup 2025 Nisan'ındaki yüzde 83,2'nin 0,2 puan üzerindedir. Kaynak: KAP ODA #1603784",
+        "Price": "THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "THYAO hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 257.36 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 191.67 ile düşük kalmıştır. P/N oranı 1.34 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 293.24, like oranı 2.84, retweet oranı 0.21 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_02",
+        "Price": "PRICE_13"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 617.71,
+            "N": 509.55,
+            "E": 521.24,
+            "D": 335.39,
+            "L": 4.19,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-04",
+            "P": 610.51,
+            "N": 394.27,
+            "E": 492.98,
+            "D": 305.91,
+            "L": 4.05,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 508.95,
+            "N": 361.69,
+            "E": 532.94,
+            "D": 653.56,
+            "L": 3.62,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 326.35,
+            "N": 322.2,
+            "E": 456.13,
+            "D": 634.86,
+            "L": 2.48,
+            "R": 0.18
+          },
+          {
+            "date": "2026-04-25",
+            "P": 197.52,
+            "N": 263.91,
+            "E": 307.91,
+            "D": 569.87,
+            "L": 2.36,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-02",
+            "P": 206.99,
+            "N": 289.37,
+            "E": 306.71,
+            "D": 533.07,
+            "L": 2.44,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-09",
+            "P": 208.31,
+            "N": 276.33,
+            "E": 296.25,
+            "D": 494.27,
+            "L": 2.45,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-23",
+            "P": 199.49,
+            "N": 234.18,
+            "E": 293.28,
+            "D": 499.36,
+            "L": 2.43,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-30",
+            "P": 190.56,
+            "N": 67.13,
+            "E": 215.73,
+            "D": 372.17,
+            "L": 2.14,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-06",
+            "P": 186.06,
+            "N": 71.49,
+            "E": 213.34,
+            "D": 382.65,
+            "L": 2.27,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-13",
+            "P": 180.31,
+            "N": 66.76,
+            "E": 202.49,
+            "D": 350.24,
+            "L": 2.31,
+            "R": 0.18
+          },
+          {
+            "date": "2026-06-20",
+            "P": 189,
+            "N": 77.39,
+            "E": 206.93,
+            "D": 338.97,
+            "L": 2.43,
+            "R": 0.19
+          },
+          {
+            "date": "2026-06-27",
+            "P": 210.2,
+            "N": 77.4,
+            "E": 252.94,
+            "D": 464.32,
+            "L": 2.47,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-04",
+            "P": 210.03,
+            "N": 71.27,
+            "E": 245.83,
+            "D": 420.22,
+            "L": 2.61,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-11",
+            "P": 208.87,
+            "N": 85.67,
+            "E": 236.37,
+            "D": 370.85,
+            "L": 2.68,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-18",
+            "P": 215.75,
+            "N": 119.32,
+            "E": 235.5,
+            "D": 318.81,
+            "L": 2.95,
+            "R": 0.23
+          },
+          {
+            "date": "2026-07-25",
+            "P": 209.57,
+            "N": 137.22,
+            "E": 238.51,
+            "D": 321.82,
+            "L": 3.1,
+            "R": 0.24
+          },
+          {
+            "date": "2026-08-01",
+            "P": 207.06,
+            "N": 128.63,
+            "E": 232.73,
+            "D": 318.01,
+            "L": 3.16,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-08",
+            "P": 198.48,
+            "N": 116.78,
+            "E": 222.02,
+            "D": 304.13,
+            "L": 3.22,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-15",
+            "P": 196.77,
+            "N": 132.36,
+            "E": 231.45,
+            "D": 328.62,
+            "L": 3.22,
+            "R": 0.24
+          },
+          {
+            "date": "2026-08-22",
+            "P": 187.6,
+            "N": 169.8,
+            "E": 218.65,
+            "D": 281.21,
+            "L": 3.44,
+            "R": 0.25
+          }
+        ],
+        "Price": {
+          "start_price": 294.0,
+          "start_date": "27 Mar 2026",
+          "end_price": 288.0,
+          "end_date": "22 May 2026",
+          "total_change_pct": -2.0,
+          "min_price": 288.0,
+          "min_date": "22 May 2026",
+          "max_price": 329.0,
+          "max_date": "17 Apr 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "THYAO",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "easy",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "SASA hissesi için yatırımcı davranışı nasıl yorumlanabilir?",
-    "gold_answer": "SASA hissesinde gözlenen güçlü fiyat yükselişi, yüksek pozitif yatırımcı sentimenti ve yeni yatırım teşvik belgesi birlikte değerlendirildiğinde yatırımcı algısının oldukça olumlu olduğu görülmektedir. Yatırımcılar şirketin büyüme potansiyeline yönelik güçlü beklenti taşımaktadır.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_07",
-    "source_type": "HybridFinRAG",
-    "company": "EKGYO",
-    "inputs": {
-      "price_signal": "Hisse fiyatı son dönemde baskı altında kalmıştır.",
-      "twitter_sentiment": "Negatif sentiment skoru: 0.67",
-      "kap_summary": "Yeni konut projesi açıklanmıştır."
+    {
+      "id": "HYB_07",
+      "source_type": "Hybrid",
+      "company": "MGROS",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "Migros'un 2025 yılı kârından ödenen temettünün pay başına tutarı nedir; bu dönemde MGROS hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "KAP": "1 TL nominal değerli pay başına brüt temettü 4,5566457 TL, net temettü ise 3,8731488 TL. Ödeme tarihi 15 Mayıs 2026. Kaynak: KAP #1608029",
+        "Price": "MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
+        "Twitter": "MGROS hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde pozitif tweet ortalaması 131.04, negatif tweet ortalaması 141.54 ile birbirine yakın seyretmiştir. P/N oranı 0.93 düzeyindedir. Genel etki skoru ortalaması 109.67, like oranı 2.29, retweet oranı 0.2 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_10",
+        "Price": "PRICE_14"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 150.21,
+            "N": 275.28,
+            "E": 160.55,
+            "D": 128.09,
+            "L": 3.14,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-04",
+            "P": 131.08,
+            "N": 202.59,
+            "E": 138.39,
+            "D": 116.83,
+            "L": 3.14,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 115.91,
+            "N": 166.68,
+            "E": 123.41,
+            "D": 116.6,
+            "L": 3.63,
+            "R": 0.31
+          },
+          {
+            "date": "2026-04-18",
+            "P": 69.74,
+            "N": 142.1,
+            "E": 74.87,
+            "D": 66.35,
+            "L": 3.4,
+            "R": 0.3
+          },
+          {
+            "date": "2026-04-25",
+            "P": 180.29,
+            "N": 430.45,
+            "E": 165.82,
+            "D": 65.81,
+            "L": 1.89,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-02",
+            "P": 185.25,
+            "N": 380.61,
+            "E": 165.81,
+            "D": 67.96,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-09",
+            "P": 167.38,
+            "N": 346.06,
+            "E": 152.84,
+            "D": 73.82,
+            "L": 2.09,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 155.59,
+            "N": 305.65,
+            "E": 139.98,
+            "D": 68.85,
+            "L": 2.1,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-23",
+            "P": 156.89,
+            "N": 275.51,
+            "E": 138.95,
+            "D": 67.37,
+            "L": 2.14,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-30",
+            "P": 159.48,
+            "N": 78.98,
+            "E": 119.13,
+            "D": 48.73,
+            "L": 1.58,
+            "R": 0.15
+          },
+          {
+            "date": "2026-06-06",
+            "P": 146.37,
+            "N": 69.89,
+            "E": 110.67,
+            "D": 46.17,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-13",
+            "P": 135.29,
+            "N": 65.26,
+            "E": 101.96,
+            "D": 41.81,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-20",
+            "P": 138.34,
+            "N": 61.8,
+            "E": 102.46,
+            "D": 39.48,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-27",
+            "P": 123.2,
+            "N": 46.99,
+            "E": 86.4,
+            "D": 29.34,
+            "L": 1.82,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-04",
+            "P": 117.77,
+            "N": 43.27,
+            "E": 85.34,
+            "D": 45.03,
+            "L": 2.05,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-11",
+            "P": 113.65,
+            "N": 39.37,
+            "E": 82.15,
+            "D": 48.34,
+            "L": 2.14,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-18",
+            "P": 111.09,
+            "N": 35.3,
+            "E": 76.45,
+            "D": 45.7,
+            "L": 2.31,
+            "R": 0.21
+          },
+          {
+            "date": "2026-07-25",
+            "P": 109.92,
+            "N": 32.89,
+            "E": 73.57,
+            "D": 42.4,
+            "L": 2.39,
+            "R": 0.22
+          },
+          {
+            "date": "2026-08-01",
+            "P": 100.84,
+            "N": 30.83,
+            "E": 69.51,
+            "D": 41.9,
+            "L": 2.39,
+            "R": 0.22
+          },
+          {
+            "date": "2026-08-08",
+            "P": 99.07,
+            "N": 25.71,
+            "E": 68.6,
+            "D": 47.06,
+            "L": 2.69,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-15",
+            "P": 113.22,
+            "N": 23.93,
+            "E": 89.41,
+            "D": 88.67,
+            "L": 2.24,
+            "R": 0.18
+          },
+          {
+            "date": "2026-08-22",
+            "P": 102.33,
+            "N": 34.72,
+            "E": 86.39,
+            "D": 92.26,
+            "L": 2.44,
+            "R": 0.21
+          }
+        ],
+        "Price": {
+          "start_price": 598.95,
+          "start_date": "27 Mar 2026",
+          "end_price": 686.5,
+          "end_date": "22 May 2026",
+          "total_change_pct": 14.6,
+          "min_price": 596.96,
+          "min_date": "03 Apr 2026",
+          "max_price": 686.5,
+          "max_date": "22 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "MGROS",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "neutral",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "easy",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "EKGYO hissesi için piyasa beklentileri nasıl görünmektedir?",
-    "gold_answer": "EKGYO tarafından yeni konut projesi açıklanmış olsa da hisse fiyatındaki baskı ve negatif yatırımcı sentimenti piyasa algısının zayıf olduğunu göstermektedir. Özellikle faiz ortamına ilişkin endişeler yatırımcı beklentilerini olumsuz etkilemektedir.",
-    "expected_sentiment": "negative"
-  },
-  {
-    "id": "HYB_08",
-    "source_type": "HybridFinRAG",
-    "company": "KOZAL",
-    "inputs": {
-      "price_signal": "Altın fiyatlarıyla birlikte hisse fiyatı yükselmiştir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.74",
-      "kap_summary": "Yeni rezerv keşfi açıklanmıştır."
+    {
+      "id": "HYB_08",
+      "source_type": "Hybrid",
+      "company": "VAKBN",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "VakıfBank'ın Mayıs 2026'da sağladığı sendikasyon kredisinin tutarı nedir; bu dönemde VAKBN hissesinin fiyat trendi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "KAP": "Toplam 1,2 milyar ABD Doları karşılığı; 484 milyon ABD Doları ve 574 milyon Euro olmak üzere iki dilimden oluşmaktadır. Vade 367 gündür. USD dilimi maliyeti SOFR + yüzde 1,25; Euro dilimi Euribor + yüzde 1,10. Kaynak: KAP ODA #1608322",
+        "Price": "VAKBN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 41.08 TL seviyesinden 22 May 2026 itibarıyla 30.00 TL'ye gerilemiş ve %27.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 30.00 TL (22 May 2026), en yüksek kapanış ise 41.08 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "VAKBN hissesi için son 3 ay (2026-02-28 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 35.84 ile yüksek seyretmiş, pozitif tweet ortalaması 23.27 düzeyinde zayıf kalmıştır. P/N oranı 0.65 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 26.25, like oranı 3.53, retweet oranı 0.29 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_15",
+        "Price": "PRICE_17"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-02-28",
+            "P": 19.47,
+            "N": 35.14,
+            "E": 16,
+            "D": 4.73,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 17.42,
+            "N": 29.83,
+            "E": 14.14,
+            "D": 4.16,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 13.25,
+            "N": 22.34,
+            "E": 11.4,
+            "D": 3.77,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 11.85,
+            "N": 21.39,
+            "E": 10.49,
+            "D": 3.6,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 9.45,
+            "N": 68.21,
+            "E": 15.49,
+            "D": 3.14,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-04",
+            "P": 8.24,
+            "N": 50.2,
+            "E": 13.35,
+            "D": 2.86,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-11",
+            "P": 14.46,
+            "N": 41.3,
+            "E": 14.39,
+            "D": 1.89,
+            "L": 6.11,
+            "R": 0.56
+          },
+          {
+            "date": "2026-04-18",
+            "P": 16.47,
+            "N": 35.21,
+            "E": 11.54,
+            "D": 0.75,
+            "L": 5.02,
+            "R": 0.51
+          },
+          {
+            "date": "2026-04-25",
+            "P": 38.09,
+            "N": 25.36,
+            "E": 26.55,
+            "D": 0.64,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-02",
+            "P": 34.44,
+            "N": 22.43,
+            "E": 23.83,
+            "D": 0.57,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 32.52,
+            "N": 20.39,
+            "E": 24.03,
+            "D": 6.28,
+            "L": 2.18,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-16",
+            "P": 29.95,
+            "N": 18.01,
+            "E": 27.88,
+            "D": 25.98,
+            "L": 2.12,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-23",
+            "P": 29.45,
+            "N": 16.23,
+            "E": 27.19,
+            "D": 25.42,
+            "L": 2.12,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-30",
+            "P": 35.4,
+            "N": 4.65,
+            "E": 26.25,
+            "D": 18.39,
+            "L": 2.48,
+            "R": 0.22
+          },
+          {
+            "date": "2026-06-06",
+            "P": 30.83,
+            "N": 4.12,
+            "E": 26.44,
+            "D": 30.51,
+            "L": 2.58,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-13",
+            "P": 28.49,
+            "N": 3.85,
+            "E": 24.36,
+            "D": 27.62,
+            "L": 2.58,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-20",
+            "P": 27.23,
+            "N": 3.64,
+            "E": 25.92,
+            "D": 37.56,
+            "L": 2.67,
+            "R": 0.23
+          },
+          {
+            "date": "2026-06-27",
+            "P": 22.6,
+            "N": 2.77,
+            "E": 23.53,
+            "D": 39.23,
+            "L": 2.8,
+            "R": 0.25
+          },
+          {
+            "date": "2026-07-04",
+            "P": 20.94,
+            "N": 10.89,
+            "E": 27.12,
+            "D": 49.05,
+            "L": 3.21,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-11",
+            "P": 22.26,
+            "N": 89.11,
+            "E": 39.22,
+            "D": 42.41,
+            "L": 3.71,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-18",
+            "P": 21.3,
+            "N": 85.78,
+            "E": 41.08,
+            "D": 48.66,
+            "L": 3.96,
+            "R": 0.3
+          },
+          {
+            "date": "2026-07-25",
+            "P": 24.28,
+            "N": 79.94,
+            "E": 42.42,
+            "D": 50.45,
+            "L": 3.98,
+            "R": 0.32
+          },
+          {
+            "date": "2026-08-01",
+            "P": 22.27,
+            "N": 74.93,
+            "E": 40.09,
+            "D": 49.86,
+            "L": 3.98,
+            "R": 0.32
+          },
+          {
+            "date": "2026-08-08",
+            "P": 24.83,
+            "N": 62.48,
+            "E": 45.33,
+            "D": 65.35,
+            "L": 3.91,
+            "R": 0.32
+          },
+          {
+            "date": "2026-08-15",
+            "P": 23.82,
+            "N": 58.15,
+            "E": 43.45,
+            "D": 63.49,
+            "L": 3.91,
+            "R": 0.32
+          },
+          {
+            "date": "2026-08-22",
+            "P": 25.84,
+            "N": 45.53,
+            "E": 41.1,
+            "D": 57.78,
+            "L": 3.87,
+            "R": 0.3
+          }
+        ],
+        "Price": {
+          "start_price": 41.08,
+          "start_date": "27 Feb 2026",
+          "end_price": 30.0,
+          "end_date": "22 May 2026",
+          "total_change_pct": -27.0,
+          "min_price": 30.0,
+          "min_date": "22 May 2026",
+          "max_price": 41.08,
+          "max_date": "27 Feb 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "VAKBN",
+          "start_date": "2026-02-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "easy",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "KOZAL hissesi için yatırımcı algısı nasıl değerlendirilmektedir?",
-    "gold_answer": "KOZAL hissesinde altın fiyatlarına paralel gözlenen yükseliş ve yeni rezerv keşfi açıklaması yatırımcı beklentilerini olumlu desteklemektedir. Sosyal medya sentimentinin pozitif olması da piyasa algısının güçlü kaldığını göstermektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_09",
-    "source_type": "HybridFinRAG",
-    "company": "TCELL",
-    "inputs": {
-      "price_signal": "Hisse fiyatında sınırlı yükseliş gözlemlenmiştir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.70",
-      "kap_summary": "Şirket temettü dağıtım kararı açıkladı."
+    {
+      "id": "HYB_09",
+      "source_type": "Hybrid",
+      "company": "YKBNK",
+      "tools_required": [
+        "KAP-RAG",
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 3,
+      "question": "Yapı Kredi Bankası'nın devrettiği NPL portföyünün tutarı nedir; bu dönemde YKBNK hissesinin fiyat trendi ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "KAP": "517 milyon TL anapara değerindeki bireysel ve KOBİ nitelikli alacak portföyü, Arsan Varlık Yönetimi A.Ş. tarafından ihaleyle satın alınmıştır. Kaynak: KAP ODA #1603672",
+        "Price": "YKBNK hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 43.30 TL seviyesinden 22 May 2026 itibarıyla 32.86 TL'ye gerilemiş ve %24.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 32.86 TL (22 May 2026), en yüksek kapanış ise 43.30 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "YKBNK hissesi için son 3 ay (2026-02-28 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 114.7 ile yüksek seyretmiş, pozitif tweet ortalaması 36.58 düzeyinde zayıf kalmıştır. P/N oranı 0.32 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 82.69, like oranı 2.22, retweet oranı 0.17 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "KAP": "KAP_RAG_11",
+        "Price": "PRICE_19"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-02-28",
+            "P": 15.73,
+            "N": 8.72,
+            "E": 41.77,
+            "D": 90.3,
+            "L": 3.58,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-07",
+            "P": 14.08,
+            "N": 29.98,
+            "E": 39.68,
+            "D": 79.41,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-14",
+            "P": 10.7,
+            "N": 22.45,
+            "E": 31.99,
+            "D": 72.05,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-21",
+            "P": 9.57,
+            "N": 21.5,
+            "E": 29.45,
+            "D": 68.71,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-28",
+            "P": 11.8,
+            "N": 48.48,
+            "E": 30.7,
+            "D": 59.98,
+            "L": 4.65,
+            "R": 0.33
+          },
+          {
+            "date": "2026-04-04",
+            "P": 10.3,
+            "N": 73.85,
+            "E": 32.46,
+            "D": 54.71,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-11",
+            "P": 8.08,
+            "N": 60.76,
+            "E": 24.4,
+            "D": 36.16,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-18",
+            "P": 4.86,
+            "N": 86.07,
+            "E": 164.69,
+            "D": 366.24,
+            "L": 0.54,
+            "R": 0.04
+          },
+          {
+            "date": "2026-04-25",
+            "P": 57.26,
+            "N": 62.01,
+            "E": 129.77,
+            "D": 311.71,
+            "L": 0.66,
+            "R": 0.06
+          },
+          {
+            "date": "2026-05-02",
+            "P": 75.74,
+            "N": 54.83,
+            "E": 133.34,
+            "D": 281.49,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-09",
+            "P": 66.89,
+            "N": 49.85,
+            "E": 117.56,
+            "D": 245.34,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-16",
+            "P": 61.6,
+            "N": 44.03,
+            "E": 105.67,
+            "D": 210.38,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-23",
+            "P": 60.57,
+            "N": 39.69,
+            "E": 103.08,
+            "D": 205.86,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-30",
+            "P": 37.32,
+            "N": 248.3,
+            "E": 98.82,
+            "D": 148.91,
+            "L": 0.7,
+            "R": 0.07
+          },
+          {
+            "date": "2026-06-06",
+            "P": 32.51,
+            "N": 219.73,
+            "E": 88.06,
+            "D": 141.09,
+            "L": 0.7,
+            "R": 0.07
+          },
+          {
+            "date": "2026-06-13",
+            "P": 48.3,
+            "N": 229.1,
+            "E": 95.96,
+            "D": 127.75,
+            "L": 0.96,
+            "R": 0.08
+          },
+          {
+            "date": "2026-06-20",
+            "P": 46.16,
+            "N": 216.94,
+            "E": 94.05,
+            "D": 132.11,
+            "L": 1.03,
+            "R": 0.09
+          },
+          {
+            "date": "2026-06-27",
+            "P": 38.31,
+            "N": 164.95,
+            "E": 80.64,
+            "D": 120.72,
+            "L": 1.24,
+            "R": 0.12
+          },
+          {
+            "date": "2026-07-04",
+            "P": 35.5,
+            "N": 161.2,
+            "E": 79.76,
+            "D": 120.71,
+            "L": 1.52,
+            "R": 0.13
+          },
+          {
+            "date": "2026-07-11",
+            "P": 33.63,
+            "N": 187.14,
+            "E": 82.63,
+            "D": 114.02,
+            "L": 1.92,
+            "R": 0.14
+          },
+          {
+            "date": "2026-07-18",
+            "P": 32.17,
+            "N": 187.61,
+            "E": 89.48,
+            "D": 126.22,
+            "L": 2.49,
+            "R": 0.21
+          },
+          {
+            "date": "2026-07-25",
+            "P": 36.5,
+            "N": 174.84,
+            "E": 90.04,
+            "D": 125.05,
+            "L": 2.72,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-01",
+            "P": 43.39,
+            "N": 178.7,
+            "E": 92.35,
+            "D": 123.57,
+            "L": 2.83,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-08",
+            "P": 52.56,
+            "N": 149.01,
+            "E": 91.29,
+            "D": 117.15,
+            "L": 2.98,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-15",
+            "P": 50.41,
+            "N": 138.67,
+            "E": 93.46,
+            "D": 130.99,
+            "L": 3,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-22",
+            "P": 57.04,
+            "N": 123.82,
+            "E": 88.78,
+            "D": 110.71,
+            "L": 3.21,
+            "R": 0.32
+          }
+        ],
+        "Price": {
+          "start_price": 43.3,
+          "start_date": "27 Feb 2026",
+          "end_price": 32.86,
+          "end_date": "22 May 2026",
+          "total_change_pct": -24.1,
+          "min_price": 32.86,
+          "min_date": "22 May 2026",
+          "max_price": 43.3,
+          "max_date": "27 Feb 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "YKBNK",
+          "start_date": "2026-02-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "numerical_reasoning"
+      ],
+      "difficulty": "easy",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "TCELL hissesi için yatırımcı sentimenti nasıl görünmektedir?",
-    "gold_answer": "TCELL tarafından açıklanan temettü kararı ve pozitif yatırımcı sentimenti hisse için olumlu beklenti oluşturmaktadır. Hisse fiyatındaki sınırlı yükseliş ise piyasanın bu gelişmeleri kademeli olarak fiyatladığını göstermektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_10",
-    "source_type": "HybridFinRAG",
-    "company": "PETKM",
-    "inputs": {
-      "price_signal": "Hisse fiyatında dalgalı hareket gözlemlenmektedir.",
-      "twitter_sentiment": "Nötr sentiment skoru: 0.49",
-      "kap_summary": "Şirket üretim kapasitesi güncellemesi açıkladı."
+    {
+      "id": "HYB_10",
+      "source_type": "Hybrid",
+      "company": "EREGL",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "EREGL hissesinin son 2 haftadaki fiyat hareketi nasıl gerçekleşmiştir ve aynı dönemde Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "Price": "EREGL hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 41.26 TL seviyesinden 22 May 2026 itibarıyla 38.68 TL'ye gerilemiş ve %6.3 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 38.68 TL (22 May 2026), en yüksek kapanış ise 41.26 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir.",
+        "Twitter": "EREGL hissesi için son 2 hafta (2026-05-09 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 70.25 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 32.17 ile düşük kalmıştır. P/N oranı 2.18 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 95.52, like oranı 2.83, retweet oranı 0.22 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_02"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-05-09",
+            "P": 63.61,
+            "N": 58.22,
+            "E": 133.34,
+            "D": 304.8,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-16",
+            "P": 62.72,
+            "N": 51.42,
+            "E": 129.79,
+            "D": 285.51,
+            "L": 2.04,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-23",
+            "P": 66.62,
+            "N": 46.35,
+            "E": 129.67,
+            "D": 279.37,
+            "L": 2.08,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-30",
+            "P": 45.24,
+            "N": 13.29,
+            "E": 78.96,
+            "D": 202.08,
+            "L": 2.27,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-06",
+            "P": 39.41,
+            "N": 11.76,
+            "E": 70.36,
+            "D": 191.47,
+            "L": 2.27,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-13",
+            "P": 36.42,
+            "N": 10.98,
+            "E": 64.83,
+            "D": 173.37,
+            "L": 2.27,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-20",
+            "P": 34.81,
+            "N": 16.28,
+            "E": 63.92,
+            "D": 169.11,
+            "L": 2.44,
+            "R": 0.21
+          },
+          {
+            "date": "2026-06-27",
+            "P": 34.57,
+            "N": 12.38,
+            "E": 54.16,
+            "D": 125.68,
+            "L": 2.62,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-04",
+            "P": 39.44,
+            "N": 26.36,
+            "E": 60.12,
+            "D": 121.41,
+            "L": 2.96,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-11",
+            "P": 55.44,
+            "N": 23.99,
+            "E": 77.33,
+            "D": 147.18,
+            "L": 3.12,
+            "R": 0.23
+          },
+          {
+            "date": "2026-07-18",
+            "P": 90.29,
+            "N": 27.39,
+            "E": 93.46,
+            "D": 129.16,
+            "L": 2.97,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-25",
+            "P": 99.29,
+            "N": 49.89,
+            "E": 110.99,
+            "D": 153.49,
+            "L": 3.28,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-01",
+            "P": 113.41,
+            "N": 46.77,
+            "E": 121.89,
+            "D": 168.85,
+            "L": 3.61,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-08",
+            "P": 117.24,
+            "N": 39,
+            "E": 118.24,
+            "D": 157.11,
+            "L": 3.75,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-15",
+            "P": 115.16,
+            "N": 36.29,
+            "E": 114.64,
+            "D": 152.64,
+            "L": 3.74,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-22",
+            "P": 110.31,
+            "N": 44.41,
+            "E": 106.57,
+            "D": 132.7,
+            "L": 3.9,
+            "R": 0.3
+          }
+        ],
+        "Price": {
+          "start_price": 41.26,
+          "start_date": "08 May 2026",
+          "end_price": 38.68,
+          "end_date": "22 May 2026",
+          "total_change_pct": -6.3,
+          "min_price": 38.68,
+          "min_date": "22 May 2026",
+          "max_price": 41.26,
+          "max_date": "08 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "EREGL",
+          "start_date": "2026-05-09",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "PETKM hissesi için yatırımcı algısı nasıl değerlendirilmektedir?",
-    "gold_answer": "PETKM tarafından açıklanan üretim kapasitesi güncellemesi olumlu değerlendirilse de emtia piyasalarındaki oynaklık yatırımcı algısının dengeli kalmasına neden olmaktadır. Hisse fiyatındaki dalgalı seyir piyasa belirsizliğini yansıtmaktadır.",
-    "expected_sentiment": "neutral"
-  },
-  {
-    "id": "HYB_11",
-    "source_type": "HybridFinRAG",
-    "company": "FROTO",
-    "inputs": {
-      "price_signal": "Hisse fiyatı yükseliş eğilimi göstermektedir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.79",
-      "kap_summary": "İhracat kapasitesini artıracak yeni yatırım açıklandı."
+    {
+      "id": "HYB_11",
+      "source_type": "Hybrid",
+      "company": "SASA",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "Son 2 hafta itibarıyla SASA hissesinin fiyat performansı nasıldır ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "Price": "SASA hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 3.52 TL seviyesinden 22 May 2026 itibarıyla 2.65 TL'ye gerilemiş ve %24.7 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 2.65 TL (22 May 2026), en yüksek kapanış ise 3.52 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "SASA hissesi için son 2 hafta (2026-05-09 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 255.28 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 166.99 ile düşük kalmıştır. P/N oranı 1.53 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 234.2, like oranı 1.58, retweet oranı 0.12 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_04"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-05-09",
+            "P": 425.93,
+            "N": 233.94,
+            "E": 317.48,
+            "D": 99.63,
+            "L": 1.2,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-16",
+            "P": 393.85,
+            "N": 325.66,
+            "E": 369.3,
+            "D": 329.42,
+            "L": 1.13,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-23",
+            "P": 388.8,
+            "N": 293.55,
+            "E": 361.18,
+            "D": 322.34,
+            "L": 1.14,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-30",
+            "P": 314.69,
+            "N": 84.15,
+            "E": 288.82,
+            "D": 359.66,
+            "L": 1.05,
+            "R": 0.09
+          },
+          {
+            "date": "2026-06-06",
+            "P": 274.08,
+            "N": 120.72,
+            "E": 267.56,
+            "D": 352.47,
+            "L": 1.15,
+            "R": 0.1
+          },
+          {
+            "date": "2026-06-13",
+            "P": 271.58,
+            "N": 112.73,
+            "E": 257.53,
+            "D": 319.15,
+            "L": 1.13,
+            "R": 0.1
+          },
+          {
+            "date": "2026-06-20",
+            "P": 263.36,
+            "N": 126.96,
+            "E": 253.02,
+            "D": 311.6,
+            "L": 1.24,
+            "R": 0.1
+          },
+          {
+            "date": "2026-06-27",
+            "P": 224.59,
+            "N": 160.03,
+            "E": 215.54,
+            "D": 231.57,
+            "L": 1.41,
+            "R": 0.11
+          },
+          {
+            "date": "2026-07-04",
+            "P": 215.13,
+            "N": 171.65,
+            "E": 209.47,
+            "D": 220.33,
+            "L": 1.61,
+            "R": 0.12
+          },
+          {
+            "date": "2026-07-11",
+            "P": 206.12,
+            "N": 170.12,
+            "E": 206.79,
+            "D": 228.5,
+            "L": 1.66,
+            "R": 0.13
+          },
+          {
+            "date": "2026-07-18",
+            "P": 197.21,
+            "N": 158.4,
+            "E": 184.82,
+            "D": 179.34,
+            "L": 1.73,
+            "R": 0.13
+          },
+          {
+            "date": "2026-07-25",
+            "P": 185.79,
+            "N": 147.62,
+            "E": 170.08,
+            "D": 158.76,
+            "L": 1.8,
+            "R": 0.13
+          },
+          {
+            "date": "2026-08-01",
+            "P": 180.35,
+            "N": 157.95,
+            "E": 168.74,
+            "D": 156.88,
+            "L": 2.07,
+            "R": 0.16
+          },
+          {
+            "date": "2026-08-08",
+            "P": 183.51,
+            "N": 142.04,
+            "E": 164.7,
+            "D": 149.62,
+            "L": 2.23,
+            "R": 0.18
+          },
+          {
+            "date": "2026-08-15",
+            "P": 178.59,
+            "N": 142.09,
+            "E": 160.82,
+            "D": 145.36,
+            "L": 2.29,
+            "R": 0.18
+          },
+          {
+            "date": "2026-08-22",
+            "P": 180.9,
+            "N": 124.18,
+            "E": 151.38,
+            "D": 128.35,
+            "L": 2.43,
+            "R": 0.19
+          }
+        ],
+        "Price": {
+          "start_price": 3.52,
+          "start_date": "08 May 2026",
+          "end_price": 2.65,
+          "end_date": "22 May 2026",
+          "total_change_pct": -24.7,
+          "min_price": 2.65,
+          "min_date": "22 May 2026",
+          "max_price": 3.52,
+          "max_date": "08 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "SASA",
+          "start_date": "2026-05-09",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "FROTO hissesi için piyasa beklentileri nasıl yorumlanabilir?",
-    "gold_answer": "FROTO hissesinde gözlenen yükseliş eğilimi, ihracat kapasitesini artırmaya yönelik yatırım açıklaması ve pozitif yatırımcı sentimenti ile birlikte değerlendirildiğinde piyasa beklentilerinin olumlu olduğu görülmektedir. Özellikle ihracat büyümesi yatırımcı güvenini desteklemektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_12",
-    "source_type": "HybridFinRAG",
-    "company": "GARAN",
-    "inputs": {
-      "price_signal": "Bankacılık hisselerinde dalgalanma gözlemlenmektedir.",
-      "twitter_sentiment": "Nötr sentiment skoru: 0.52",
-      "kap_summary": "Tahvil ihracı açıklanmıştır."
+    {
+      "id": "HYB_12",
+      "source_type": "Hybrid",
+      "company": "HEKTS",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "HEKTS hissesinin son 2 haftadaki fiyat seyri nasıldır ve aynı dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": {
+        "Price": "HEKTS hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 4.44 TL seviyesinden 22 May 2026 itibarıyla 3.84 TL'ye gerilemiş ve %13.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 3.84 TL (22 May 2026), en yüksek kapanış ise 4.59 TL (15 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir.",
+        "Twitter": "HEKTS hissesi için son 2 hafta (2026-05-09 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 150.94 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 38.98 ile düşük kalmıştır. P/N oranı 3.87 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 111.41, like oranı 1.56, retweet oranı 0.13 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_05"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-05-09",
+            "P": 280.95,
+            "N": 66.27,
+            "E": 191.33,
+            "D": 24.95,
+            "L": 0.57,
+            "R": 0.05
+          },
+          {
+            "date": "2026-05-16",
+            "P": 258.71,
+            "N": 58.53,
+            "E": 175.92,
+            "D": 34.34,
+            "L": 0.63,
+            "R": 0.05
+          },
+          {
+            "date": "2026-05-23",
+            "P": 257.87,
+            "N": 52.76,
+            "E": 173.75,
+            "D": 33.6,
+            "L": 0.67,
+            "R": 0.05
+          },
+          {
+            "date": "2026-05-30",
+            "P": 167.98,
+            "N": 15.12,
+            "E": 107.86,
+            "D": 24.31,
+            "L": 0.93,
+            "R": 0.07
+          },
+          {
+            "date": "2026-06-06",
+            "P": 146.31,
+            "N": 32.62,
+            "E": 101.94,
+            "D": 34.73,
+            "L": 1.21,
+            "R": 0.1
+          },
+          {
+            "date": "2026-06-13",
+            "P": 153.48,
+            "N": 30.46,
+            "E": 104.94,
+            "D": 31.45,
+            "L": 1.15,
+            "R": 0.1
+          },
+          {
+            "date": "2026-06-20",
+            "P": 156.29,
+            "N": 41.98,
+            "E": 111.25,
+            "D": 44.4,
+            "L": 1.59,
+            "R": 0.13
+          },
+          {
+            "date": "2026-06-27",
+            "P": 129.71,
+            "N": 47.58,
+            "E": 113.47,
+            "D": 120.1,
+            "L": 1.68,
+            "R": 0.14
+          },
+          {
+            "date": "2026-07-04",
+            "P": 124.7,
+            "N": 43.81,
+            "E": 112.07,
+            "D": 126.84,
+            "L": 1.81,
+            "R": 0.15
+          },
+          {
+            "date": "2026-07-11",
+            "P": 118.12,
+            "N": 39.86,
+            "E": 102.73,
+            "D": 109.67,
+            "L": 1.81,
+            "R": 0.15
+          },
+          {
+            "date": "2026-07-18",
+            "P": 113.01,
+            "N": 35.74,
+            "E": 92.47,
+            "D": 89.45,
+            "L": 1.88,
+            "R": 0.16
+          },
+          {
+            "date": "2026-07-25",
+            "P": 107.67,
+            "N": 33.31,
+            "E": 85.14,
+            "D": 77.46,
+            "L": 1.97,
+            "R": 0.16
+          },
+          {
+            "date": "2026-08-01",
+            "P": 108.68,
+            "N": 31.22,
+            "E": 85.37,
+            "D": 76.54,
+            "L": 2.16,
+            "R": 0.19
+          },
+          {
+            "date": "2026-08-08",
+            "P": 103.94,
+            "N": 33.26,
+            "E": 79.99,
+            "D": 69.24,
+            "L": 2.23,
+            "R": 0.19
+          },
+          {
+            "date": "2026-08-15",
+            "P": 99.7,
+            "N": 30.96,
+            "E": 76.68,
+            "D": 67.26,
+            "L": 2.23,
+            "R": 0.19
+          },
+          {
+            "date": "2026-08-22",
+            "P": 87.91,
+            "N": 30.15,
+            "E": 67.66,
+            "D": 61.18,
+            "L": 2.37,
+            "R": 0.2
+          }
+        ],
+        "Price": {
+          "start_price": 4.44,
+          "start_date": "08 May 2026",
+          "end_price": 3.84,
+          "end_date": "22 May 2026",
+          "total_change_pct": -13.5,
+          "min_price": 3.84,
+          "min_date": "22 May 2026",
+          "max_price": 4.59,
+          "max_date": "15 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "HEKTS",
+          "start_date": "2026-05-09",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "GARAN hissesi için yatırımcı davranışı nasıl değerlendirilmektedir?",
-    "gold_answer": "GARAN tarafından açıklanan tahvil ihracı finansman yönetimi açısından olumlu değerlendirilse de bankacılık sektöründeki dalgalanma yatırımcı algısını sınırlamaktadır. Bu nedenle piyasa görünümü daha dengeli ve temkinli görünmektedir.",
-    "expected_sentiment": "neutral"
-  },
-  {
-    "id": "HYB_13",
-    "source_type": "HybridFinRAG",
-    "company": "ALARK",
-    "inputs": {
-      "price_signal": "Enerji hisselerinde yükseliş trendi oluşmuştur.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.75",
-      "kap_summary": "Yeni enerji yatırımı duyurulmuştur."
+    {
+      "id": "HYB_13",
+      "source_type": "Hybrid",
+      "company": "TCELL",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "TCELL hissesi son 1 aylık dönemde nasıl fiyatlanmıştır ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "Price": "TCELL hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 114.30 TL seviyesinden 22 May 2026 itibarıyla 106.50 TL'ye gerilemiş ve %6.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 106.50 TL (22 May 2026), en yüksek kapanış ise 120.00 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse ılımlı negatif bir seyir izlemiştir.",
+        "Twitter": "TCELL hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 72.24 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 46.33 ile düşük kalmıştır. P/N oranı 1.56 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 64.57, like oranı 3.23, retweet oranı 0.27 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_10"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 60.67,
+            "N": 21.52,
+            "E": 50.99,
+            "D": 36.47,
+            "L": 3.02,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 77.09,
+            "N": 19.03,
+            "E": 62.65,
+            "D": 41.61,
+            "L": 2.63,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-09",
+            "P": 74.48,
+            "N": 17.3,
+            "E": 59.32,
+            "D": 36.27,
+            "L": 2.53,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-16",
+            "P": 82.57,
+            "N": 15.28,
+            "E": 65.05,
+            "D": 40.98,
+            "L": 2.92,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-23",
+            "P": 81.2,
+            "N": 13.77,
+            "E": 63.46,
+            "D": 40.1,
+            "L": 2.92,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-30",
+            "P": 57.13,
+            "N": 3.95,
+            "E": 41.63,
+            "D": 29.01,
+            "L": 2.99,
+            "R": 0.25
+          },
+          {
+            "date": "2026-06-06",
+            "P": 49.76,
+            "N": 3.49,
+            "E": 37.09,
+            "D": 27.48,
+            "L": 2.99,
+            "R": 0.25
+          },
+          {
+            "date": "2026-06-13",
+            "P": 47.91,
+            "N": 3.26,
+            "E": 35.33,
+            "D": 24.89,
+            "L": 3.06,
+            "R": 0.27
+          },
+          {
+            "date": "2026-06-20",
+            "P": 49.65,
+            "N": 3.09,
+            "E": 35.94,
+            "D": 23.5,
+            "L": 3.26,
+            "R": 0.3
+          },
+          {
+            "date": "2026-06-27",
+            "P": 64.51,
+            "N": 54.51,
+            "E": 53.66,
+            "D": 28.67,
+            "L": 3.38,
+            "R": 0.28
+          },
+          {
+            "date": "2026-07-04",
+            "P": 80.1,
+            "N": 50.19,
+            "E": 73.85,
+            "D": 75.19,
+            "L": 2.86,
+            "R": 0.25
+          },
+          {
+            "date": "2026-07-11",
+            "P": 80.73,
+            "N": 99.82,
+            "E": 83.07,
+            "D": 78,
+            "L": 3.4,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-18",
+            "P": 77.24,
+            "N": 95.38,
+            "E": 79.16,
+            "D": 74.32,
+            "L": 3.57,
+            "R": 0.29
+          },
+          {
+            "date": "2026-07-25",
+            "P": 83.96,
+            "N": 95.26,
+            "E": 79.94,
+            "D": 67.82,
+            "L": 3.71,
+            "R": 0.31
+          },
+          {
+            "date": "2026-08-01",
+            "P": 83.24,
+            "N": 89.3,
+            "E": 78.63,
+            "D": 67.01,
+            "L": 4,
+            "R": 0.32
+          },
+          {
+            "date": "2026-08-08",
+            "P": 82.7,
+            "N": 74.46,
+            "E": 79.16,
+            "D": 76.52,
+            "L": 3.89,
+            "R": 0.31
+          },
+          {
+            "date": "2026-08-15",
+            "P": 79.33,
+            "N": 69.29,
+            "E": 75.88,
+            "D": 74.34,
+            "L": 3.89,
+            "R": 0.31
+          },
+          {
+            "date": "2026-08-22",
+            "P": 88.06,
+            "N": 105.11,
+            "E": 107.51,
+            "D": 132.76,
+            "L": 3.19,
+            "R": 0.22
+          }
+        ],
+        "Price": {
+          "start_price": 114.3,
+          "start_date": "24 Apr 2026",
+          "end_price": 106.5,
+          "end_date": "22 May 2026",
+          "total_change_pct": -6.8,
+          "min_price": 106.5,
+          "min_date": "22 May 2026",
+          "max_price": 120.0,
+          "max_date": "08 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "TCELL",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "ALARK hissesi için yatırımcı algısı nasıl görünmektedir?",
-    "gold_answer": "ALARK tarafından duyurulan yeni enerji yatırımı ve enerji sektöründeki yükseliş trendi yatırımcı beklentilerini olumlu desteklemektedir. Pozitif sosyal medya sentimenti de piyasa algısının güçlü olduğunu göstermektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_14",
-    "source_type": "HybridFinRAG",
-    "company": "MGROS",
-    "inputs": {
-      "price_signal": "Hisse fiyatında istikrarlı yükseliş gözlemlenmektedir.",
-      "twitter_sentiment": "Pozitif sentiment skoru: 0.71",
-      "kap_summary": "Yeni mağaza açılış planı açıklanmıştır."
+    {
+      "id": "HYB_14",
+      "source_type": "Hybrid",
+      "company": "TUPRS",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "Son 2 aylık fiyat verilerine göre TUPRS hissesinin performansı nasıldır ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "Price": "TUPRS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 240.50 TL seviyesinden 22 May 2026 itibarıyla 243.10 TL'ye yükselmiş ve %1.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 240.50 TL (27 Mar 2026), en yüksek kapanış ise 271.00 TL (01 May 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "TUPRS hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 287.47 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 96.52 ile düşük kalmıştır. P/N oranı 2.98 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 241.08, like oranı 3.07, retweet oranı 0.2 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_12"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 548.62,
+            "N": 292.26,
+            "E": 495.19,
+            "D": 482.94,
+            "L": 3.68,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-04",
+            "P": 549.13,
+            "N": 252.76,
+            "E": 478.44,
+            "D": 461.1,
+            "L": 3.58,
+            "R": 0.22
+          },
+          {
+            "date": "2026-04-11",
+            "P": 486.43,
+            "N": 207.96,
+            "E": 397.61,
+            "D": 329.82,
+            "L": 3.69,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-18",
+            "P": 314.62,
+            "N": 190.63,
+            "E": 232.66,
+            "D": 146.99,
+            "L": 3.65,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-25",
+            "P": 205.2,
+            "N": 137.32,
+            "E": 179.57,
+            "D": 132.06,
+            "L": 3.12,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-02",
+            "P": 207.87,
+            "N": 121.42,
+            "E": 192.31,
+            "D": 175.71,
+            "L": 2.93,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-09",
+            "P": 195.59,
+            "N": 110.4,
+            "E": 188.79,
+            "D": 192.96,
+            "L": 3.01,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-16",
+            "P": 187.36,
+            "N": 97.51,
+            "E": 174.21,
+            "D": 165.46,
+            "L": 3.08,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-23",
+            "P": 184.24,
+            "N": 87.9,
+            "E": 171.07,
+            "D": 165.62,
+            "L": 3.11,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-30",
+            "P": 189.23,
+            "N": 25.2,
+            "E": 145.71,
+            "D": 119.8,
+            "L": 2.3,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-06",
+            "P": 164.82,
+            "N": 22.3,
+            "E": 129.83,
+            "D": 113.51,
+            "L": 2.3,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-13",
+            "P": 159.21,
+            "N": 37.46,
+            "E": 131.8,
+            "D": 125.49,
+            "L": 2.34,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-20",
+            "P": 160.2,
+            "N": 43.12,
+            "E": 131.48,
+            "D": 118.51,
+            "L": 2.5,
+            "R": 0.19
+          },
+          {
+            "date": "2026-06-27",
+            "P": 212.08,
+            "N": 32.79,
+            "E": 172.95,
+            "D": 176.68,
+            "L": 2.51,
+            "R": 0.17
+          },
+          {
+            "date": "2026-07-04",
+            "P": 218.37,
+            "N": 30.19,
+            "E": 189.57,
+            "D": 225.43,
+            "L": 2.57,
+            "R": 0.17
+          },
+          {
+            "date": "2026-07-11",
+            "P": 271.33,
+            "N": 27.47,
+            "E": 228.05,
+            "D": 260.78,
+            "L": 2.89,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-18",
+            "P": 267.33,
+            "N": 24.63,
+            "E": 211.58,
+            "D": 218.92,
+            "L": 2.95,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-25",
+            "P": 361.61,
+            "N": 29.96,
+            "E": 283.67,
+            "D": 289.73,
+            "L": 3.33,
+            "R": 0.2
+          },
+          {
+            "date": "2026-08-01",
+            "P": 337.96,
+            "N": 51.3,
+            "E": 274.81,
+            "D": 286.3,
+            "L": 3.4,
+            "R": 0.2
+          },
+          {
+            "date": "2026-08-08",
+            "P": 348.67,
+            "N": 70.53,
+            "E": 289.37,
+            "D": 311.51,
+            "L": 3.52,
+            "R": 0.22
+          },
+          {
+            "date": "2026-08-15",
+            "P": 379.48,
+            "N": 107.81,
+            "E": 308.55,
+            "D": 309.09,
+            "L": 3.5,
+            "R": 0.2
+          },
+          {
+            "date": "2026-08-22",
+            "P": 375.09,
+            "N": 122.47,
+            "E": 296.47,
+            "D": 285.35,
+            "L": 3.61,
+            "R": 0.21
+          }
+        ],
+        "Price": {
+          "start_price": 240.5,
+          "start_date": "27 Mar 2026",
+          "end_price": 243.1,
+          "end_date": "22 May 2026",
+          "total_change_pct": 1.1,
+          "min_price": 240.5,
+          "min_date": "27 Mar 2026",
+          "max_price": 271.0,
+          "max_date": "01 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "TUPRS",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "MGROS hissesi için genel yatırımcı algısı nasıl değerlendirilmektedir?",
-    "gold_answer": "MGROS hissesinde gözlenen istikrarlı fiyat yükselişi, yeni mağaza açılış planları ve pozitif yatırımcı yorumları birlikte değerlendirildiğinde yatırımcı algısının olumlu olduğu görülmektedir. Şirketin büyüme stratejisi piyasa beklentilerini desteklemektedir.",
-    "expected_sentiment": "positive"
-  },
-  {
-    "id": "HYB_15",
-    "source_type": "HybridFinRAG",
-    "company": "GUBRF",
-    "inputs": {
-      "price_signal": "Hisse fiyatında yüksek volatilite gözlemlenmektedir.",
-      "twitter_sentiment": "Nötr sentiment skoru: 0.50",
-      "kap_summary": "Gübre üretim kapasitesi hakkında güncelleme paylaşılmıştır."
+    {
+      "id": "HYB_15",
+      "source_type": "Hybrid",
+      "company": "EKGYO",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "EKGYO hissesi son 2 aylık dönemde nasıl fiyatlanmıştır ve aynı dönemde Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "Price": "EKGYO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 19.27 TL seviyesinden 22 May 2026 itibarıyla 19.29 TL'ye yükselmiş ve %0.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 19.27 TL (27 Mar 2026), en yüksek kapanış ise 22.34 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "EKGYO hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde negatif tweet görüntüleme ortalaması 113.23 ile yüksek seyretmiş, pozitif tweet ortalaması 30.43 düzeyinde zayıf kalmıştır. P/N oranı 0.27 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 47.74, like oranı 3.11, retweet oranı 0.28 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_15"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 111.56,
+            "N": 7.79,
+            "E": 100.02,
+            "D": 119.73,
+            "L": 4.04,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-04",
+            "P": 97.35,
+            "N": 48.01,
+            "E": 92.86,
+            "D": 109.21,
+            "L": 4.07,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-11",
+            "P": 76.42,
+            "N": 75.58,
+            "E": 81.11,
+            "D": 91.85,
+            "L": 4.31,
+            "R": 0.39
+          },
+          {
+            "date": "2026-04-18",
+            "P": 45.98,
+            "N": 64.44,
+            "E": 52.09,
+            "D": 56.5,
+            "L": 3.87,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-25",
+            "P": 19.9,
+            "N": 46.42,
+            "E": 29.8,
+            "D": 48.08,
+            "L": 3.87,
+            "R": 0.36
+          },
+          {
+            "date": "2026-05-02",
+            "P": 17.99,
+            "N": 69.32,
+            "E": 28.81,
+            "D": 42.59,
+            "L": 3.92,
+            "R": 0.37
+          },
+          {
+            "date": "2026-05-09",
+            "P": 22.29,
+            "N": 63.03,
+            "E": 29.48,
+            "D": 37.12,
+            "L": 3.55,
+            "R": 0.34
+          },
+          {
+            "date": "2026-05-16",
+            "P": 21.98,
+            "N": 55.67,
+            "E": 35.14,
+            "D": 57.21,
+            "L": 3.31,
+            "R": 0.32
+          },
+          {
+            "date": "2026-05-23",
+            "P": 21.61,
+            "N": 50.18,
+            "E": 34.28,
+            "D": 55.98,
+            "L": 3.31,
+            "R": 0.32
+          },
+          {
+            "date": "2026-05-30",
+            "P": 13.32,
+            "N": 251.3,
+            "E": 58.25,
+            "D": 40.49,
+            "L": 1.54,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-06",
+            "P": 11.6,
+            "N": 234.48,
+            "E": 53.85,
+            "D": 38.36,
+            "L": 1.67,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-13",
+            "P": 10.72,
+            "N": 218.96,
+            "E": 49.62,
+            "D": 34.74,
+            "L": 1.67,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-20",
+            "P": 10.25,
+            "N": 207.34,
+            "E": 47.21,
+            "D": 32.8,
+            "L": 1.67,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-27",
+            "P": 8.5,
+            "N": 157.65,
+            "E": 40.24,
+            "D": 34.74,
+            "L": 1.97,
+            "R": 0.17
+          },
+          {
+            "date": "2026-07-04",
+            "P": 10.02,
+            "N": 145.17,
+            "E": 39.36,
+            "D": 36.08,
+            "L": 2.13,
+            "R": 0.17
+          },
+          {
+            "date": "2026-07-11",
+            "P": 9.49,
+            "N": 145.08,
+            "E": 38.23,
+            "D": 31.2,
+            "L": 2.36,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-18",
+            "P": 9.08,
+            "N": 135.96,
+            "E": 36.68,
+            "D": 29.87,
+            "L": 2.68,
+            "R": 0.21
+          },
+          {
+            "date": "2026-07-25",
+            "P": 8.45,
+            "N": 126.7,
+            "E": 33.29,
+            "D": 25.87,
+            "L": 2.68,
+            "R": 0.21
+          },
+          {
+            "date": "2026-08-01",
+            "P": 23.87,
+            "N": 118.77,
+            "E": 39.49,
+            "D": 25.56,
+            "L": 3.65,
+            "R": 0.29
+          },
+          {
+            "date": "2026-08-08",
+            "P": 33.85,
+            "N": 99.03,
+            "E": 41.88,
+            "D": 25.88,
+            "L": 3.83,
+            "R": 0.34
+          },
+          {
+            "date": "2026-08-15",
+            "P": 37.44,
+            "N": 92.16,
+            "E": 42.55,
+            "D": 25.14,
+            "L": 4.18,
+            "R": 0.34
+          },
+          {
+            "date": "2026-08-22",
+            "P": 47.81,
+            "N": 78.07,
+            "E": 45.93,
+            "D": 27.71,
+            "L": 4.21,
+            "R": 0.34
+          }
+        ],
+        "Price": {
+          "start_price": 19.27,
+          "start_date": "27 Mar 2026",
+          "end_price": 19.29,
+          "end_date": "22 May 2026",
+          "total_change_pct": 0.1,
+          "min_price": 19.27,
+          "min_date": "27 Mar 2026",
+          "max_price": 22.34,
+          "max_date": "17 Apr 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "EKGYO",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "negative",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
     },
-    "question": "GUBRF hissesi için yatırımcı beklentileri nasıl yorumlanabilir?",
-    "gold_answer": "GUBRF tarafından paylaşılan üretim kapasitesi güncellemesi olumlu değerlendirilse de emtia fiyatlarındaki yüksek oynaklık yatırımcı algısını sınırlamaktadır. Hisse fiyatındaki volatilite piyasa belirsizliğinin devam ettiğini göstermektedir.",
-    "expected_sentiment": "neutral"
-  }
-]
+    {
+      "id": "HYB_16",
+      "source_type": "Hybrid",
+      "company": "GARAN",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "GARAN hissesi son 3 ayda nasıl bir fiyat performansı sergilemiştir ve Twitter sentiment metrikleri nasıl seyretmiştir?",
+      "gold_answer": {
+        "Price": "GARAN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 153.88 TL seviyesinden 22 May 2026 itibarıyla 122.30 TL'ye gerilemiş ve %20.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 121.59 TL (27 Mar 2026), en yüksek kapanış ise 153.88 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
+        "Twitter": "GARAN hissesi için son 3 ay (2026-02-28 – 2026-08-22) incelendiğinde pozitif tweet ortalaması 34.37, negatif tweet ortalaması 30.12 ile birbirine yakın seyretmiştir. P/N oranı 1.14 düzeyindedir. Genel etki skoru ortalaması 78.02, like oranı 2.66, retweet oranı 0.24 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_16"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-02-28",
+            "P": 30.89,
+            "N": 0.15,
+            "E": 58.08,
+            "D": 116.37,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 27.65,
+            "N": 0.12,
+            "E": 51.33,
+            "D": 102.34,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 21.02,
+            "N": 0.09,
+            "E": 41.38,
+            "D": 92.85,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 18.8,
+            "N": 0.09,
+            "E": 38.09,
+            "D": 88.56,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 23.48,
+            "N": 31.98,
+            "E": 44.17,
+            "D": 90.81,
+            "L": 4.87,
+            "R": 0.45
+          },
+          {
+            "date": "2026-04-04",
+            "P": 24.44,
+            "N": 23.54,
+            "E": 40.32,
+            "D": 82.83,
+            "L": 4.91,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-11",
+            "P": 32.2,
+            "N": 68.98,
+            "E": 44.51,
+            "D": 54.75,
+            "L": 4.52,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-18",
+            "P": 19.37,
+            "N": 93.09,
+            "E": 182.11,
+            "D": 389.26,
+            "L": 0.79,
+            "R": 0.08
+          },
+          {
+            "date": "2026-04-25",
+            "P": 42.01,
+            "N": 67.06,
+            "E": 127.84,
+            "D": 338.26,
+            "L": 0.85,
+            "R": 0.08
+          },
+          {
+            "date": "2026-05-02",
+            "P": 44.54,
+            "N": 59.29,
+            "E": 120.47,
+            "D": 305.01,
+            "L": 0.95,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-09",
+            "P": 42.51,
+            "N": 53.91,
+            "E": 108.24,
+            "D": 265.84,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-16",
+            "P": 39.15,
+            "N": 47.61,
+            "E": 97.29,
+            "D": 227.96,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-23",
+            "P": 38.5,
+            "N": 55.28,
+            "E": 95.87,
+            "D": 223.06,
+            "L": 1.15,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-30",
+            "P": 33.31,
+            "N": 15.84,
+            "E": 66.57,
+            "D": 178.91,
+            "L": 1.81,
+            "R": 0.18
+          },
+          {
+            "date": "2026-06-06",
+            "P": 29.01,
+            "N": 26.72,
+            "E": 61.37,
+            "D": 169.51,
+            "L": 1.92,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-13",
+            "P": 28.3,
+            "N": 24.95,
+            "E": 58.33,
+            "D": 157.25,
+            "L": 2.05,
+            "R": 0.21
+          },
+          {
+            "date": "2026-06-20",
+            "P": 36.09,
+            "N": 23.63,
+            "E": 60.94,
+            "D": 148.5,
+            "L": 2.02,
+            "R": 0.22
+          },
+          {
+            "date": "2026-06-27",
+            "P": 29.95,
+            "N": 17.96,
+            "E": 73.91,
+            "D": 209.63,
+            "L": 1.96,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-04",
+            "P": 27.75,
+            "N": 22.59,
+            "E": 78,
+            "D": 211.35,
+            "L": 2.16,
+            "R": 0.23
+          },
+          {
+            "date": "2026-07-11",
+            "P": 35.66,
+            "N": 20.55,
+            "E": 79.42,
+            "D": 192.39,
+            "L": 2.37,
+            "R": 0.25
+          },
+          {
+            "date": "2026-07-18",
+            "P": 36.11,
+            "N": 24.31,
+            "E": 84.34,
+            "D": 182.43,
+            "L": 2.89,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-25",
+            "P": 41.27,
+            "N": 22.65,
+            "E": 83.46,
+            "D": 166.92,
+            "L": 3.13,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-01",
+            "P": 42.42,
+            "N": 21.24,
+            "E": 85.74,
+            "D": 178.36,
+            "L": 3.22,
+            "R": 0.27
+          },
+          {
+            "date": "2026-08-08",
+            "P": 43.04,
+            "N": 17.71,
+            "E": 79.88,
+            "D": 159.88,
+            "L": 3.31,
+            "R": 0.28
+          },
+          {
+            "date": "2026-08-15",
+            "P": 49.71,
+            "N": 16.48,
+            "E": 85.09,
+            "D": 168.18,
+            "L": 3.28,
+            "R": 0.27
+          },
+          {
+            "date": "2026-08-22",
+            "P": 56.32,
+            "N": 27.31,
+            "E": 81.65,
+            "D": 139.86,
+            "L": 3.42,
+            "R": 0.26
+          }
+        ],
+        "Price": {
+          "start_price": 153.88,
+          "start_date": "27 Feb 2026",
+          "end_price": 122.3,
+          "end_date": "22 May 2026",
+          "total_change_pct": -20.5,
+          "min_price": 121.59,
+          "min_date": "27 Mar 2026",
+          "max_price": 153.88,
+          "max_date": "27 Feb 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "GARAN",
+          "start_date": "2026-02-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "neutral",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
+    },
+    {
+      "id": "HYB_17",
+      "source_type": "Hybrid",
+      "company": "ASELS",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "ASELS hissesi son 1 ayda nasıl bir performans sergilemiştir ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "Price": "ASELS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 392.00 TL seviyesinden 22 May 2026 itibarıyla 410.00 TL'ye yükselmiş ve %4.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 392.00 TL (24 Apr 2026), en yüksek kapanış ise 428.50 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "ASELS hissesi için son 1 ay (2026-04-25 – 2026-08-22) incelendiğinde pozitif tweet ortalaması 204.95, negatif tweet ortalaması 196.34 ile birbirine yakın seyretmiştir. P/N oranı 1.04 düzeyindedir. Genel etki skoru ortalaması 199.34, like oranı 3.75, retweet oranı 0.27 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_06"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-04-25",
+            "P": 132.06,
+            "N": 236.41,
+            "E": 171.4,
+            "D": 244.28,
+            "L": 3.74,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-02",
+            "P": 145.38,
+            "N": 209.04,
+            "E": 176.05,
+            "D": 235.95,
+            "L": 3.68,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-09",
+            "P": 140.2,
+            "N": 190.06,
+            "E": 163.85,
+            "D": 209.4,
+            "L": 3.64,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-16",
+            "P": 139.38,
+            "N": 167.87,
+            "E": 153.68,
+            "D": 179.57,
+            "L": 3.8,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-23",
+            "P": 148.15,
+            "N": 151.32,
+            "E": 157.82,
+            "D": 179.19,
+            "L": 3.73,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-30",
+            "P": 205.23,
+            "N": 87.1,
+            "E": 175.02,
+            "D": 159.8,
+            "L": 3.01,
+            "R": 0.18
+          },
+          {
+            "date": "2026-06-06",
+            "P": 192.43,
+            "N": 107.35,
+            "E": 173.26,
+            "D": 169.18,
+            "L": 3.01,
+            "R": 0.19
+          },
+          {
+            "date": "2026-06-13",
+            "P": 184.18,
+            "N": 107.24,
+            "E": 166.4,
+            "D": 160.94,
+            "L": 3.08,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-20",
+            "P": 192.38,
+            "N": 125.07,
+            "E": 177.88,
+            "D": 176.84,
+            "L": 3.22,
+            "R": 0.22
+          },
+          {
+            "date": "2026-06-27",
+            "P": 250.01,
+            "N": 217.15,
+            "E": 225.79,
+            "D": 176.9,
+            "L": 3.94,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-04",
+            "P": 247.69,
+            "N": 237.69,
+            "E": 224.59,
+            "D": 170.58,
+            "L": 3.96,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-11",
+            "P": 248.08,
+            "N": 240.76,
+            "E": 232.18,
+            "D": 198.28,
+            "L": 3.98,
+            "R": 0.29
+          },
+          {
+            "date": "2026-07-18",
+            "P": 240.32,
+            "N": 243.21,
+            "E": 229.16,
+            "D": 206.38,
+            "L": 4.06,
+            "R": 0.34
+          },
+          {
+            "date": "2026-07-25",
+            "P": 243.14,
+            "N": 267.96,
+            "E": 232.25,
+            "D": 201.96,
+            "L": 4.06,
+            "R": 0.34
+          },
+          {
+            "date": "2026-08-01",
+            "P": 236.8,
+            "N": 274.39,
+            "E": 232.15,
+            "D": 205.92,
+            "L": 3.98,
+            "R": 0.33
+          },
+          {
+            "date": "2026-08-08",
+            "P": 249.41,
+            "N": 228.81,
+            "E": 235.88,
+            "D": 220.67,
+            "L": 4.17,
+            "R": 0.34
+          },
+          {
+            "date": "2026-08-15",
+            "P": 250.84,
+            "N": 212.92,
+            "E": 234.68,
+            "D": 222.95,
+            "L": 4.17,
+            "R": 0.34
+          },
+          {
+            "date": "2026-08-22",
+            "P": 243.33,
+            "N": 229.78,
+            "E": 226.07,
+            "D": 202.89,
+            "L": 4.22,
+            "R": 0.35
+          }
+        ],
+        "Price": {
+          "start_price": 392.0,
+          "start_date": "24 Apr 2026",
+          "end_price": 410.0,
+          "end_date": "22 May 2026",
+          "total_change_pct": 4.6,
+          "min_price": 392.0,
+          "min_date": "24 Apr 2026",
+          "max_price": 428.5,
+          "max_date": "08 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "ASELS",
+          "start_date": "2026-04-25",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "neutral",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
+    },
+    {
+      "id": "HYB_18",
+      "source_type": "Hybrid",
+      "company": "MGROS",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "Son 2 aylık fiyat trendi itibarıyla MGROS hissesi nasıl seyretmiştir ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
+      "gold_answer": {
+        "Price": "MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
+        "Twitter": "MGROS hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde pozitif tweet ortalaması 131.04, negatif tweet ortalaması 141.54 ile birbirine yakın seyretmiştir. P/N oranı 0.93 düzeyindedir. Genel etki skoru ortalaması 109.67, like oranı 2.29, retweet oranı 0.2 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_14"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 150.21,
+            "N": 275.28,
+            "E": 160.55,
+            "D": 128.09,
+            "L": 3.14,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-04",
+            "P": 131.08,
+            "N": 202.59,
+            "E": 138.39,
+            "D": 116.83,
+            "L": 3.14,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 115.91,
+            "N": 166.68,
+            "E": 123.41,
+            "D": 116.6,
+            "L": 3.63,
+            "R": 0.31
+          },
+          {
+            "date": "2026-04-18",
+            "P": 69.74,
+            "N": 142.1,
+            "E": 74.87,
+            "D": 66.35,
+            "L": 3.4,
+            "R": 0.3
+          },
+          {
+            "date": "2026-04-25",
+            "P": 180.29,
+            "N": 430.45,
+            "E": 165.82,
+            "D": 65.81,
+            "L": 1.89,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-02",
+            "P": 185.25,
+            "N": 380.61,
+            "E": 165.81,
+            "D": 67.96,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-09",
+            "P": 167.38,
+            "N": 346.06,
+            "E": 152.84,
+            "D": 73.82,
+            "L": 2.09,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 155.59,
+            "N": 305.65,
+            "E": 139.98,
+            "D": 68.85,
+            "L": 2.1,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-23",
+            "P": 156.89,
+            "N": 275.51,
+            "E": 138.95,
+            "D": 67.37,
+            "L": 2.14,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-30",
+            "P": 159.48,
+            "N": 78.98,
+            "E": 119.13,
+            "D": 48.73,
+            "L": 1.58,
+            "R": 0.15
+          },
+          {
+            "date": "2026-06-06",
+            "P": 146.37,
+            "N": 69.89,
+            "E": 110.67,
+            "D": 46.17,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-13",
+            "P": 135.29,
+            "N": 65.26,
+            "E": 101.96,
+            "D": 41.81,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-20",
+            "P": 138.34,
+            "N": 61.8,
+            "E": 102.46,
+            "D": 39.48,
+            "L": 1.63,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-27",
+            "P": 123.2,
+            "N": 46.99,
+            "E": 86.4,
+            "D": 29.34,
+            "L": 1.82,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-04",
+            "P": 117.77,
+            "N": 43.27,
+            "E": 85.34,
+            "D": 45.03,
+            "L": 2.05,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-11",
+            "P": 113.65,
+            "N": 39.37,
+            "E": 82.15,
+            "D": 48.34,
+            "L": 2.14,
+            "R": 0.2
+          },
+          {
+            "date": "2026-07-18",
+            "P": 111.09,
+            "N": 35.3,
+            "E": 76.45,
+            "D": 45.7,
+            "L": 2.31,
+            "R": 0.21
+          },
+          {
+            "date": "2026-07-25",
+            "P": 109.92,
+            "N": 32.89,
+            "E": 73.57,
+            "D": 42.4,
+            "L": 2.39,
+            "R": 0.22
+          },
+          {
+            "date": "2026-08-01",
+            "P": 100.84,
+            "N": 30.83,
+            "E": 69.51,
+            "D": 41.9,
+            "L": 2.39,
+            "R": 0.22
+          },
+          {
+            "date": "2026-08-08",
+            "P": 99.07,
+            "N": 25.71,
+            "E": 68.6,
+            "D": 47.06,
+            "L": 2.69,
+            "R": 0.23
+          },
+          {
+            "date": "2026-08-15",
+            "P": 113.22,
+            "N": 23.93,
+            "E": 89.41,
+            "D": 88.67,
+            "L": 2.24,
+            "R": 0.18
+          },
+          {
+            "date": "2026-08-22",
+            "P": 102.33,
+            "N": 34.72,
+            "E": 86.39,
+            "D": 92.26,
+            "L": 2.44,
+            "R": 0.21
+          }
+        ],
+        "Price": {
+          "start_price": 598.95,
+          "start_date": "27 Mar 2026",
+          "end_price": 686.5,
+          "end_date": "22 May 2026",
+          "total_change_pct": 14.6,
+          "min_price": 596.96,
+          "min_date": "03 Apr 2026",
+          "max_price": 686.5,
+          "max_date": "22 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "MGROS",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "neutral",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
+    },
+    {
+      "id": "HYB_19",
+      "source_type": "Hybrid",
+      "company": "THYAO",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "THYAO hissesinde son 2 aydaki fiyat hareketi nasıldır ve Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": {
+        "Price": "THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
+        "Twitter": "THYAO hissesi için son 2 ay (2026-03-28 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 257.36 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 191.67 ile düşük kalmıştır. P/N oranı 1.34 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 293.24, like oranı 2.84, retweet oranı 0.21 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_13"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-03-28",
+            "P": 617.71,
+            "N": 509.55,
+            "E": 521.24,
+            "D": 335.39,
+            "L": 4.19,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-04",
+            "P": 610.51,
+            "N": 394.27,
+            "E": 492.98,
+            "D": 305.91,
+            "L": 4.05,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 508.95,
+            "N": 361.69,
+            "E": 532.94,
+            "D": 653.56,
+            "L": 3.62,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 326.35,
+            "N": 322.2,
+            "E": 456.13,
+            "D": 634.86,
+            "L": 2.48,
+            "R": 0.18
+          },
+          {
+            "date": "2026-04-25",
+            "P": 197.52,
+            "N": 263.91,
+            "E": 307.91,
+            "D": 569.87,
+            "L": 2.36,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-02",
+            "P": 206.99,
+            "N": 289.37,
+            "E": 306.71,
+            "D": 533.07,
+            "L": 2.44,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-09",
+            "P": 208.31,
+            "N": 276.33,
+            "E": 296.25,
+            "D": 494.27,
+            "L": 2.45,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-23",
+            "P": 199.49,
+            "N": 234.18,
+            "E": 293.28,
+            "D": 499.36,
+            "L": 2.43,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-30",
+            "P": 190.56,
+            "N": 67.13,
+            "E": 215.73,
+            "D": 372.17,
+            "L": 2.14,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-06",
+            "P": 186.06,
+            "N": 71.49,
+            "E": 213.34,
+            "D": 382.65,
+            "L": 2.27,
+            "R": 0.17
+          },
+          {
+            "date": "2026-06-13",
+            "P": 180.31,
+            "N": 66.76,
+            "E": 202.49,
+            "D": 350.24,
+            "L": 2.31,
+            "R": 0.18
+          },
+          {
+            "date": "2026-06-20",
+            "P": 189,
+            "N": 77.39,
+            "E": 206.93,
+            "D": 338.97,
+            "L": 2.43,
+            "R": 0.19
+          },
+          {
+            "date": "2026-06-27",
+            "P": 210.2,
+            "N": 77.4,
+            "E": 252.94,
+            "D": 464.32,
+            "L": 2.47,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-04",
+            "P": 210.03,
+            "N": 71.27,
+            "E": 245.83,
+            "D": 420.22,
+            "L": 2.61,
+            "R": 0.18
+          },
+          {
+            "date": "2026-07-11",
+            "P": 208.87,
+            "N": 85.67,
+            "E": 236.37,
+            "D": 370.85,
+            "L": 2.68,
+            "R": 0.19
+          },
+          {
+            "date": "2026-07-18",
+            "P": 215.75,
+            "N": 119.32,
+            "E": 235.5,
+            "D": 318.81,
+            "L": 2.95,
+            "R": 0.23
+          },
+          {
+            "date": "2026-07-25",
+            "P": 209.57,
+            "N": 137.22,
+            "E": 238.51,
+            "D": 321.82,
+            "L": 3.1,
+            "R": 0.24
+          },
+          {
+            "date": "2026-08-01",
+            "P": 207.06,
+            "N": 128.63,
+            "E": 232.73,
+            "D": 318.01,
+            "L": 3.16,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-08",
+            "P": 198.48,
+            "N": 116.78,
+            "E": 222.02,
+            "D": 304.13,
+            "L": 3.22,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-15",
+            "P": 196.77,
+            "N": 132.36,
+            "E": 231.45,
+            "D": 328.62,
+            "L": 3.22,
+            "R": 0.24
+          },
+          {
+            "date": "2026-08-22",
+            "P": 187.6,
+            "N": 169.8,
+            "E": 218.65,
+            "D": 281.21,
+            "L": 3.44,
+            "R": 0.25
+          }
+        ],
+        "Price": {
+          "start_price": 294.0,
+          "start_date": "27 Mar 2026",
+          "end_price": 288.0,
+          "end_date": "22 May 2026",
+          "total_change_pct": -2.0,
+          "min_price": 288.0,
+          "min_date": "22 May 2026",
+          "max_price": 329.0,
+          "max_date": "17 Apr 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "THYAO",
+          "start_date": "2026-03-28",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
+    },
+    {
+      "id": "HYB_20",
+      "source_type": "Hybrid",
+      "company": "ASTOR",
+      "tools_required": [
+        "MCP-Price",
+        "MCP-Twitter-Metrics"
+      ],
+      "tool_count": 2,
+      "question": "ASTOR hissesi son 2 haftada nasıl bir fiyat hareketi sergilemiştir ve aynı dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": {
+        "Price": "ASTOR hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 326.00 TL seviyesinden 22 May 2026 itibarıyla 345.00 TL'ye yükselmiş ve %5.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 322.00 TL (15 May 2026), en yüksek kapanış ise 345.00 TL (22 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
+        "Twitter": "ASTOR hissesi için son 2 hafta (2026-05-09 – 2026-08-22) incelendiğinde pozitif tweet görüntüleme ortalaması 177.12 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.97 ile düşük kalmıştır. P/N oranı 1.95 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 150.65, like oranı 3.48, retweet oranı 0.24 olarak gerçekleşmiştir. Genel yatırımcı duyarlılığı positive olarak değerlendirilmektedir."
+      },
+      "source_ids": {
+        "Price": "PRICE_01"
+      },
+      "key_facts": {
+        "Twitter": [
+          {
+            "date": "2026-05-09",
+            "P": 111.6,
+            "N": 44.28,
+            "E": 87.49,
+            "D": 45.07,
+            "L": 3.61,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-16",
+            "P": 110.52,
+            "N": 82.96,
+            "E": 93.25,
+            "D": 60.37,
+            "L": 3.96,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-23",
+            "P": 112.15,
+            "N": 74.78,
+            "E": 93.11,
+            "D": 59.07,
+            "L": 3.95,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-30",
+            "P": 173.25,
+            "N": 78.11,
+            "E": 161.77,
+            "D": 188.55,
+            "L": 2.53,
+            "R": 0.16
+          },
+          {
+            "date": "2026-06-06",
+            "P": 176.42,
+            "N": 99.37,
+            "E": 172.18,
+            "D": 211.69,
+            "L": 2.76,
+            "R": 0.19
+          },
+          {
+            "date": "2026-06-13",
+            "P": 169.95,
+            "N": 99.79,
+            "E": 169.57,
+            "D": 215.56,
+            "L": 2.92,
+            "R": 0.2
+          },
+          {
+            "date": "2026-06-20",
+            "P": 165.64,
+            "N": 107.84,
+            "E": 172.24,
+            "D": 232.07,
+            "L": 3.01,
+            "R": 0.21
+          },
+          {
+            "date": "2026-06-27",
+            "P": 158.57,
+            "N": 101.01,
+            "E": 160.74,
+            "D": 204.8,
+            "L": 3.41,
+            "R": 0.23
+          },
+          {
+            "date": "2026-07-04",
+            "P": 177.65,
+            "N": 105.03,
+            "E": 166.59,
+            "D": 180.58,
+            "L": 3.56,
+            "R": 0.22
+          },
+          {
+            "date": "2026-07-11",
+            "P": 175.47,
+            "N": 104.4,
+            "E": 158.06,
+            "D": 156.13,
+            "L": 3.75,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-18",
+            "P": 182.01,
+            "N": 93.6,
+            "E": 150.06,
+            "D": 130.41,
+            "L": 3.74,
+            "R": 0.27
+          },
+          {
+            "date": "2026-07-25",
+            "P": 178.76,
+            "N": 94.27,
+            "E": 144.38,
+            "D": 119.99,
+            "L": 3.76,
+            "R": 0.27
+          },
+          {
+            "date": "2026-08-01",
+            "P": 239.33,
+            "N": 88.37,
+            "E": 173.95,
+            "D": 118.56,
+            "L": 3.57,
+            "R": 0.24
+          },
+          {
+            "date": "2026-08-08",
+            "P": 230.46,
+            "N": 73.69,
+            "E": 166.75,
+            "D": 123.35,
+            "L": 3.63,
+            "R": 0.26
+          },
+          {
+            "date": "2026-08-15",
+            "P": 246.34,
+            "N": 92.26,
+            "E": 177.56,
+            "D": 124.06,
+            "L": 3.68,
+            "R": 0.25
+          },
+          {
+            "date": "2026-08-22",
+            "P": 225.87,
+            "N": 115.81,
+            "E": 162.74,
+            "D": 107.92,
+            "L": 3.79,
+            "R": 0.28
+          }
+        ],
+        "Price": {
+          "start_price": 326.0,
+          "start_date": "08 May 2026",
+          "end_price": 345.0,
+          "end_date": "22 May 2026",
+          "total_change_pct": 5.8,
+          "min_price": 322.0,
+          "min_date": "15 May 2026",
+          "max_price": 345.0,
+          "max_date": "22 May 2026"
+        },
+        "Twitter_meta": {
+          "ticker": "ASTOR",
+          "start_date": "2026-05-09",
+          "end_date": "2026-08-22",
+          "window": ""
+        }
+      },
+      "expected_sentiment": "positive",
+      "reasoning_type": [
+        "fact_extraction",
+        "cross_source_reasoning",
+        "comparative_reasoning"
+      ],
+      "difficulty": "medium",
+      "question_type": "numerical",
+      "human_validation_required": true
+    }
+  ]
 }
