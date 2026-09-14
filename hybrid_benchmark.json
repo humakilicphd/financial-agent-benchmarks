@@ -1,0 +1,201 @@
+{
+  "dataset_name": "KAP-Benchmark-TR",
+  "total_questions": 20,
+  "questions": [
+  {
+    "id": "HYB_01",
+    "source_type": "HybridFinRAG",
+    "company": "THYAO",
+    "inputs": {
+      "price_signal": "Son 7 günde hisse fiyatı %12 yükseldi.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.81",
+      "kap_summary": "Şirket yeni uluslararası uçuş hattı yatırımı açıkladı."
+    },
+    "question": "Bu veriler ışığında THYAO hissesi için genel yatırımcı algısı nasıl değerlendirilebilir?",
+    "gold_answer": "THYAO hissesinde son dönemde gözlenen fiyat artışı, sosyal medya üzerindeki güçlü pozitif yatırımcı sentimenti ve yeni uluslararası uçuş hattı yatırımı birlikte değerlendirildiğinde yatırımcı algısının genel olarak olumlu olduğu görülmektedir. Özellikle büyüme odaklı yatırım açıklamaları piyasa beklentilerini desteklemektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_02",
+    "source_type": "HybridFinRAG",
+    "company": "ASELS",
+    "inputs": {
+      "price_signal": "Son 1 haftada hisse fiyatı yükseliş trendi göstermiştir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.76",
+      "kap_summary": "Şirket yeni savunma sanayi sözleşmesi açıkladı."
+    },
+    "question": "ASELS hissesi için yatırımcı davranışı nasıl yorumlanabilir?",
+    "gold_answer": "ASELS tarafından açıklanan yeni savunma sanayi sözleşmesi ve pozitif yatırımcı sentimenti, hisse üzerindeki olumlu beklentileri desteklemektedir. Hisse fiyatındaki yükseliş eğilimi yatırımcı güveninin güçlendiğine işaret etmektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_03",
+    "source_type": "HybridFinRAG",
+    "company": "PGSUS",
+    "inputs": {
+      "price_signal": "Hisse fiyatında son günlerde düşüş gözlemlenmiştir.",
+      "twitter_sentiment": "Negatif sentiment skoru: 0.69",
+      "kap_summary": "Artan yakıt maliyetlerine ilişkin risk açıklaması yapılmıştır."
+    },
+    "question": "PGSUS hissesi için piyasa algısı nasıl değerlendirilmektedir?",
+    "gold_answer": "PGSUS hissesinde gözlenen fiyat düşüşü ve negatif yatırımcı sentimenti, artan yakıt maliyetlerine ilişkin risk açıklamalarıyla birlikte değerlendirildiğinde piyasa algısının olumsuz yönde şekillendiği görülmektedir. Operasyonel maliyet baskısı yatırımcı beklentilerini zayıflatmaktadır.",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "HYB_04",
+    "source_type": "HybridFinRAG",
+    "company": "EREGL",
+    "inputs": {
+      "price_signal": "Hisse fiyatı yatay seyir göstermektedir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.64",
+      "kap_summary": "Şirket temettü dağıtım kararı açıkladı."
+    },
+    "question": "EREGL hissesi için yatırımcı beklentileri nasıl yorumlanabilir?",
+    "gold_answer": "EREGL tarafından açıklanan temettü kararı yatırımcı duyarlılığını olumlu desteklemektedir. Ancak hisse fiyatındaki yatay seyir, piyasanın mevcut gelişmeleri dengeli şekilde fiyatladığını göstermektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_05",
+    "source_type": "HybridFinRAG",
+    "company": "AKBNK",
+    "inputs": {
+      "price_signal": "Bankacılık hisselerinde volatilite artmıştır.",
+      "twitter_sentiment": "Nötr sentiment skoru: 0.51",
+      "kap_summary": "Banka sendikasyon kredisi anlaşmasını yeniledi."
+    },
+    "question": "AKBNK hissesi için genel piyasa görünümü nasıl değerlendirilmektedir?",
+    "gold_answer": "AKBNK tarafından sendikasyon kredisi anlaşmasının yenilenmesi finansal açıdan olumlu değerlendirilse de bankacılık sektöründeki volatilite yatırımcı algısını sınırlamaktadır. Bu nedenle genel piyasa görünümü dengeli ve temkinli görünmektedir.",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "HYB_06",
+    "source_type": "HybridFinRAG",
+    "company": "SASA",
+    "inputs": {
+      "price_signal": "Hisse fiyatında güçlü yükseliş trendi gözlemlenmektedir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.88",
+      "kap_summary": "Yeni yatırım teşvik belgesi açıklandı."
+    },
+    "question": "SASA hissesi için yatırımcı davranışı nasıl yorumlanabilir?",
+    "gold_answer": "SASA hissesinde gözlenen güçlü fiyat yükselişi, yüksek pozitif yatırımcı sentimenti ve yeni yatırım teşvik belgesi birlikte değerlendirildiğinde yatırımcı algısının oldukça olumlu olduğu görülmektedir. Yatırımcılar şirketin büyüme potansiyeline yönelik güçlü beklenti taşımaktadır.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_07",
+    "source_type": "HybridFinRAG",
+    "company": "EKGYO",
+    "inputs": {
+      "price_signal": "Hisse fiyatı son dönemde baskı altında kalmıştır.",
+      "twitter_sentiment": "Negatif sentiment skoru: 0.67",
+      "kap_summary": "Yeni konut projesi açıklanmıştır."
+    },
+    "question": "EKGYO hissesi için piyasa beklentileri nasıl görünmektedir?",
+    "gold_answer": "EKGYO tarafından yeni konut projesi açıklanmış olsa da hisse fiyatındaki baskı ve negatif yatırımcı sentimenti piyasa algısının zayıf olduğunu göstermektedir. Özellikle faiz ortamına ilişkin endişeler yatırımcı beklentilerini olumsuz etkilemektedir.",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "HYB_08",
+    "source_type": "HybridFinRAG",
+    "company": "KOZAL",
+    "inputs": {
+      "price_signal": "Altın fiyatlarıyla birlikte hisse fiyatı yükselmiştir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.74",
+      "kap_summary": "Yeni rezerv keşfi açıklanmıştır."
+    },
+    "question": "KOZAL hissesi için yatırımcı algısı nasıl değerlendirilmektedir?",
+    "gold_answer": "KOZAL hissesinde altın fiyatlarına paralel gözlenen yükseliş ve yeni rezerv keşfi açıklaması yatırımcı beklentilerini olumlu desteklemektedir. Sosyal medya sentimentinin pozitif olması da piyasa algısının güçlü kaldığını göstermektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_09",
+    "source_type": "HybridFinRAG",
+    "company": "TCELL",
+    "inputs": {
+      "price_signal": "Hisse fiyatında sınırlı yükseliş gözlemlenmiştir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.70",
+      "kap_summary": "Şirket temettü dağıtım kararı açıkladı."
+    },
+    "question": "TCELL hissesi için yatırımcı sentimenti nasıl görünmektedir?",
+    "gold_answer": "TCELL tarafından açıklanan temettü kararı ve pozitif yatırımcı sentimenti hisse için olumlu beklenti oluşturmaktadır. Hisse fiyatındaki sınırlı yükseliş ise piyasanın bu gelişmeleri kademeli olarak fiyatladığını göstermektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_10",
+    "source_type": "HybridFinRAG",
+    "company": "PETKM",
+    "inputs": {
+      "price_signal": "Hisse fiyatında dalgalı hareket gözlemlenmektedir.",
+      "twitter_sentiment": "Nötr sentiment skoru: 0.49",
+      "kap_summary": "Şirket üretim kapasitesi güncellemesi açıkladı."
+    },
+    "question": "PETKM hissesi için yatırımcı algısı nasıl değerlendirilmektedir?",
+    "gold_answer": "PETKM tarafından açıklanan üretim kapasitesi güncellemesi olumlu değerlendirilse de emtia piyasalarındaki oynaklık yatırımcı algısının dengeli kalmasına neden olmaktadır. Hisse fiyatındaki dalgalı seyir piyasa belirsizliğini yansıtmaktadır.",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "HYB_11",
+    "source_type": "HybridFinRAG",
+    "company": "FROTO",
+    "inputs": {
+      "price_signal": "Hisse fiyatı yükseliş eğilimi göstermektedir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.79",
+      "kap_summary": "İhracat kapasitesini artıracak yeni yatırım açıklandı."
+    },
+    "question": "FROTO hissesi için piyasa beklentileri nasıl yorumlanabilir?",
+    "gold_answer": "FROTO hissesinde gözlenen yükseliş eğilimi, ihracat kapasitesini artırmaya yönelik yatırım açıklaması ve pozitif yatırımcı sentimenti ile birlikte değerlendirildiğinde piyasa beklentilerinin olumlu olduğu görülmektedir. Özellikle ihracat büyümesi yatırımcı güvenini desteklemektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_12",
+    "source_type": "HybridFinRAG",
+    "company": "GARAN",
+    "inputs": {
+      "price_signal": "Bankacılık hisselerinde dalgalanma gözlemlenmektedir.",
+      "twitter_sentiment": "Nötr sentiment skoru: 0.52",
+      "kap_summary": "Tahvil ihracı açıklanmıştır."
+    },
+    "question": "GARAN hissesi için yatırımcı davranışı nasıl değerlendirilmektedir?",
+    "gold_answer": "GARAN tarafından açıklanan tahvil ihracı finansman yönetimi açısından olumlu değerlendirilse de bankacılık sektöründeki dalgalanma yatırımcı algısını sınırlamaktadır. Bu nedenle piyasa görünümü daha dengeli ve temkinli görünmektedir.",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "HYB_13",
+    "source_type": "HybridFinRAG",
+    "company": "ALARK",
+    "inputs": {
+      "price_signal": "Enerji hisselerinde yükseliş trendi oluşmuştur.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.75",
+      "kap_summary": "Yeni enerji yatırımı duyurulmuştur."
+    },
+    "question": "ALARK hissesi için yatırımcı algısı nasıl görünmektedir?",
+    "gold_answer": "ALARK tarafından duyurulan yeni enerji yatırımı ve enerji sektöründeki yükseliş trendi yatırımcı beklentilerini olumlu desteklemektedir. Pozitif sosyal medya sentimenti de piyasa algısının güçlü olduğunu göstermektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_14",
+    "source_type": "HybridFinRAG",
+    "company": "MGROS",
+    "inputs": {
+      "price_signal": "Hisse fiyatında istikrarlı yükseliş gözlemlenmektedir.",
+      "twitter_sentiment": "Pozitif sentiment skoru: 0.71",
+      "kap_summary": "Yeni mağaza açılış planı açıklanmıştır."
+    },
+    "question": "MGROS hissesi için genel yatırımcı algısı nasıl değerlendirilmektedir?",
+    "gold_answer": "MGROS hissesinde gözlenen istikrarlı fiyat yükselişi, yeni mağaza açılış planları ve pozitif yatırımcı yorumları birlikte değerlendirildiğinde yatırımcı algısının olumlu olduğu görülmektedir. Şirketin büyüme stratejisi piyasa beklentilerini desteklemektedir.",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "HYB_15",
+    "source_type": "HybridFinRAG",
+    "company": "GUBRF",
+    "inputs": {
+      "price_signal": "Hisse fiyatında yüksek volatilite gözlemlenmektedir.",
+      "twitter_sentiment": "Nötr sentiment skoru: 0.50",
+      "kap_summary": "Gübre üretim kapasitesi hakkında güncelleme paylaşılmıştır."
+    },
+    "question": "GUBRF hissesi için yatırımcı beklentileri nasıl yorumlanabilir?",
+    "gold_answer": "GUBRF tarafından paylaşılan üretim kapasitesi güncellemesi olumlu değerlendirilse de emtia fiyatlarındaki yüksek oynaklık yatırımcı algısını sınırlamaktadır. Hisse fiyatındaki volatilite piyasa belirsizliğinin devam ettiğini göstermektedir.",
+    "expected_sentiment": "neutral"
+  }
+]
+}
