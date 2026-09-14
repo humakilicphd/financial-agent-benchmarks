@@ -22,11 +22,7 @@
       ],
       "tool_count": 3,
       "question": "Akbank'ın Mayıs 2026'da erken itfa ettiği sermaye benzeri tahvilin bilgileri nedir; bu dönemde AKBNK hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "KAP": "2021 yılında ihraç edilen toplam 500 milyon ABD Doları tutarındaki sürdürülebilir sermaye benzeri tahvil (ISIN: XS2355183091 ve US00971YAJ91). 10 yıl vadeli, 5. yılda erken itfa opsiyonlu. Erken itfa için BDDK onayı alınmıştır. Kaynak: KAP #1608065",
-        "Price": "AKBNK hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 75.25 TL seviyesinden 22 May 2026 itibarıyla 63.60 TL'ye gerilemiş ve %15.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 63.60 TL (22 May 2026), en yüksek kapanış ise 75.25 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "AKBNK hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 140.29 ile yüksek seyretmiş, pozitif tweet ortalaması 67.16 düzeyinde zayıf kalmıştır. P/N oranı 0.48 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 71.19, like oranı 2.93, retweet oranı 0.24 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "2021 yılında ihraç edilen toplam 500 milyon ABD Doları tutarındaki sürdürülebilir sermaye benzeri tahvil (ISIN: XS2355183091 ve US00971YAJ91). 10 yıl vadeli, 5. yılda erken itfa opsiyonlu. Erken itfa için BDDK onayı alınmıştır. Kaynak: KAP #1608065 AKBNK hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 75.25 TL seviyesinden 22 May 2026 itibarıyla 63.60 TL'ye gerilemiş ve %15.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 63.60 TL (22 May 2026), en yüksek kapanış ise 75.25 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. AKBNK hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 140.29 ile yüksek seyretmiş, pozitif tweet ortalaması 67.16 düzeyinde zayıf kalmıştır. P/N oranı 0.48 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 71.19, like oranı 2.93, retweet oranı 0.24 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_13",
         "Price": "PRICE_03"
@@ -91,11 +87,7 @@
       ],
       "tool_count": 3,
       "question": "BİM Birleşik Mağazalar 2026 birinci çeyreğinde temettü ödemiş midir; bu dönemde BIMAS hissesinin fiyat hareketi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "KAP": "BİM, 2026 birinci çeyreğinde 22.000 bin TL temettü ödemiştir. Bu ödeme finansman faaliyetleri nakit akış tablosunda gösterilmekte olup azınlık hissedarlarına yapılan ödemeyi kapsamaktadır. Kaynak: KAP #1605794",
-        "Price": "BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "BIMAS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 370.07 ile yüksek seyretmiş, pozitif tweet ortalaması 104.55 düzeyinde zayıf kalmıştır. P/N oranı 0.28 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 109.1, like oranı 2.56, retweet oranı 0.22 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "BİM, 2026 birinci çeyreğinde 22.000 bin TL temettü ödemiştir. Bu ödeme finansman faaliyetleri nakit akış tablosunda gösterilmekte olup azınlık hissedarlarına yapılan ödemeyi kapsamaktadır. Kaynak: KAP #1605794 BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. BIMAS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 370.07 ile yüksek seyretmiş, pozitif tweet ortalaması 104.55 düzeyinde zayıf kalmıştır. P/N oranı 0.28 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 109.1, like oranı 2.56, retweet oranı 0.22 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_08",
         "Price": "PRICE_07"
@@ -178,11 +170,7 @@
       ],
       "tool_count": 3,
       "question": "BİM'in 31 Mart 2026 itibarıyla nakit ve finansal yatırım pozisyonu nedir; son bir aylık fiyat hareketi ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "KAP": "31.03.2026: Nakit 4.980.275 bin TL + Finansal Yatırımlar 24.977.581 bin TL = Toplam 29.957.856 bin TL. 31.12.2025: Nakit 3.808.085 bin TL + Finansal Yatırımlar 11.764.683 bin TL = Toplam 15.572.768 bin TL. Artış yaklaşık 14,4 milyar TL. Kaynak: KAP #1605794",
-        "Price": "BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "BIMAS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 370.07 ile yüksek seyretmiş, pozitif tweet ortalaması 104.55 düzeyinde zayıf kalmıştır. P/N oranı 0.28 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 109.1, like oranı 2.56, retweet oranı 0.22 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "31.03.2026: Nakit 4.980.275 bin TL + Finansal Yatırımlar 24.977.581 bin TL = Toplam 29.957.856 bin TL. 31.12.2025: Nakit 3.808.085 bin TL + Finansal Yatırımlar 11.764.683 bin TL = Toplam 15.572.768 bin TL. Artış yaklaşık 14,4 milyar TL. Kaynak: KAP #1605794 BIMAS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 380.00 TL seviyesinden 22 May 2026 itibarıyla 392.75 TL'ye yükselmiş ve %3.4 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 370.75 TL (01 May 2026), en yüksek kapanış ise 405.25 TL (15 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. BIMAS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 370.07 ile yüksek seyretmiş, pozitif tweet ortalaması 104.55 düzeyinde zayıf kalmıştır. P/N oranı 0.28 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 109.1, like oranı 2.56, retweet oranı 0.22 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_19",
         "Price": "PRICE_07"
@@ -265,11 +253,7 @@
       ],
       "tool_count": 3,
       "question": "Ford Otosan'ın 2026 birinci çeyrek yurt içi perakende satışları nasıl gerçekleşmiştir; bu dönemde FROTO hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "KAP": "2026Q1 yurt içi perakende satışlar 18.707 adet (-yüzde 20 yıllık). Toplam pazar payı yüzde 6,9 (2025Q1: yüzde 8,3). HTA payı yüzde 18,2 (2025Q1: yüzde 21,6), OTA payı yüzde 32,2 (2025Q1: yüzde 37,6). Kaynak: KAP #1601423",
-        "Price": "FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "FROTO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 118.79 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.39 ile düşük kalmıştır. P/N oranı 1.31 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 107.88, like oranı 3.51, retweet oranı 0.25 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "2026Q1 yurt içi perakende satışlar 18.707 adet (-yüzde 20 yıllık). Toplam pazar payı yüzde 6,9 (2025Q1: yüzde 8,3). HTA payı yüzde 18,2 (2025Q1: yüzde 21,6), OTA payı yüzde 32,2 (2025Q1: yüzde 37,6). Kaynak: KAP #1601423 FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. FROTO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 118.79 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.39 ile düşük kalmıştır. P/N oranı 1.31 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 107.88, like oranı 3.51, retweet oranı 0.25 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_03",
         "Price": "PRICE_08"
@@ -352,11 +336,7 @@
       ],
       "tool_count": 3,
       "question": "Ford Otosan 2026 birinci çeyrek raporunda yurt içi satışlardaki düşüşü nasıl açıklamaktadır; bu dönemde hisse fiyatı ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "KAP": "Şirket, Focus modelinin üretiminin sonlanması ardından binek araç satışlarında zayıflama yaşandığını belirtmektedir. Ayrıca daha rekabetçi fiyatlama ortamının ve artan araç bulunabilirliğinin özellikle orta ticari araç satışları üzerinde baskı oluşturduğunu açıklamaktadır. Kaynak: KAP #1601423",
-        "Price": "FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "FROTO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 118.79 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.39 ile düşük kalmıştır. P/N oranı 1.31 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 107.88, like oranı 3.51, retweet oranı 0.25 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "Şirket, Focus modelinin üretiminin sonlanması ardından binek araç satışlarında zayıflama yaşandığını belirtmektedir. Ayrıca daha rekabetçi fiyatlama ortamının ve artan araç bulunabilirliğinin özellikle orta ticari araç satışları üzerinde baskı oluşturduğunu açıklamaktadır. Kaynak: KAP #1601423 FROTO hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 104.50 TL seviyesinden 22 May 2026 itibarıyla 86.85 TL'ye gerilemiş ve %16.9 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 86.85 TL (22 May 2026), en yüksek kapanış ise 104.50 TL (24 Apr 2026) olmuştur. Son 1 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. FROTO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 118.79 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.39 ile düşük kalmıştır. P/N oranı 1.31 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 107.88, like oranı 3.51, retweet oranı 0.25 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_04",
         "Price": "PRICE_08"
@@ -439,11 +419,7 @@
       ],
       "tool_count": 3,
       "question": "THY'nin Nisan 2026 trafik sonuçlarına göre yolcu sayısı ve ASK verileri nedir; bu dönemde THYAO hissesinin fiyat hareketi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "KAP": "Nisan 2026 yolcu sayısı 7,2 milyon olup bir önceki yılın aynı dönemine göre yüzde 2,9 gerilemiştir. Yolcu doluluk oranı yüzde 83,4 olup 2025 Nisan'ındaki yüzde 83,2'nin 0,2 puan üzerindedir. Kaynak: KAP ODA #1603784",
-        "Price": "THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "THYAO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 388.58, negatif tweet ortalaması 366.24 ile birbirine yakın seyretmiştir. P/N oranı 1.06 düzeyindedir. Genel etki skoru ortalaması 417.1, like oranı 3.15, retweet oranı 0.21 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "Nisan 2026 yolcu sayısı 7,2 milyon olup bir önceki yılın aynı dönemine göre yüzde 2,9 gerilemiştir. Yolcu doluluk oranı yüzde 83,4 olup 2025 Nisan'ındaki yüzde 83,2'nin 0,2 puan üzerindedir. Kaynak: KAP ODA #1603784 THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. THYAO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 388.58, negatif tweet ortalaması 366.24 ile birbirine yakın seyretmiştir. P/N oranı 1.06 düzeyindedir. Genel etki skoru ortalaması 417.1, like oranı 3.15, retweet oranı 0.21 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_02",
         "Price": "PRICE_13"
@@ -571,11 +547,7 @@
       ],
       "tool_count": 3,
       "question": "Migros'un 2025 yılı kârından ödenen temettünün pay başına tutarı nedir; bu dönemde MGROS hissesinin fiyat seyri ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "KAP": "1 TL nominal değerli pay başına brüt temettü 4,5566457 TL, net temettü ise 3,8731488 TL. Ödeme tarihi 15 Mayıs 2026. Kaynak: KAP #1608029",
-        "Price": "MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
-        "Twitter": "MGROS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 289.62 ile yüksek seyretmiş, pozitif tweet ortalaması 146.9 düzeyinde zayıf kalmıştır. P/N oranı 0.51 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 145.14, like oranı 2.69, retweet oranı 0.22 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "1 TL nominal değerli pay başına brüt temettü 4,5566457 TL, net temettü ise 3,8731488 TL. Ödeme tarihi 15 Mayıs 2026. Kaynak: KAP #1608029 MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir. MGROS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 289.62 ile yüksek seyretmiş, pozitif tweet ortalaması 146.9 düzeyinde zayıf kalmıştır. P/N oranı 0.51 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 145.14, like oranı 2.69, retweet oranı 0.22 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_10",
         "Price": "PRICE_14"
@@ -703,11 +675,7 @@
       ],
       "tool_count": 3,
       "question": "VakıfBank'ın Mayıs 2026'da sağladığı sendikasyon kredisinin tutarı nedir; bu dönemde VAKBN hissesinin fiyat trendi ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "KAP": "Toplam 1,2 milyar ABD Doları karşılığı; 484 milyon ABD Doları ve 574 milyon Euro olmak üzere iki dilimden oluşmaktadır. Vade 367 gündür. USD dilimi maliyeti SOFR + yüzde 1,25; Euro dilimi Euribor + yüzde 1,10. Kaynak: KAP ODA #1608322",
-        "Price": "VAKBN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 41.08 TL seviyesinden 22 May 2026 itibarıyla 30.00 TL'ye gerilemiş ve %27.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 30.00 TL (22 May 2026), en yüksek kapanış ise 41.08 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "VAKBN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 30.26 ile yüksek seyretmiş, pozitif tweet ortalaması 20.56 düzeyinde zayıf kalmıştır. P/N oranı 0.68 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 17.14, like oranı 3.83, retweet oranı 0.32 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "Toplam 1,2 milyar ABD Doları karşılığı; 484 milyon ABD Doları ve 574 milyon Euro olmak üzere iki dilimden oluşmaktadır. Vade 367 gündür. USD dilimi maliyeti SOFR + yüzde 1,25; Euro dilimi Euribor + yüzde 1,10. Kaynak: KAP ODA #1608322 VAKBN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 41.08 TL seviyesinden 22 May 2026 itibarıyla 30.00 TL'ye gerilemiş ve %27.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 30.00 TL (22 May 2026), en yüksek kapanış ise 41.08 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. VAKBN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 30.26 ile yüksek seyretmiş, pozitif tweet ortalaması 20.56 düzeyinde zayıf kalmıştır. P/N oranı 0.68 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 17.14, like oranı 3.83, retweet oranı 0.32 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_15",
         "Price": "PRICE_17"
@@ -871,11 +839,7 @@
       ],
       "tool_count": 3,
       "question": "Yapı Kredi Bankası'nın devrettiği NPL portföyünün tutarı nedir; bu dönemde YKBNK hissesinin fiyat trendi ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "KAP": "517 milyon TL anapara değerindeki bireysel ve KOBİ nitelikli alacak portföyü, Arsan Varlık Yönetimi A.Ş. tarafından ihaleyle satın alınmıştır. Kaynak: KAP ODA #1603672",
-        "Price": "YKBNK hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 43.30 TL seviyesinden 22 May 2026 itibarıyla 32.86 TL'ye gerilemiş ve %24.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 32.86 TL (22 May 2026), en yüksek kapanış ise 43.30 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "YKBNK hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile yüksek seyretmiş, pozitif tweet ortalaması 28.01 düzeyinde zayıf kalmıştır. P/N oranı 0.64 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 70.27, like oranı 2.77, retweet oranı 0.19 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "517 milyon TL anapara değerindeki bireysel ve KOBİ nitelikli alacak portföyü, Arsan Varlık Yönetimi A.Ş. tarafından ihaleyle satın alınmıştır. Kaynak: KAP ODA #1603672 YKBNK hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 43.30 TL seviyesinden 22 May 2026 itibarıyla 32.86 TL'ye gerilemiş ve %24.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 32.86 TL (22 May 2026), en yüksek kapanış ise 43.30 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. YKBNK hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile yüksek seyretmiş, pozitif tweet ortalaması 28.01 düzeyinde zayıf kalmıştır. P/N oranı 0.64 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 70.27, like oranı 2.77, retweet oranı 0.19 olarak gerçekleşmiştir.",
       "source_ids": {
         "KAP": "KAP_RAG_11",
         "Price": "PRICE_19"
@@ -1038,10 +1002,7 @@
       ],
       "tool_count": 2,
       "question": "EREGL hissesinin son 2 haftadaki fiyat hareketi nasıl gerçekleşmiştir ve aynı dönemde Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "Price": "EREGL hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 41.26 TL seviyesinden 22 May 2026 itibarıyla 38.68 TL'ye gerilemiş ve %6.3 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 38.68 TL (22 May 2026), en yüksek kapanış ise 41.26 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir.",
-        "Twitter": "EREGL hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 63.16, negatif tweet ortalaması 54.82 ile birbirine yakın seyretmiştir. P/N oranı 1.15 düzeyindedir. Genel etki skoru ortalaması 131.56, like oranı 1.97, retweet oranı 0.17 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "EREGL hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 41.26 TL seviyesinden 22 May 2026 itibarıyla 38.68 TL'ye gerilemiş ve %6.3 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 38.68 TL (22 May 2026), en yüksek kapanış ise 41.26 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir. EREGL hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 63.16, negatif tweet ortalaması 54.82 ile birbirine yakın seyretmiştir. P/N oranı 1.15 düzeyindedir. Genel etki skoru ortalaması 131.56, like oranı 1.97, retweet oranı 0.17 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_02"
       },
@@ -1104,10 +1065,7 @@
       ],
       "tool_count": 2,
       "question": "Son 2 hafta itibarıyla SASA hissesinin fiyat performansı nasıldır ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "Price": "SASA hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 3.52 TL seviyesinden 22 May 2026 itibarıyla 2.65 TL'ye gerilemiş ve %24.7 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 2.65 TL (22 May 2026), en yüksek kapanış ise 3.52 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "SASA hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 409.89 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 279.8 ile düşük kalmıştır. P/N oranı 1.46 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 343.39, like oranı 1.17, retweet oranı 0.09 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "SASA hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 3.52 TL seviyesinden 22 May 2026 itibarıyla 2.65 TL'ye gerilemiş ve %24.7 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 2.65 TL (22 May 2026), en yüksek kapanış ise 3.52 TL (08 May 2026) olmuştur. Son 2 hafta boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. SASA hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 409.89 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 279.8 ile düşük kalmıştır. P/N oranı 1.46 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 343.39, like oranı 1.17, retweet oranı 0.09 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_04"
       },
@@ -1170,10 +1128,7 @@
       ],
       "tool_count": 2,
       "question": "HEKTS hissesinin son 2 haftadaki fiyat seyri nasıldır ve aynı dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": {
-        "Price": "HEKTS hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 4.44 TL seviyesinden 22 May 2026 itibarıyla 3.84 TL'ye gerilemiş ve %13.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 3.84 TL (22 May 2026), en yüksek kapanış ise 4.59 TL (15 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir.",
-        "Twitter": "HEKTS hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 269.83 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 62.4 ile düşük kalmıştır. P/N oranı 4.32 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 183.62, like oranı 0.6, retweet oranı 0.05 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "HEKTS hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 4.44 TL seviyesinden 22 May 2026 itibarıyla 3.84 TL'ye gerilemiş ve %13.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 3.84 TL (22 May 2026), en yüksek kapanış ise 4.59 TL (15 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı negatif bir seyir izlemiştir. HEKTS hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 269.83 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 62.4 ile düşük kalmıştır. P/N oranı 4.32 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 183.62, like oranı 0.6, retweet oranı 0.05 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_05"
       },
@@ -1236,10 +1191,7 @@
       ],
       "tool_count": 2,
       "question": "TCELL hissesi son 1 aylık dönemde nasıl fiyatlanmıştır ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "Price": "TCELL hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 114.30 TL seviyesinden 22 May 2026 itibarıyla 106.50 TL'ye gerilemiş ve %6.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 106.50 TL (22 May 2026), en yüksek kapanış ise 120.00 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse ılımlı negatif bir seyir izlemiştir.",
-        "Twitter": "TCELL hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.28 ile düşük kalmıştır. P/N oranı 4.03 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 59.5, like oranı 2.77, retweet oranı 0.24 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "TCELL hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 114.30 TL seviyesinden 22 May 2026 itibarıyla 106.50 TL'ye gerilemiş ve %6.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 106.50 TL (22 May 2026), en yüksek kapanış ise 120.00 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse ılımlı negatif bir seyir izlemiştir. TCELL hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.28 ile düşük kalmıştır. P/N oranı 4.03 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 59.5, like oranı 2.77, retweet oranı 0.24 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_10"
       },
@@ -1320,10 +1272,7 @@
       ],
       "tool_count": 2,
       "question": "Son 2 aylık fiyat verilerine göre TUPRS hissesinin performansı nasıldır ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "Price": "TUPRS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 240.50 TL seviyesinden 22 May 2026 itibarıyla 243.10 TL'ye yükselmiş ve %1.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 240.50 TL (27 Mar 2026), en yüksek kapanış ise 271.00 TL (01 May 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "TUPRS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 368.53 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 182.92 ile düşük kalmıştır. P/N oranı 2.01 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 314.24, like oranı 3.36, retweet oranı 0.22 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "TUPRS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 240.50 TL seviyesinden 22 May 2026 itibarıyla 243.10 TL'ye yükselmiş ve %1.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 240.50 TL (27 Mar 2026), en yüksek kapanış ise 271.00 TL (01 May 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. TUPRS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 368.53 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 182.92 ile düşük kalmıştır. P/N oranı 2.01 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 314.24, like oranı 3.36, retweet oranı 0.22 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_12"
       },
@@ -1449,10 +1398,7 @@
       ],
       "tool_count": 2,
       "question": "EKGYO hissesi son 2 aylık dönemde nasıl fiyatlanmıştır ve aynı dönemde Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "Price": "EKGYO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 19.27 TL seviyesinden 22 May 2026 itibarıyla 19.29 TL'ye yükselmiş ve %0.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 19.27 TL (27 Mar 2026), en yüksek kapanış ise 22.34 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "EKGYO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 61.48 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 48.93 ile düşük kalmıştır. P/N oranı 1.26 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 63.01, like oranı 3.88, retweet oranı 0.35 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "EKGYO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 19.27 TL seviyesinden 22 May 2026 itibarıyla 19.29 TL'ye yükselmiş ve %0.1 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 19.27 TL (27 Mar 2026), en yüksek kapanış ise 22.34 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. EKGYO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 61.48 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 48.93 ile düşük kalmıştır. P/N oranı 1.26 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 63.01, like oranı 3.88, retweet oranı 0.35 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_15"
       },
@@ -1578,10 +1524,7 @@
       ],
       "tool_count": 2,
       "question": "GARAN hissesi son 3 ayda nasıl bir fiyat performansı sergilemiştir ve Twitter sentiment metrikleri nasıl seyretmiştir?",
-      "gold_answer": {
-        "Price": "GARAN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 153.88 TL seviyesinden 22 May 2026 itibarıyla 122.30 TL'ye gerilemiş ve %20.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 121.59 TL (27 Mar 2026), en yüksek kapanış ise 153.88 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur.",
-        "Twitter": "GARAN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 30.81, negatif tweet ortalaması 34.31 ile birbirine yakın seyretmiştir. P/N oranı 0.9 düzeyindedir. Genel etki skoru ortalaması 77.24, like oranı 3.0, retweet oranı 0.25 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "GARAN hissesi son 3 ay içinde 27 Feb 2026 kapanışındaki 153.88 TL seviyesinden 22 May 2026 itibarıyla 122.30 TL'ye gerilemiş ve %20.5 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 121.59 TL (27 Mar 2026), en yüksek kapanış ise 153.88 TL (27 Feb 2026) olmuştur. Son 3 ay boyunca hissede belirgin bir düşüş baskısı hâkim olmuştur. GARAN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 30.81, negatif tweet ortalaması 34.31 ile birbirine yakın seyretmiştir. P/N oranı 0.9 düzeyindedir. Genel etki skoru ortalaması 77.24, like oranı 3.0, retweet oranı 0.25 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_16"
       },
@@ -1743,10 +1686,7 @@
       ],
       "tool_count": 2,
       "question": "ASELS hissesi son 1 ayda nasıl bir performans sergilemiştir ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "Price": "ASELS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 392.00 TL seviyesinden 22 May 2026 itibarıyla 410.00 TL'ye yükselmiş ve %4.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 392.00 TL (24 Apr 2026), en yüksek kapanış ise 428.50 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "ASELS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 200.84 ile yüksek seyretmiş, pozitif tweet ortalaması 139.25 düzeyinde zayıf kalmıştır. P/N oranı 0.69 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 166.25, like oranı 3.71, retweet oranı 0.23 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "ASELS hissesi son 1 ay içinde 24 Apr 2026 kapanışındaki 392.00 TL seviyesinden 22 May 2026 itibarıyla 410.00 TL'ye yükselmiş ve %4.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 392.00 TL (24 Apr 2026), en yüksek kapanış ise 428.50 TL (08 May 2026) olmuştur. Son 1 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. ASELS hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 200.84 ile yüksek seyretmiş, pozitif tweet ortalaması 139.25 düzeyinde zayıf kalmıştır. P/N oranı 0.69 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 166.25, like oranı 3.71, retweet oranı 0.23 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_06"
       },
@@ -1827,10 +1767,7 @@
       ],
       "tool_count": 2,
       "question": "Son 2 aylık fiyat trendi itibarıyla MGROS hissesi nasıl seyretmiştir ve Twitter sentiment metrikleri nasıl gerçekleşmiştir?",
-      "gold_answer": {
-        "Price": "MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
-        "Twitter": "MGROS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 289.62 ile yüksek seyretmiş, pozitif tweet ortalaması 146.9 düzeyinde zayıf kalmıştır. P/N oranı 0.51 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 145.14, like oranı 2.69, retweet oranı 0.22 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "MGROS hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 598.95 TL seviyesinden 22 May 2026 itibarıyla 686.50 TL'ye yükselmiş ve %14.6 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 596.96 TL (03 Apr 2026), en yüksek kapanış ise 686.50 TL (22 May 2026) olmuştur. Son 2 ay boyunca hisse ılımlı pozitif bir seyir izlemiştir. MGROS hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 289.62 ile yüksek seyretmiş, pozitif tweet ortalaması 146.9 düzeyinde zayıf kalmıştır. P/N oranı 0.51 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 145.14, like oranı 2.69, retweet oranı 0.22 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_14"
       },
@@ -1956,10 +1893,7 @@
       ],
       "tool_count": 2,
       "question": "THYAO hissesinde son 2 aydaki fiyat hareketi nasıldır ve Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": {
-        "Price": "THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir.",
-        "Twitter": "THYAO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 388.58, negatif tweet ortalaması 366.24 ile birbirine yakın seyretmiştir. P/N oranı 1.06 düzeyindedir. Genel etki skoru ortalaması 417.1, like oranı 3.15, retweet oranı 0.21 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "THYAO hissesi son 2 ay içinde 27 Mar 2026 kapanışındaki 294.00 TL seviyesinden 22 May 2026 itibarıyla 288.00 TL'ye gerilemiş ve %2.0 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 288.00 TL (22 May 2026), en yüksek kapanış ise 329.00 TL (17 Apr 2026) olmuştur. Son 2 ay boyunca hisse yatay ve dalgalı bir görünüm sergilemiştir. THYAO hissesi için son 2 ay (2026-03-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 388.58, negatif tweet ortalaması 366.24 ile birbirine yakın seyretmiştir. P/N oranı 1.06 düzeyindedir. Genel etki skoru ortalaması 417.1, like oranı 3.15, retweet oranı 0.21 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_13"
       },
@@ -2085,10 +2019,7 @@
       ],
       "tool_count": 2,
       "question": "ASTOR hissesi son 2 haftada nasıl bir fiyat hareketi sergilemiştir ve aynı dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": {
-        "Price": "ASTOR hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 326.00 TL seviyesinden 22 May 2026 itibarıyla 345.00 TL'ye yükselmiş ve %5.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 322.00 TL (15 May 2026), en yüksek kapanış ise 345.00 TL (22 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı pozitif bir seyir izlemiştir.",
-        "Twitter": "ASTOR hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 111.06 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 63.62 ile düşük kalmıştır. P/N oranı 1.75 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 90.37, like oranı 3.79, retweet oranı 0.28 olarak gerçekleşmiştir."
-      },
+      "gold_answer": "ASTOR hissesi son 2 hafta içinde 08 May 2026 kapanışındaki 326.00 TL seviyesinden 22 May 2026 itibarıyla 345.00 TL'ye yükselmiş ve %5.8 değişim kaydetmiştir. Aynı dönemde en düşük kapanış 322.00 TL (15 May 2026), en yüksek kapanış ise 345.00 TL (22 May 2026) olmuştur. Son 2 hafta boyunca hisse ılımlı pozitif bir seyir izlemiştir. ASTOR hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 111.06 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 63.62 ile düşük kalmıştır. P/N oranı 1.75 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 90.37, like oranı 3.79, retweet oranı 0.28 olarak gerçekleşmiştir.",
       "source_ids": {
         "Price": "PRICE_01"
       },
