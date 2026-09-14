@@ -2,563 +2,5327 @@
   "dataset_name": "Twitter-Sentiment-Benchmark-TR",
   "total_questions": 40,
   "questions": [
- {
-   "id": "TW_M_01",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "YKBNK",
-   "window_label": "son 2 hafta",
-   "question": "YKBNK hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "YKBNK hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 64.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 46.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 111.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların YKBNK hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_02",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "YKBNK",
-   "window_label": "son 3 ay",
-   "question": "YKBNK hissesi için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "YKBNK hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 28.0 düzeyinde zayıf kalmıştır. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 70.3 olarak gerçekleşmiştir. Bu durum, yatırımcıların YKBNK hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_03",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "VAKBN",
-   "window_label": "son 1 ay",
-   "question": "VAKBN hissesinde son bir aylık dönemde gözlemlenen Twitter metriklerine göre yatırımcı algısı nedir?",
-   "gold_answer": "VAKBN hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 33.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 21.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 25.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların VAKBN hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_04",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "VAKBN",
-   "window_label": "son 6 ay",
-   "question": "VAKBN için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "VAKBN hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 18.9, negatif tweet ortalaması 20.4 ile birbirine yakın seyretmiştir. Genel etki skoru 16.1 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_05",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TUPRS",
-   "window_label": "guncel",
-   "question": "TUPRS için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "TUPRS hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 187.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 97.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 174.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_06",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TUPRS",
-   "window_label": "son 3 ay",
-   "question": "TUPRS için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "TUPRS hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 416.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 204.8 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 347.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_07",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TTKOM",
-   "window_label": "son 2 hafta",
-   "question": "TTKOM hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TTKOM hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 53.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 26.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 46.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_08",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TTKOM",
-   "window_label": "son 6 ay",
-   "question": "TTKOM hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "TTKOM hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 87.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 50.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 67.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_09",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TOASO",
-   "window_label": "son 1 ay",
-   "question": "TOASO hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TOASO hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 58.7, negatif tweet ortalaması 59.0 ile birbirine yakın seyretmiştir. Genel etki skoru 54.6 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_10",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TOASO",
-   "window_label": "son 3 ay",
-   "question": "TOASO hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "TOASO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 98.3 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 65.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 77.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TOASO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_11",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "THYAO",
-   "window_label": "guncel",
-   "question": "THYAO için son hafta itibarıyla pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-   "gold_answer": "THYAO hissesi için güncel dönem incelendiğinde pozitif tweet ortalaması 195.9, negatif tweet ortalaması 244.1 ile birbirine yakın seyretmiştir. Genel etki skoru 291.4 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_12",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "THYAO",
-   "window_label": "son 2 hafta",
-   "question": "THYAO hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "THYAO hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 202.1, negatif tweet ortalaması 260.2 ile üzerinde seyretmiştir. Genel etki skoru 293.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_13",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "THYAO",
-   "window_label": "son 6 ay",
-   "question": "THYAO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "THYAO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 443.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 334.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 420.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların THYAO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_14",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TCELL",
-   "window_label": "son 1 ay",
-   "question": "TCELL hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TCELL hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.3 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 59.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_15",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TCELL",
-   "window_label": "son 3 ay",
-   "question": "TCELL için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "TCELL hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 101.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 36.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 74.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_16",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SISE",
-   "window_label": "son 2 hafta",
-   "question": "SISE için son iki haftalık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "SISE hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 151.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 57.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 125.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_17",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SISE",
-   "window_label": "son 6 ay",
-   "question": "SISE hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "SISE hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 184.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 159.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_18",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SASA",
-   "window_label": "guncel",
-   "question": "SASA hissesinde son hafta itibarıyla Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "SASA hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 393.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 325.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 369.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_19",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SASA",
-   "window_label": "son 1 ay",
-   "question": "SASA hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "SASA hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 440.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 262.0 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 343.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_20",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "GARAN",
-   "window_label": "son 2 hafta",
-   "question": "GARAN hissesinde son iki haftalık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "GARAN hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 40.8, negatif tweet ortalaması 50.8 ile üzerinde seyretmiştir. Genel etki skoru 102.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_21",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "GARAN",
-   "window_label": "son 3 ay",
-   "question": "GARAN için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "GARAN hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 30.8, negatif tweet ortalaması 34.3 ile birbirine yakın seyretmiştir. Genel etki skoru 77.2 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_22",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "FROTO",
-   "window_label": "son 1 ay",
-   "question": "FROTO hissesinde son bir aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "FROTO hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 118.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 107.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_23",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "FROTO",
-   "window_label": "son 6 ay",
-   "question": "FROTO için son altı aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-   "gold_answer": "FROTO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 290.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 115.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 217.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_24",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "EREGL",
-   "window_label": "guncel",
-   "question": "EREGL için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "EREGL hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 62.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 51.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 129.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların EREGL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_25",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "EREGL",
-   "window_label": "son 3 ay",
-   "question": "EREGL için son üç aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-   "gold_answer": "EREGL hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 82.3, negatif tweet ortalaması 92.4 ile birbirine yakın seyretmiştir. Genel etki skoru 114.9 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_26",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "EREGL",
-   "window_label": "son 6 ay",
-   "question": "EREGL hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "EREGL hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 109.4, negatif tweet ortalaması 118.9 ile birbirine yakın seyretmiştir. Genel etki skoru 134.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_27",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SASA",
-   "window_label": "son 6 ay",
-   "question": "SASA hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "SASA hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 370.2 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 195.4 düzeyinde zayıf kalmıştır. Negatif sentimentte belirgin bir artış eğilimi ve etki skoru ortalaması 230.1 olarak gerçekleşmiştir. Bu durum, yatırımcıların SASA hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_28",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TOASO",
-   "window_label": "son 6 ay",
-   "question": "TOASO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TOASO hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 119.8 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 110.2 düzeyinde zayıf kalmıştır. Negatif sentimentte azalış eğilimi görülmekle birlikte etki skoru ortalaması 100.5 olarak gerçekleşmiştir. Bu durum, yatırımcıların TOASO hissesine ilişkin temkinli yaklaşımlarının sürdüğüne işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_29",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "YKBNK",
-   "window_label": "son 6 ay",
-   "question": "YKBNK hissesi için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "YKBNK hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 58.3 ile yüksek seyretmiş, pozitif tweet ortalaması 37.4 düzeyinde kalmıştır. Genel etki skoru ortalaması 40.7 olarak gerçekleşmiştir. P/N oranının 0.64 seviyesinde bulunması, negatif sinyallerin baskın olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_30",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "FROTO",
-   "window_label": "son 3 ay",
-   "question": "FROTO için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "FROTO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 119.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 87.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 113.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_31",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "VAKBN",
-   "window_label": "son 3 ay",
-   "question": "VAKBN hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "VAKBN hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 20.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 30.3 ile üzerinde seyretmiştir. Etki skoru ortalaması 16.1 düzeyinde kalmıştır. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_32",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TTKOM",
-   "window_label": "son 3 ay",
-   "question": "TTKOM için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TTKOM hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 68.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 38.6 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte güçlü artış gözlemlenirken genel etki skoru 64.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_33",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "GARAN",
-   "window_label": "son 1 ay",
-   "question": "GARAN hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "GARAN hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 40.5, negatif tweet ortalaması 47.6 ile birbirine yakın seyretmiştir. Genel etki skoru 102.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_34",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "THYAO",
-   "window_label": "son 3 ay",
-   "question": "THYAO hissesinde son üç aylık dönemde Twitter metriklerine göre yatırımcı algısı nedir?",
-   "gold_answer": "THYAO hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 285.4 ile yüksek seyretmiş, pozitif tweet ortalaması 270.3 ile birbirine yakın kalmıştır. Genel etki skoru ortalaması 396.6 düzeyinde seyretmiştir. Dengeli görünen bu tabloda negatif trendin hafif baskın olması temkinli bir yaklaşımı desteklemektedir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "neutral",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_35",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "SISE",
-   "window_label": "son 3 ay",
-   "question": "SISE hissesi için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-   "gold_answer": "SISE hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 181.5 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 80.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 157.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_36",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TUPRS",
-   "window_label": "son 6 ay",
-   "question": "TUPRS hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TUPRS hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 375.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 228.6 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 350.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik güçlü olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_37",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "EREGL",
-   "window_label": "son 1 ay",
-   "question": "EREGL için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "EREGL hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 68.3, negatif tweet ortalaması 83.1 ile üzerinde seyretmiştir. Genel etki skoru 113.7 düzeyindedir. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_38",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "TCELL",
-   "window_label": "son 6 ay",
-   "question": "TCELL hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "TCELL hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 82.1 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.3 ile belirgin biçimde üzerinde seyretmiştir. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 73.9 olarak gerçekleşmiştir. Bu durum, yatırımcıların TCELL hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "negative",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_39",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "VAKBN",
-   "window_label": "guncel",
-   "question": "VAKBN için son hafta itibarıyla Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-   "gold_answer": "VAKBN hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme değeri 30.0 seviyesinde gerçekleşmiş, negatif tweet değeri 18.0 düzeyinde kalmıştır. Genel etki skoru 27.9 seviyesindedir. P/N oranı 1.67 ile pozitif bölgede yer almakta ve yatırımcı ilgisinin arttığına işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   
-   "human_validation_required": true
- },
- {
-   "id": "TW_M_40",
-   "source_type": "MCP-Twitter-Metrics",
-   "company": "GARAN",
-   "window_label": "son 6 ay",
-   "question": "GARAN hissesi için son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-   "gold_answer": "GARAN hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 51.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.9 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 40.2 düzeyinde seyretmiştir. P/N oranı 2.7 ile güçlü pozitif bölgede yer almakta ve yatırımcıların GARAN hissesine olan olumlu algısının kalıcı olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
-   "reasoning_type": [
-     "metric_sentiment_reasoning"
-   ],
-   "expected_sentiment": "positive",
-   "human_validation_required": true
- }
-]
+    {
+      "id": "TW_M_01",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "YKBNK",
+      "window_label": "son 2 hafta",
+      "question": "YKBNK hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "YKBNK hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 64.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 46.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 111.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların YKBNK hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "YKBNK",
+        "window": "son 2 hafta",
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-09",
+            "P": 66.89,
+            "N": 49.85,
+            "E": 117.56,
+            "D": 245.34,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-16",
+            "P": 61.6,
+            "N": 44.03,
+            "E": 105.67,
+            "D": 210.38,
+            "L": 0.76,
+            "R": 0.07
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_02",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "YKBNK",
+      "window_label": "son 3 ay",
+      "question": "YKBNK hissesi için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "YKBNK hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 28.0 düzeyinde zayıf kalmıştır. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 70.3 olarak gerçekleşmiştir. Bu durum, yatırımcıların YKBNK hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "YKBNK",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 17.54,
+            "N": 9.46,
+            "E": 32.01,
+            "D": 61.17,
+            "L": 4.43,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-28",
+            "P": 15.73,
+            "N": 8.72,
+            "E": 41.77,
+            "D": 90.3,
+            "L": 3.58,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-07",
+            "P": 14.08,
+            "N": 29.98,
+            "E": 39.68,
+            "D": 79.41,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-14",
+            "P": 10.7,
+            "N": 22.45,
+            "E": 31.99,
+            "D": 72.05,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-21",
+            "P": 9.57,
+            "N": 21.5,
+            "E": 29.45,
+            "D": 68.71,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-28",
+            "P": 11.8,
+            "N": 48.48,
+            "E": 30.7,
+            "D": 59.98,
+            "L": 4.65,
+            "R": 0.33
+          },
+          {
+            "date": "2026-04-04",
+            "P": 10.3,
+            "N": 73.85,
+            "E": 32.46,
+            "D": 54.71,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-11",
+            "P": 8.08,
+            "N": 60.76,
+            "E": 24.4,
+            "D": 36.16,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-18",
+            "P": 4.86,
+            "N": 86.07,
+            "E": 164.69,
+            "D": 366.24,
+            "L": 0.54,
+            "R": 0.04
+          },
+          {
+            "date": "2026-04-25",
+            "P": 57.26,
+            "N": 62.01,
+            "E": 129.77,
+            "D": 311.71,
+            "L": 0.66,
+            "R": 0.06
+          },
+          {
+            "date": "2026-05-02",
+            "P": 75.74,
+            "N": 54.83,
+            "E": 133.34,
+            "D": 281.49,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-09",
+            "P": 66.89,
+            "N": 49.85,
+            "E": 117.56,
+            "D": 245.34,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-16",
+            "P": 61.6,
+            "N": 44.03,
+            "E": 105.67,
+            "D": 210.38,
+            "L": 0.76,
+            "R": 0.07
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_03",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "VAKBN",
+      "window_label": "son 1 ay",
+      "question": "VAKBN hissesinde son bir aylık dönemde gözlemlenen Twitter metriklerine göre yatırımcı algısı nedir?",
+      "gold_answer": "VAKBN hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 33.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 21.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 25.6 düzeyinde seyretmiştir. Bu tablo, yatırımcıların VAKBN hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "VAKBN",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 38.09,
+            "N": 25.36,
+            "E": 26.55,
+            "D": 0.64,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-02",
+            "P": 34.44,
+            "N": 22.43,
+            "E": 23.83,
+            "D": 0.57,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 32.52,
+            "N": 20.39,
+            "E": 24.03,
+            "D": 6.28,
+            "L": 2.18,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-16",
+            "P": 29.95,
+            "N": 18.01,
+            "E": 27.88,
+            "D": 25.98,
+            "L": 2.12,
+            "R": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_04",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "VAKBN",
+      "window_label": "son 6 ay",
+      "question": "VAKBN için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "VAKBN hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 18.9, negatif tweet ortalaması 20.4 ile birbirine yakın seyretmiştir. Genel etki skoru 16.1 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "VAKBN",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 37.88,
+            "N": 21.11,
+            "E": 29.55,
+            "D": 25.67,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2025-11-29",
+            "P": 28.57,
+            "N": 17.52,
+            "E": 23.58,
+            "D": 21.16,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2025-12-06",
+            "P": 23.05,
+            "N": 16.06,
+            "E": 19.7,
+            "D": 17.78,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2025-12-13",
+            "P": 20.96,
+            "N": 14.77,
+            "E": 18.49,
+            "D": 17.24,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2025-12-20",
+            "P": 19.46,
+            "N": 14.38,
+            "E": 17.65,
+            "D": 16.8,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2025-12-27",
+            "P": 17.64,
+            "N": 9.21,
+            "E": 15.5,
+            "D": 15.8,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-03",
+            "P": 12.14,
+            "N": 8.17,
+            "E": 12.43,
+            "D": 14.5,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-10",
+            "P": 10.09,
+            "N": 7.61,
+            "E": 10.94,
+            "D": 13.51,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-17",
+            "P": 9.22,
+            "N": 7.15,
+            "E": 9.88,
+            "D": 11.81,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-24",
+            "P": 8.03,
+            "N": 6.23,
+            "E": 8.65,
+            "D": 10.42,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-31",
+            "P": 6.71,
+            "N": 6.11,
+            "E": 7.46,
+            "D": 9.01,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-07",
+            "P": 5.26,
+            "N": 3.91,
+            "E": 5.54,
+            "D": 6.54,
+            "L": 3.07,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-14",
+            "P": 25.72,
+            "N": 3.61,
+            "E": 15.49,
+            "D": 5.87,
+            "L": 3.77,
+            "R": 0.31
+          },
+          {
+            "date": "2026-02-21",
+            "P": 21.71,
+            "N": 3.51,
+            "E": 13.72,
+            "D": 5.39,
+            "L": 3.77,
+            "R": 0.31
+          },
+          {
+            "date": "2026-02-28",
+            "P": 19.47,
+            "N": 35.14,
+            "E": 16.0,
+            "D": 4.73,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 17.42,
+            "N": 29.83,
+            "E": 14.14,
+            "D": 4.16,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 13.25,
+            "N": 22.34,
+            "E": 11.4,
+            "D": 3.77,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 11.85,
+            "N": 21.39,
+            "E": 10.49,
+            "D": 3.6,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 9.45,
+            "N": 68.21,
+            "E": 15.49,
+            "D": 3.14,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-04",
+            "P": 8.24,
+            "N": 50.2,
+            "E": 13.35,
+            "D": 2.86,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-11",
+            "P": 14.46,
+            "N": 41.3,
+            "E": 14.39,
+            "D": 1.89,
+            "L": 6.11,
+            "R": 0.56
+          },
+          {
+            "date": "2026-04-18",
+            "P": 16.47,
+            "N": 35.21,
+            "E": 11.54,
+            "D": 0.75,
+            "L": 5.02,
+            "R": 0.51
+          },
+          {
+            "date": "2026-04-25",
+            "P": 38.09,
+            "N": 25.36,
+            "E": 26.55,
+            "D": 0.64,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-02",
+            "P": 34.44,
+            "N": 22.43,
+            "E": 23.83,
+            "D": 0.57,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 32.52,
+            "N": 20.39,
+            "E": 24.03,
+            "D": 6.28,
+            "L": 2.18,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-16",
+            "P": 29.95,
+            "N": 18.01,
+            "E": 27.88,
+            "D": 25.98,
+            "L": 2.12,
+            "R": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_05",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TUPRS",
+      "window_label": "guncel",
+      "question": "TUPRS için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "TUPRS hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 187.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 97.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 174.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TUPRS",
+        "window": "guncel",
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-16",
+            "P": 187.36,
+            "N": 97.51,
+            "E": 174.21,
+            "D": 165.46,
+            "L": 3.08,
+            "R": 0.21
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_06",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TUPRS",
+      "window_label": "son 3 ay",
+      "question": "TUPRS için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "TUPRS hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 416.2 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 204.8 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 347.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TUPRS",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 465.85,
+            "N": 284.4,
+            "E": 394.13,
+            "D": 325.58,
+            "L": 4.26,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-28",
+            "P": 489.81,
+            "N": 262.24,
+            "E": 410.74,
+            "D": 344.64,
+            "L": 4.2,
+            "R": 0.27
+          },
+          {
+            "date": "2026-03-07",
+            "P": 533.07,
+            "N": 222.64,
+            "E": 421.18,
+            "D": 329.02,
+            "L": 4.09,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-14",
+            "P": 604.67,
+            "N": 246.45,
+            "E": 462.9,
+            "D": 310.69,
+            "L": 3.56,
+            "R": 0.22
+          },
+          {
+            "date": "2026-03-21",
+            "P": 621.98,
+            "N": 236.0,
+            "E": 489.36,
+            "D": 352.41,
+            "L": 3.54,
+            "R": 0.23
+          },
+          {
+            "date": "2026-03-28",
+            "P": 548.62,
+            "N": 292.26,
+            "E": 495.19,
+            "D": 482.94,
+            "L": 3.68,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-04",
+            "P": 549.13,
+            "N": 252.76,
+            "E": 478.44,
+            "D": 461.1,
+            "L": 3.58,
+            "R": 0.22
+          },
+          {
+            "date": "2026-04-11",
+            "P": 486.43,
+            "N": 207.96,
+            "E": 397.61,
+            "D": 329.82,
+            "L": 3.69,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-18",
+            "P": 314.62,
+            "N": 190.63,
+            "E": 232.66,
+            "D": 146.99,
+            "L": 3.65,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-25",
+            "P": 205.2,
+            "N": 137.32,
+            "E": 179.57,
+            "D": 132.06,
+            "L": 3.12,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-02",
+            "P": 207.87,
+            "N": 121.42,
+            "E": 192.31,
+            "D": 175.71,
+            "L": 2.93,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-09",
+            "P": 195.59,
+            "N": 110.4,
+            "E": 188.79,
+            "D": 192.96,
+            "L": 3.01,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-16",
+            "P": 187.36,
+            "N": 97.51,
+            "E": 174.21,
+            "D": 165.46,
+            "L": 3.08,
+            "R": 0.21
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_07",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TTKOM",
+      "window_label": "son 2 hafta",
+      "question": "TTKOM hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TTKOM hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 53.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 26.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 46.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TTKOM",
+        "window": "son 2 hafta",
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-09",
+            "P": 54.84,
+            "N": 28.07,
+            "E": 45.03,
+            "D": 27.62,
+            "L": 3.49,
+            "R": 0.31
+          },
+          {
+            "date": "2026-05-16",
+            "P": 51.96,
+            "N": 24.8,
+            "E": 47.66,
+            "D": 44.28,
+            "L": 3.28,
+            "R": 0.31
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_08",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TTKOM",
+      "window_label": "son 6 ay",
+      "question": "TTKOM hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "TTKOM hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 87.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 50.5 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 67.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TTKOM",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 134.97,
+            "N": 135.55,
+            "E": 113.67,
+            "D": 91.97,
+            "L": 4.84,
+            "R": 0.39
+          },
+          {
+            "date": "2025-11-29",
+            "P": 101.8,
+            "N": 112.51,
+            "E": 96.69,
+            "D": 88.29,
+            "L": 5.35,
+            "R": 0.38
+          },
+          {
+            "date": "2025-12-06",
+            "P": 97.96,
+            "N": 103.09,
+            "E": 87.19,
+            "D": 74.19,
+            "L": 5.24,
+            "R": 0.39
+          },
+          {
+            "date": "2025-12-13",
+            "P": 111.56,
+            "N": 94.82,
+            "E": 91.17,
+            "D": 71.91,
+            "L": 5.57,
+            "R": 0.41
+          },
+          {
+            "date": "2025-12-20",
+            "P": 129.27,
+            "N": 92.31,
+            "E": 98.04,
+            "D": 70.07,
+            "L": 5.27,
+            "R": 0.38
+          },
+          {
+            "date": "2025-12-27",
+            "P": 117.21,
+            "N": 59.15,
+            "E": 86.08,
+            "D": 65.92,
+            "L": 5.27,
+            "R": 0.38
+          },
+          {
+            "date": "2026-01-03",
+            "P": 104.21,
+            "N": 52.48,
+            "E": 80.45,
+            "D": 60.5,
+            "L": 5.26,
+            "R": 0.39
+          },
+          {
+            "date": "2026-01-10",
+            "P": 86.69,
+            "N": 48.87,
+            "E": 70.83,
+            "D": 56.34,
+            "L": 5.26,
+            "R": 0.39
+          },
+          {
+            "date": "2026-01-17",
+            "P": 79.15,
+            "N": 45.94,
+            "E": 63.93,
+            "D": 49.26,
+            "L": 5.26,
+            "R": 0.39
+          },
+          {
+            "date": "2026-01-24",
+            "P": 68.93,
+            "N": 40.02,
+            "E": 55.95,
+            "D": 43.48,
+            "L": 5.26,
+            "R": 0.39
+          },
+          {
+            "date": "2026-01-31",
+            "P": 108.0,
+            "N": 39.22,
+            "E": 74.73,
+            "D": 37.6,
+            "L": 4.65,
+            "R": 0.31
+          },
+          {
+            "date": "2026-02-07",
+            "P": 100.58,
+            "N": 25.14,
+            "E": 63.44,
+            "D": 27.27,
+            "L": 4.68,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-14",
+            "P": 90.12,
+            "N": 23.17,
+            "E": 57.11,
+            "D": 24.5,
+            "L": 4.68,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-21",
+            "P": 76.05,
+            "N": 22.53,
+            "E": 50.58,
+            "D": 22.48,
+            "L": 4.68,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-28",
+            "P": 75.43,
+            "N": 20.77,
+            "E": 48.93,
+            "D": 19.72,
+            "L": 4.69,
+            "R": 0.32
+          },
+          {
+            "date": "2026-03-07",
+            "P": 82.54,
+            "N": 17.64,
+            "E": 57.82,
+            "D": 36.21,
+            "L": 5.13,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-14",
+            "P": 73.95,
+            "N": 13.21,
+            "E": 52.73,
+            "D": 32.85,
+            "L": 5.2,
+            "R": 0.4
+          },
+          {
+            "date": "2026-03-21",
+            "P": 66.12,
+            "N": 12.65,
+            "E": 48.54,
+            "D": 31.33,
+            "L": 5.2,
+            "R": 0.4
+          },
+          {
+            "date": "2026-03-28",
+            "P": 69.73,
+            "N": 61.47,
+            "E": 62.27,
+            "D": 47.87,
+            "L": 5.47,
+            "R": 0.37
+          },
+          {
+            "date": "2026-04-04",
+            "P": 81.56,
+            "N": 69.11,
+            "E": 69.21,
+            "D": 43.67,
+            "L": 5.04,
+            "R": 0.33
+          },
+          {
+            "date": "2026-04-11",
+            "P": 109.7,
+            "N": 56.86,
+            "E": 81.24,
+            "D": 42.8,
+            "L": 5.11,
+            "R": 0.42
+          },
+          {
+            "date": "2026-04-18",
+            "P": 68.72,
+            "N": 48.47,
+            "E": 46.52,
+            "D": 20.46,
+            "L": 5.03,
+            "R": 0.41
+          },
+          {
+            "date": "2026-04-25",
+            "P": 60.71,
+            "N": 34.92,
+            "E": 46.57,
+            "D": 17.41,
+            "L": 3.14,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.71,
+            "N": 30.88,
+            "E": 46.26,
+            "D": 20.22,
+            "L": 3.12,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-09",
+            "P": 54.84,
+            "N": 28.07,
+            "E": 45.03,
+            "D": 27.62,
+            "L": 3.49,
+            "R": 0.31
+          },
+          {
+            "date": "2026-05-16",
+            "P": 51.96,
+            "N": 24.8,
+            "E": 47.66,
+            "D": 44.28,
+            "L": 3.28,
+            "R": 0.31
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_09",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TOASO",
+      "window_label": "son 1 ay",
+      "question": "TOASO hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TOASO hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 58.7, negatif tweet ortalaması 59.0 ile birbirine yakın seyretmiştir. Genel etki skoru 54.6 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TOASO",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 65.81,
+            "N": 69.45,
+            "E": 58.23,
+            "D": 38.15,
+            "L": 2.72,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.5,
+            "N": 61.41,
+            "E": 54.57,
+            "D": 41.84,
+            "L": 2.78,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-09",
+            "P": 56.17,
+            "N": 55.83,
+            "E": 55.17,
+            "D": 52.82,
+            "L": 3.28,
+            "R": 0.33
+          },
+          {
+            "date": "2026-05-16",
+            "P": 53.18,
+            "N": 49.31,
+            "E": 50.5,
+            "D": 45.3,
+            "L": 3.28,
+            "R": 0.33
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_10",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TOASO",
+      "window_label": "son 3 ay",
+      "question": "TOASO hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "TOASO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 98.3 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 65.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 77.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TOASO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TOASO",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 95.23,
+            "N": 2.02,
+            "E": 68.99,
+            "D": 53.09,
+            "L": 4.85,
+            "R": 0.43
+          },
+          {
+            "date": "2026-02-28",
+            "P": 99.18,
+            "N": 27.35,
+            "E": 71.78,
+            "D": 46.58,
+            "L": 5.12,
+            "R": 0.48
+          },
+          {
+            "date": "2026-03-07",
+            "P": 109.45,
+            "N": 23.22,
+            "E": 74.1,
+            "D": 40.96,
+            "L": 5.19,
+            "R": 0.5
+          },
+          {
+            "date": "2026-03-14",
+            "P": 139.63,
+            "N": 17.39,
+            "E": 90.56,
+            "D": 37.17,
+            "L": 3.93,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-21",
+            "P": 158.96,
+            "N": 16.66,
+            "E": 102.57,
+            "D": 35.44,
+            "L": 3.59,
+            "R": 0.34
+          },
+          {
+            "date": "2026-03-28",
+            "P": 126.78,
+            "N": 186.76,
+            "E": 116.3,
+            "D": 62.99,
+            "L": 3.72,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-04",
+            "P": 118.29,
+            "N": 137.45,
+            "E": 104.6,
+            "D": 57.45,
+            "L": 3.69,
+            "R": 0.35
+          },
+          {
+            "date": "2026-04-11",
+            "P": 115.18,
+            "N": 113.08,
+            "E": 95.13,
+            "D": 51.91,
+            "L": 4.16,
+            "R": 0.41
+          },
+          {
+            "date": "2026-04-18",
+            "P": 80.52,
+            "N": 96.41,
+            "E": 63.3,
+            "D": 36.29,
+            "L": 3.88,
+            "R": 0.38
+          },
+          {
+            "date": "2026-04-25",
+            "P": 65.81,
+            "N": 69.45,
+            "E": 58.23,
+            "D": 38.15,
+            "L": 2.72,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.5,
+            "N": 61.41,
+            "E": 54.57,
+            "D": 41.84,
+            "L": 2.78,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-09",
+            "P": 56.17,
+            "N": 55.83,
+            "E": 55.17,
+            "D": 52.82,
+            "L": 3.28,
+            "R": 0.33
+          },
+          {
+            "date": "2026-05-16",
+            "P": 53.18,
+            "N": 49.31,
+            "E": 50.5,
+            "D": 45.3,
+            "L": 3.28,
+            "R": 0.33
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_11",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "THYAO",
+      "window_label": "guncel",
+      "question": "THYAO için son hafta itibarıyla pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+      "gold_answer": "THYAO hissesi için güncel dönem incelendiğinde pozitif tweet ortalaması 195.9, negatif tweet ortalaması 244.1 ile birbirine yakın seyretmiştir. Genel etki skoru 291.4 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "THYAO",
+        "window": "guncel",
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_12",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "THYAO",
+      "window_label": "son 2 hafta",
+      "question": "THYAO hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "THYAO hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 202.1, negatif tweet ortalaması 260.2 ile üzerinde seyretmiştir. Genel etki skoru 293.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "THYAO",
+        "window": "son 2 hafta",
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-09",
+            "P": 208.31,
+            "N": 276.33,
+            "E": 296.25,
+            "D": 494.27,
+            "L": 2.45,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_13",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "THYAO",
+      "window_label": "son 6 ay",
+      "question": "THYAO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "THYAO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 443.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 334.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 420.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların THYAO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "THYAO",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 272.13,
+            "N": 388.76,
+            "E": 343.29,
+            "D": 383.65,
+            "L": 3.7,
+            "R": 0.26
+          },
+          {
+            "date": "2025-11-29",
+            "P": 316.98,
+            "N": 322.67,
+            "E": 344.74,
+            "D": 373.18,
+            "L": 3.95,
+            "R": 0.31
+          },
+          {
+            "date": "2025-12-06",
+            "P": 319.53,
+            "N": 342.71,
+            "E": 338.12,
+            "D": 352.68,
+            "L": 4.1,
+            "R": 0.31
+          },
+          {
+            "date": "2025-12-13",
+            "P": 378.46,
+            "N": 315.24,
+            "E": 359.71,
+            "D": 354.46,
+            "L": 4.1,
+            "R": 0.32
+          },
+          {
+            "date": "2025-12-20",
+            "P": 385.32,
+            "N": 306.87,
+            "E": 383.59,
+            "D": 401.98,
+            "L": 4.07,
+            "R": 0.31
+          },
+          {
+            "date": "2025-12-27",
+            "P": 386.44,
+            "N": 196.65,
+            "E": 352.16,
+            "D": 378.17,
+            "L": 4.11,
+            "R": 0.3
+          },
+          {
+            "date": "2026-01-03",
+            "P": 381.44,
+            "N": 174.46,
+            "E": 345.41,
+            "D": 366.11,
+            "L": 4.25,
+            "R": 0.3
+          },
+          {
+            "date": "2026-01-10",
+            "P": 430.25,
+            "N": 248.33,
+            "E": 384.29,
+            "D": 370.99,
+            "L": 4.56,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-17",
+            "P": 470.44,
+            "N": 276.6,
+            "E": 410.42,
+            "D": 375.72,
+            "L": 4.65,
+            "R": 0.3
+          },
+          {
+            "date": "2026-01-24",
+            "P": 527.05,
+            "N": 240.94,
+            "E": 441.9,
+            "D": 396.12,
+            "L": 5.16,
+            "R": 0.31
+          },
+          {
+            "date": "2026-01-31",
+            "P": 558.75,
+            "N": 281.13,
+            "E": 461.13,
+            "D": 377.23,
+            "L": 5.17,
+            "R": 0.3
+          },
+          {
+            "date": "2026-02-07",
+            "P": 609.16,
+            "N": 261.5,
+            "E": 479.41,
+            "D": 384.42,
+            "L": 5.15,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-14",
+            "P": 585.73,
+            "N": 240.97,
+            "E": 466.91,
+            "D": 387.22,
+            "L": 5.24,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-21",
+            "P": 581.46,
+            "N": 306.97,
+            "E": 485.49,
+            "D": 404.59,
+            "L": 5.3,
+            "R": 0.28
+          },
+          {
+            "date": "2026-02-28",
+            "P": 573.53,
+            "N": 308.56,
+            "E": 471.68,
+            "D": 377.35,
+            "L": 5.37,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 598.14,
+            "N": 514.8,
+            "E": 524.96,
+            "D": 424.26,
+            "L": 5.17,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-14",
+            "P": 668.73,
+            "N": 662.87,
+            "E": 579.09,
+            "D": 392.55,
+            "L": 4.45,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-21",
+            "P": 624.93,
+            "N": 634.76,
+            "E": 548.34,
+            "D": 374.38,
+            "L": 4.35,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-28",
+            "P": 617.71,
+            "N": 509.55,
+            "E": 521.24,
+            "D": 335.39,
+            "L": 4.19,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-04",
+            "P": 610.51,
+            "N": 394.27,
+            "E": 492.98,
+            "D": 305.91,
+            "L": 4.05,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 508.95,
+            "N": 361.69,
+            "E": 532.94,
+            "D": 653.56,
+            "L": 3.62,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 326.35,
+            "N": 322.2,
+            "E": 456.13,
+            "D": 634.86,
+            "L": 2.48,
+            "R": 0.18
+          },
+          {
+            "date": "2026-04-25",
+            "P": 197.52,
+            "N": 263.91,
+            "E": 307.91,
+            "D": 569.87,
+            "L": 2.36,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-02",
+            "P": 206.99,
+            "N": 289.37,
+            "E": 306.71,
+            "D": 533.07,
+            "L": 2.44,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-09",
+            "P": 208.31,
+            "N": 276.33,
+            "E": 296.25,
+            "D": 494.27,
+            "L": 2.45,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_14",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TCELL",
+      "window_label": "son 1 ay",
+      "question": "TCELL hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TCELL hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.3 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 59.5 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TCELL",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 60.67,
+            "N": 21.52,
+            "E": 50.99,
+            "D": 36.47,
+            "L": 3.02,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 77.09,
+            "N": 19.03,
+            "E": 62.65,
+            "D": 41.61,
+            "L": 2.63,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-09",
+            "P": 74.48,
+            "N": 17.3,
+            "E": 59.32,
+            "D": 36.27,
+            "L": 2.53,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-16",
+            "P": 82.57,
+            "N": 15.28,
+            "E": 65.05,
+            "D": 40.98,
+            "L": 2.92,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_15",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TCELL",
+      "window_label": "son 3 ay",
+      "question": "TCELL için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "TCELL hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 101.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 36.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 74.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TCELL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TCELL",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 140.95,
+            "N": 59.97,
+            "E": 94.02,
+            "D": 36.21,
+            "L": 6.49,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-28",
+            "P": 133.63,
+            "N": 55.3,
+            "E": 87.71,
+            "D": 31.77,
+            "L": 6.41,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-07",
+            "P": 119.61,
+            "N": 46.95,
+            "E": 84.1,
+            "D": 46.09,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-14",
+            "P": 90.94,
+            "N": 35.16,
+            "E": 67.79,
+            "D": 41.82,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-21",
+            "P": 81.31,
+            "N": 33.67,
+            "E": 62.41,
+            "D": 39.88,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-28",
+            "P": 142.54,
+            "N": 57.86,
+            "E": 99.91,
+            "D": 34.81,
+            "L": 4.63,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-04",
+            "P": 134.86,
+            "N": 42.58,
+            "E": 95.41,
+            "D": 43.87,
+            "L": 4.46,
+            "R": 0.25
+          },
+          {
+            "date": "2026-04-11",
+            "P": 114.07,
+            "N": 35.04,
+            "E": 88.48,
+            "D": 68.37,
+            "L": 5.02,
+            "R": 0.38
+          },
+          {
+            "date": "2026-04-18",
+            "P": 68.63,
+            "N": 29.87,
+            "E": 54.24,
+            "D": 42.85,
+            "L": 4.56,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-25",
+            "P": 60.67,
+            "N": 21.52,
+            "E": 50.99,
+            "D": 36.47,
+            "L": 3.02,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 77.09,
+            "N": 19.03,
+            "E": 62.65,
+            "D": 41.61,
+            "L": 2.63,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-09",
+            "P": 74.48,
+            "N": 17.3,
+            "E": 59.32,
+            "D": 36.27,
+            "L": 2.53,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-16",
+            "P": 82.57,
+            "N": 15.28,
+            "E": 65.05,
+            "D": 40.98,
+            "L": 2.92,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_16",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SISE",
+      "window_label": "son 2 hafta",
+      "question": "SISE için son iki haftalık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "SISE hissesi için son iki hafta incelendiğinde pozitif tweet görüntüleme ortalaması 151.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 57.9 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 125.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SISE",
+        "window": "son 2 hafta",
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-09",
+            "P": 157.07,
+            "N": 61.51,
+            "E": 128.77,
+            "D": 82.99,
+            "L": 1.91,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-16",
+            "P": 146.1,
+            "N": 54.33,
+            "E": 122.93,
+            "D": 91.76,
+            "L": 1.92,
+            "R": 0.17
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_17",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SISE",
+      "window_label": "son 6 ay",
+      "question": "SISE hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "SISE hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 184.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 159.4 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SISE",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 110.65,
+            "N": 442.58,
+            "E": 152.8,
+            "D": 105.37,
+            "L": 4.59,
+            "R": 0.24
+          },
+          {
+            "date": "2025-11-29",
+            "P": 126.34,
+            "N": 367.33,
+            "E": 158.81,
+            "D": 128.88,
+            "L": 4.71,
+            "R": 0.31
+          },
+          {
+            "date": "2025-12-06",
+            "P": 101.92,
+            "N": 336.58,
+            "E": 141.01,
+            "D": 125.62,
+            "L": 4.73,
+            "R": 0.33
+          },
+          {
+            "date": "2025-12-13",
+            "P": 124.46,
+            "N": 309.6,
+            "E": 167.88,
+            "D": 169.98,
+            "L": 4.69,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-20",
+            "P": 115.52,
+            "N": 301.38,
+            "E": 160.24,
+            "D": 165.64,
+            "L": 4.69,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-27",
+            "P": 104.74,
+            "N": 193.13,
+            "E": 140.7,
+            "D": 155.83,
+            "L": 4.69,
+            "R": 0.28
+          },
+          {
+            "date": "2026-01-03",
+            "P": 94.11,
+            "N": 171.34,
+            "E": 123.53,
+            "D": 143.01,
+            "L": 4.87,
+            "R": 0.31
+          },
+          {
+            "date": "2026-01-10",
+            "P": 132.98,
+            "N": 183.58,
+            "E": 140.06,
+            "D": 133.19,
+            "L": 5.04,
+            "R": 0.38
+          },
+          {
+            "date": "2026-01-17",
+            "P": 166.03,
+            "N": 172.58,
+            "E": 153.08,
+            "D": 127.79,
+            "L": 4.92,
+            "R": 0.37
+          },
+          {
+            "date": "2026-01-24",
+            "P": 160.05,
+            "N": 150.33,
+            "E": 147.13,
+            "D": 127.61,
+            "L": 4.84,
+            "R": 0.38
+          },
+          {
+            "date": "2026-01-31",
+            "P": 182.26,
+            "N": 147.33,
+            "E": 152.43,
+            "D": 110.34,
+            "L": 4.79,
+            "R": 0.36
+          },
+          {
+            "date": "2026-02-07",
+            "P": 172.05,
+            "N": 94.43,
+            "E": 145.04,
+            "D": 127.22,
+            "L": 5.3,
+            "R": 0.41
+          },
+          {
+            "date": "2026-02-14",
+            "P": 154.16,
+            "N": 87.02,
+            "E": 130.56,
+            "D": 114.26,
+            "L": 5.3,
+            "R": 0.41
+          },
+          {
+            "date": "2026-02-21",
+            "P": 372.64,
+            "N": 84.62,
+            "E": 254.17,
+            "D": 136.88,
+            "L": 3.56,
+            "R": 0.26
+          },
+          {
+            "date": "2026-02-28",
+            "P": 342.05,
+            "N": 78.03,
+            "E": 235.45,
+            "D": 132.35,
+            "L": 3.57,
+            "R": 0.27
+          },
+          {
+            "date": "2026-03-07",
+            "P": 312.69,
+            "N": 66.25,
+            "E": 211.45,
+            "D": 116.4,
+            "L": 3.68,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-14",
+            "P": 237.73,
+            "N": 49.61,
+            "E": 170.44,
+            "D": 105.61,
+            "L": 3.68,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-21",
+            "P": 212.58,
+            "N": 47.51,
+            "E": 164.79,
+            "D": 126.02,
+            "L": 3.74,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-28",
+            "P": 225.92,
+            "N": 113.0,
+            "E": 181.05,
+            "D": 123.51,
+            "L": 3.65,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-04",
+            "P": 197.15,
+            "N": 83.16,
+            "E": 156.07,
+            "D": 112.66,
+            "L": 3.65,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-11",
+            "P": 169.1,
+            "N": 68.42,
+            "E": 137.68,
+            "D": 114.69,
+            "L": 3.64,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-18",
+            "P": 339.32,
+            "N": 85.57,
+            "E": 199.02,
+            "D": 61.3,
+            "L": 1.52,
+            "R": 0.12
+          },
+          {
+            "date": "2026-04-25",
+            "P": 172.17,
+            "N": 61.64,
+            "E": 134.78,
+            "D": 68.38,
+            "L": 1.53,
+            "R": 0.13
+          },
+          {
+            "date": "2026-05-02",
+            "P": 170.6,
+            "N": 54.51,
+            "E": 133.41,
+            "D": 70.69,
+            "L": 1.72,
+            "R": 0.14
+          },
+          {
+            "date": "2026-05-09",
+            "P": 157.07,
+            "N": 61.51,
+            "E": 128.77,
+            "D": 82.99,
+            "L": 1.91,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-16",
+            "P": 146.1,
+            "N": 54.33,
+            "E": 122.93,
+            "D": 91.76,
+            "L": 1.92,
+            "R": 0.17
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_18",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SASA",
+      "window_label": "guncel",
+      "question": "SASA hissesinde son hafta itibarıyla Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "SASA hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 393.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 325.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 369.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SASA",
+        "window": "guncel",
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-16",
+            "P": 393.85,
+            "N": 325.66,
+            "E": 369.3,
+            "D": 329.42,
+            "L": 1.13,
+            "R": 0.09
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_19",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SASA",
+      "window_label": "son 1 ay",
+      "question": "SASA hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "SASA hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 440.0 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 262.0 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 343.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SASA hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SASA",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 475.78,
+            "N": 259.24,
+            "E": 345.18,
+            "D": 70.28,
+            "L": 1.0,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-02",
+            "P": 464.52,
+            "N": 229.22,
+            "E": 340.06,
+            "D": 91.22,
+            "L": 1.06,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-09",
+            "P": 425.93,
+            "N": 233.94,
+            "E": 317.48,
+            "D": 99.63,
+            "L": 1.2,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-16",
+            "P": 393.85,
+            "N": 325.66,
+            "E": 369.3,
+            "D": 329.42,
+            "L": 1.13,
+            "R": 0.09
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_20",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "GARAN",
+      "window_label": "son 2 hafta",
+      "question": "GARAN hissesinde son iki haftalık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "GARAN hissesi için son iki hafta incelendiğinde pozitif tweet ortalaması 40.8, negatif tweet ortalaması 50.8 ile üzerinde seyretmiştir. Genel etki skoru 102.8 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "GARAN",
+        "window": "son 2 hafta",
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-09",
+            "P": 42.51,
+            "N": 53.91,
+            "E": 108.24,
+            "D": 265.84,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-16",
+            "P": 39.15,
+            "N": 47.61,
+            "E": 97.29,
+            "D": 227.96,
+            "L": 1.1,
+            "R": 0.11
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_21",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "GARAN",
+      "window_label": "son 3 ay",
+      "question": "GARAN için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "GARAN hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 30.8, negatif tweet ortalaması 34.3 ile birbirine yakın seyretmiştir. Genel etki skoru 77.2 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "GARAN",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 34.45,
+            "N": 0.16,
+            "E": 50.27,
+            "D": 90.89,
+            "L": 4.48,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-28",
+            "P": 30.89,
+            "N": 0.15,
+            "E": 58.08,
+            "D": 116.37,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 27.65,
+            "N": 0.12,
+            "E": 51.33,
+            "D": 102.34,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 21.02,
+            "N": 0.09,
+            "E": 41.38,
+            "D": 92.85,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 18.8,
+            "N": 0.09,
+            "E": 38.09,
+            "D": 88.56,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 23.48,
+            "N": 31.98,
+            "E": 44.17,
+            "D": 90.81,
+            "L": 4.87,
+            "R": 0.45
+          },
+          {
+            "date": "2026-04-04",
+            "P": 24.44,
+            "N": 23.54,
+            "E": 40.32,
+            "D": 82.83,
+            "L": 4.91,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-11",
+            "P": 32.2,
+            "N": 68.98,
+            "E": 44.51,
+            "D": 54.75,
+            "L": 4.52,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-18",
+            "P": 19.37,
+            "N": 93.09,
+            "E": 182.11,
+            "D": 389.26,
+            "L": 0.79,
+            "R": 0.08
+          },
+          {
+            "date": "2026-04-25",
+            "P": 42.01,
+            "N": 67.06,
+            "E": 127.84,
+            "D": 338.26,
+            "L": 0.85,
+            "R": 0.08
+          },
+          {
+            "date": "2026-05-02",
+            "P": 44.54,
+            "N": 59.29,
+            "E": 120.47,
+            "D": 305.01,
+            "L": 0.95,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-09",
+            "P": 42.51,
+            "N": 53.91,
+            "E": 108.24,
+            "D": 265.84,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-16",
+            "P": 39.15,
+            "N": 47.61,
+            "E": 97.29,
+            "D": 227.96,
+            "L": 1.1,
+            "R": 0.11
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_22",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "FROTO",
+      "window_label": "son 1 ay",
+      "question": "FROTO hissesinde son bir aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "FROTO hissesi için son bir ay incelendiğinde pozitif tweet görüntüleme ortalaması 118.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 107.9 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "FROTO",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 123.69,
+            "N": 56.22,
+            "E": 106.81,
+            "D": 81.28,
+            "L": 3.33,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 115.15,
+            "N": 49.71,
+            "E": 100.28,
+            "D": 80.04,
+            "L": 3.35,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-09",
+            "P": 116.92,
+            "N": 107.09,
+            "E": 111.14,
+            "D": 99.43,
+            "L": 3.63,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 119.4,
+            "N": 148.55,
+            "E": 113.28,
+            "D": 92.42,
+            "L": 3.74,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_23",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "FROTO",
+      "window_label": "son 6 ay",
+      "question": "FROTO için son altı aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+      "gold_answer": "FROTO hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 290.9 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 115.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 217.0 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "FROTO",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 165.01,
+            "N": 121.65,
+            "E": 136.39,
+            "D": 119.21,
+            "L": 4.12,
+            "R": 0.25
+          },
+          {
+            "date": "2025-11-29",
+            "P": 153.28,
+            "N": 100.96,
+            "E": 140.24,
+            "D": 140.29,
+            "L": 3.96,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-06",
+            "P": 334.47,
+            "N": 92.51,
+            "E": 236.79,
+            "D": 190.13,
+            "L": 4.02,
+            "R": 0.25
+          },
+          {
+            "date": "2025-12-13",
+            "P": 346.3,
+            "N": 124.26,
+            "E": 244.46,
+            "D": 184.29,
+            "L": 4.05,
+            "R": 0.26
+          },
+          {
+            "date": "2025-12-20",
+            "P": 357.02,
+            "N": 147.9,
+            "E": 261.16,
+            "D": 200.3,
+            "L": 4.11,
+            "R": 0.26
+          },
+          {
+            "date": "2025-12-27",
+            "P": 323.71,
+            "N": 209.56,
+            "E": 247.91,
+            "D": 188.43,
+            "L": 3.91,
+            "R": 0.24
+          },
+          {
+            "date": "2026-01-03",
+            "P": 341.23,
+            "N": 185.92,
+            "E": 256.16,
+            "D": 172.93,
+            "L": 4.93,
+            "R": 0.44
+          },
+          {
+            "date": "2026-01-10",
+            "P": 302.55,
+            "N": 173.14,
+            "E": 235.1,
+            "D": 161.05,
+            "L": 4.98,
+            "R": 0.43
+          },
+          {
+            "date": "2026-01-17",
+            "P": 294.43,
+            "N": 162.77,
+            "E": 225.69,
+            "D": 152.67,
+            "L": 4.99,
+            "R": 0.42
+          },
+          {
+            "date": "2026-01-24",
+            "P": 276.7,
+            "N": 141.78,
+            "E": 222.22,
+            "D": 174.95,
+            "L": 4.86,
+            "R": 0.41
+          },
+          {
+            "date": "2026-01-31",
+            "P": 341.07,
+            "N": 138.96,
+            "E": 249.39,
+            "D": 151.28,
+            "L": 4.63,
+            "R": 0.36
+          },
+          {
+            "date": "2026-02-07",
+            "P": 299.28,
+            "N": 89.06,
+            "E": 216.81,
+            "D": 152.41,
+            "L": 4.64,
+            "R": 0.35
+          },
+          {
+            "date": "2026-02-14",
+            "P": 334.08,
+            "N": 131.25,
+            "E": 241.32,
+            "D": 155.0,
+            "L": 4.65,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-21",
+            "P": 340.77,
+            "N": 127.64,
+            "E": 244.58,
+            "D": 142.24,
+            "L": 4.91,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-28",
+            "P": 360.07,
+            "N": 143.19,
+            "E": 249.79,
+            "D": 124.81,
+            "L": 4.76,
+            "R": 0.35
+          },
+          {
+            "date": "2026-03-07",
+            "P": 362.06,
+            "N": 121.56,
+            "E": 241.26,
+            "D": 109.76,
+            "L": 4.85,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-14",
+            "P": 423.36,
+            "N": 91.04,
+            "E": 291.14,
+            "D": 148.43,
+            "L": 4.1,
+            "R": 0.3
+          },
+          {
+            "date": "2026-03-21",
+            "P": 463.17,
+            "N": 87.18,
+            "E": 315.66,
+            "D": 141.56,
+            "L": 3.86,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-28",
+            "P": 396.96,
+            "N": 87.01,
+            "E": 314.66,
+            "D": 256.58,
+            "L": 3.97,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-04",
+            "P": 366.66,
+            "N": 64.03,
+            "E": 282.76,
+            "D": 234.03,
+            "L": 3.9,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-11",
+            "P": 300.64,
+            "N": 52.68,
+            "E": 219.53,
+            "D": 154.69,
+            "L": 3.92,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 204.85,
+            "N": 44.91,
+            "E": 136.51,
+            "D": 77.23,
+            "L": 3.91,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-25",
+            "P": 123.69,
+            "N": 56.22,
+            "E": 106.81,
+            "D": 81.28,
+            "L": 3.33,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 115.15,
+            "N": 49.71,
+            "E": 100.28,
+            "D": 80.04,
+            "L": 3.35,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-09",
+            "P": 116.92,
+            "N": 107.09,
+            "E": 111.14,
+            "D": 99.43,
+            "L": 3.63,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 119.4,
+            "N": 148.55,
+            "E": 113.28,
+            "D": 92.42,
+            "L": 3.74,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_24",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "EREGL",
+      "window_label": "guncel",
+      "question": "EREGL için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "EREGL hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme ortalaması 62.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 51.4 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 129.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların EREGL hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "EREGL",
+        "window": "guncel",
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-16",
+            "P": 62.72,
+            "N": 51.42,
+            "E": 129.79,
+            "D": 285.51,
+            "L": 2.04,
+            "R": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_25",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "EREGL",
+      "window_label": "son 3 ay",
+      "question": "EREGL için son üç aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
+      "gold_answer": "EREGL hissesi için son üç ay incelendiğinde pozitif tweet ortalaması 82.3, negatif tweet ortalaması 92.4 ile birbirine yakın seyretmiştir. Genel etki skoru 114.9 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "EREGL",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 114.09,
+            "N": 88.6,
+            "E": 102.67,
+            "D": 90.59,
+            "L": 5.54,
+            "R": 0.41
+          },
+          {
+            "date": "2026-02-28",
+            "P": 118.91,
+            "N": 107.19,
+            "E": 103.33,
+            "D": 79.49,
+            "L": 5.5,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-07",
+            "P": 111.77,
+            "N": 113.57,
+            "E": 96.83,
+            "D": 69.91,
+            "L": 5.36,
+            "R": 0.42
+          },
+          {
+            "date": "2026-03-14",
+            "P": 84.97,
+            "N": 85.06,
+            "E": 84.17,
+            "D": 82.45,
+            "L": 5.38,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-21",
+            "P": 75.98,
+            "N": 108.25,
+            "E": 80.89,
+            "D": 78.63,
+            "L": 5.32,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-28",
+            "P": 83.08,
+            "N": 135.16,
+            "E": 89.79,
+            "D": 82.15,
+            "L": 5.37,
+            "R": 0.48
+          },
+          {
+            "date": "2026-04-04",
+            "P": 96.52,
+            "N": 99.47,
+            "E": 91.06,
+            "D": 74.93,
+            "L": 4.92,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-11",
+            "P": 88.83,
+            "N": 117.91,
+            "E": 93.02,
+            "D": 88.9,
+            "L": 5.12,
+            "R": 0.48
+          },
+          {
+            "date": "2026-04-18",
+            "P": 53.45,
+            "N": 100.53,
+            "E": 205.13,
+            "D": 402.86,
+            "L": 1.36,
+            "R": 0.13
+          },
+          {
+            "date": "2026-04-25",
+            "P": 56.39,
+            "N": 72.42,
+            "E": 143.4,
+            "D": 359.09,
+            "L": 1.53,
+            "R": 0.15
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.82,
+            "N": 64.03,
+            "E": 139.94,
+            "D": 337.55,
+            "L": 1.81,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-09",
+            "P": 63.61,
+            "N": 58.22,
+            "E": 133.34,
+            "D": 304.8,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-16",
+            "P": 62.72,
+            "N": 51.42,
+            "E": 129.79,
+            "D": 285.51,
+            "L": 2.04,
+            "R": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_26",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "EREGL",
+      "window_label": "son 6 ay",
+      "question": "EREGL hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "EREGL hissesi için son altı ay incelendiğinde pozitif tweet ortalaması 109.4, negatif tweet ortalaması 118.9 ile birbirine yakın seyretmiştir. Genel etki skoru 134.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "EREGL",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 170.92,
+            "N": 276.76,
+            "E": 186.91,
+            "D": 174.36,
+            "L": 4.78,
+            "R": 0.3
+          },
+          {
+            "date": "2025-11-29",
+            "P": 143.2,
+            "N": 229.7,
+            "E": 182.04,
+            "D": 200.63,
+            "L": 4.64,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-06",
+            "P": 179.34,
+            "N": 210.47,
+            "E": 209.58,
+            "D": 234.86,
+            "L": 4.75,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-13",
+            "P": 163.1,
+            "N": 193.6,
+            "E": 196.67,
+            "D": 227.65,
+            "L": 4.75,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-20",
+            "P": 151.37,
+            "N": 188.46,
+            "E": 187.73,
+            "D": 221.84,
+            "L": 4.75,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-27",
+            "P": 152.95,
+            "N": 120.77,
+            "E": 171.33,
+            "D": 208.69,
+            "L": 4.78,
+            "R": 0.3
+          },
+          {
+            "date": "2026-01-03",
+            "P": 122.08,
+            "N": 107.15,
+            "E": 145.59,
+            "D": 191.53,
+            "L": 4.84,
+            "R": 0.3
+          },
+          {
+            "date": "2026-01-10",
+            "P": 101.56,
+            "N": 123.79,
+            "E": 131.51,
+            "D": 178.37,
+            "L": 5.05,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-17",
+            "P": 121.32,
+            "N": 116.37,
+            "E": 137.27,
+            "D": 167.29,
+            "L": 4.98,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-24",
+            "P": 120.5,
+            "N": 101.37,
+            "E": 127.68,
+            "D": 147.69,
+            "L": 5.15,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-31",
+            "P": 133.73,
+            "N": 99.35,
+            "E": 130.63,
+            "D": 136.4,
+            "L": 5.14,
+            "R": 0.35
+          },
+          {
+            "date": "2026-02-07",
+            "P": 104.77,
+            "N": 63.68,
+            "E": 97.02,
+            "D": 98.94,
+            "L": 5.14,
+            "R": 0.35
+          },
+          {
+            "date": "2026-02-14",
+            "P": 108.59,
+            "N": 58.68,
+            "E": 94.7,
+            "D": 88.86,
+            "L": 5.17,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-21",
+            "P": 114.09,
+            "N": 88.6,
+            "E": 102.67,
+            "D": 90.59,
+            "L": 5.54,
+            "R": 0.41
+          },
+          {
+            "date": "2026-02-28",
+            "P": 118.91,
+            "N": 107.19,
+            "E": 103.33,
+            "D": 79.49,
+            "L": 5.5,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-07",
+            "P": 111.77,
+            "N": 113.57,
+            "E": 96.83,
+            "D": 69.91,
+            "L": 5.36,
+            "R": 0.42
+          },
+          {
+            "date": "2026-03-14",
+            "P": 84.97,
+            "N": 85.06,
+            "E": 84.17,
+            "D": 82.45,
+            "L": 5.38,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-21",
+            "P": 75.98,
+            "N": 108.25,
+            "E": 80.89,
+            "D": 78.63,
+            "L": 5.32,
+            "R": 0.44
+          },
+          {
+            "date": "2026-03-28",
+            "P": 83.08,
+            "N": 135.16,
+            "E": 89.79,
+            "D": 82.15,
+            "L": 5.37,
+            "R": 0.48
+          },
+          {
+            "date": "2026-04-04",
+            "P": 96.52,
+            "N": 99.47,
+            "E": 91.06,
+            "D": 74.93,
+            "L": 4.92,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-11",
+            "P": 88.83,
+            "N": 117.91,
+            "E": 93.02,
+            "D": 88.9,
+            "L": 5.12,
+            "R": 0.48
+          },
+          {
+            "date": "2026-04-18",
+            "P": 53.45,
+            "N": 100.53,
+            "E": 205.13,
+            "D": 402.86,
+            "L": 1.36,
+            "R": 0.13
+          },
+          {
+            "date": "2026-04-25",
+            "P": 56.39,
+            "N": 72.42,
+            "E": 143.4,
+            "D": 359.09,
+            "L": 1.53,
+            "R": 0.15
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.82,
+            "N": 64.03,
+            "E": 139.94,
+            "D": 337.55,
+            "L": 1.81,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-09",
+            "P": 63.61,
+            "N": 58.22,
+            "E": 133.34,
+            "D": 304.8,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-16",
+            "P": 62.72,
+            "N": 51.42,
+            "E": 129.79,
+            "D": 285.51,
+            "L": 2.04,
+            "R": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_27",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SASA",
+      "window_label": "son 6 ay",
+      "question": "SASA hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "SASA hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 370.2 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 195.4 düzeyinde zayıf kalmıştır. Negatif sentimentte belirgin bir artış eğilimi ve etki skoru ortalaması 230.1 olarak gerçekleşmiştir. Bu durum, yatırımcıların SASA hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SASA",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 188.7,
+            "N": 317.85,
+            "E": 251.42,
+            "D": 279.83,
+            "L": 3.98,
+            "R": 0.25
+          },
+          {
+            "date": "2025-11-29",
+            "P": 156.46,
+            "N": 263.81,
+            "E": 218.76,
+            "D": 257.05,
+            "L": 4.45,
+            "R": 0.26
+          },
+          {
+            "date": "2025-12-06",
+            "P": 220.11,
+            "N": 241.72,
+            "E": 226.34,
+            "D": 227.81,
+            "L": 4.83,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-13",
+            "P": 200.17,
+            "N": 358.14,
+            "E": 228.79,
+            "D": 220.81,
+            "L": 4.66,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-20",
+            "P": 205.67,
+            "N": 348.64,
+            "E": 235.98,
+            "D": 235.21,
+            "L": 4.63,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-27",
+            "P": 186.48,
+            "N": 536.32,
+            "E": 257.92,
+            "D": 221.28,
+            "L": 4.11,
+            "R": 0.23
+          },
+          {
+            "date": "2026-01-03",
+            "P": 161.94,
+            "N": 548.4,
+            "E": 233.8,
+            "D": 203.07,
+            "L": 4.08,
+            "R": 0.23
+          },
+          {
+            "date": "2026-01-10",
+            "P": 247.51,
+            "N": 728.26,
+            "E": 343.17,
+            "D": 330.53,
+            "L": 4.2,
+            "R": 0.25
+          },
+          {
+            "date": "2026-01-17",
+            "P": 269.96,
+            "N": 730.33,
+            "E": 356.07,
+            "D": 338.78,
+            "L": 4.16,
+            "R": 0.26
+          },
+          {
+            "date": "2026-01-24",
+            "P": 258.15,
+            "N": 701.2,
+            "E": 336.25,
+            "D": 310.85,
+            "L": 4.17,
+            "R": 0.26
+          },
+          {
+            "date": "2026-01-31",
+            "P": 248.75,
+            "N": 687.23,
+            "E": 343.06,
+            "D": 368.12,
+            "L": 4.52,
+            "R": 0.28
+          },
+          {
+            "date": "2026-02-07",
+            "P": 206.7,
+            "N": 481.11,
+            "E": 283.36,
+            "D": 313.82,
+            "L": 4.54,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-14",
+            "P": 218.82,
+            "N": 443.35,
+            "E": 271.88,
+            "D": 281.86,
+            "L": 4.57,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-21",
+            "P": 191.78,
+            "N": 431.14,
+            "E": 247.72,
+            "D": 267.71,
+            "L": 4.61,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-28",
+            "P": 188.6,
+            "N": 397.56,
+            "E": 229.84,
+            "D": 234.89,
+            "L": 4.57,
+            "R": 0.26
+          },
+          {
+            "date": "2026-03-07",
+            "P": 168.82,
+            "N": 478.73,
+            "E": 220.41,
+            "D": 206.58,
+            "L": 4.46,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-14",
+            "P": 128.34,
+            "N": 435.05,
+            "E": 187.74,
+            "D": 187.42,
+            "L": 4.38,
+            "R": 0.26
+          },
+          {
+            "date": "2026-03-21",
+            "P": 137.84,
+            "N": 416.6,
+            "E": 196.34,
+            "D": 212.56,
+            "L": 4.38,
+            "R": 0.26
+          },
+          {
+            "date": "2026-03-28",
+            "P": 115.0,
+            "N": 340.93,
+            "E": 165.75,
+            "D": 185.53,
+            "L": 4.48,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-04",
+            "P": 104.2,
+            "N": 270.17,
+            "E": 154.79,
+            "D": 193.63,
+            "L": 4.59,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-11",
+            "P": 120.55,
+            "N": 258.36,
+            "E": 154.92,
+            "D": 167.36,
+            "L": 4.87,
+            "R": 0.37
+          },
+          {
+            "date": "2026-04-18",
+            "P": 327.94,
+            "N": 247.5,
+            "E": 210.41,
+            "D": 66.66,
+            "L": 2.21,
+            "R": 0.17
+          },
+          {
+            "date": "2026-04-25",
+            "P": 475.78,
+            "N": 259.24,
+            "E": 345.18,
+            "D": 70.28,
+            "L": 1.0,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-02",
+            "P": 464.52,
+            "N": 229.22,
+            "E": 340.06,
+            "D": 91.22,
+            "L": 1.06,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-09",
+            "P": 425.93,
+            "N": 233.94,
+            "E": 317.48,
+            "D": 99.63,
+            "L": 1.2,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-16",
+            "P": 393.85,
+            "N": 325.66,
+            "E": 369.3,
+            "D": 329.42,
+            "L": 1.13,
+            "R": 0.09
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_28",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TOASO",
+      "window_label": "son 6 ay",
+      "question": "TOASO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TOASO hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 119.8 ile oldukça yüksek seyretmiş, pozitif tweet ortalaması 110.2 düzeyinde zayıf kalmıştır. Negatif sentimentte azalış eğilimi görülmekle birlikte etki skoru ortalaması 100.5 olarak gerçekleşmiştir. Bu durum, yatırımcıların TOASO hissesine ilişkin temkinli yaklaşımlarının sürdüğüne işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TOASO",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 71.25,
+            "N": 12.15,
+            "E": 56.91,
+            "D": 58.44,
+            "L": 3.81,
+            "R": 0.19
+          },
+          {
+            "date": "2025-11-29",
+            "P": 78.72,
+            "N": 10.08,
+            "E": 55.13,
+            "D": 48.18,
+            "L": 4.31,
+            "R": 0.31
+          },
+          {
+            "date": "2025-12-06",
+            "P": 77.51,
+            "N": 9.24,
+            "E": 60.0,
+            "D": 57.8,
+            "L": 4.92,
+            "R": 0.42
+          },
+          {
+            "date": "2025-12-13",
+            "P": 105.12,
+            "N": 8.5,
+            "E": 80.61,
+            "D": 77.39,
+            "L": 4.76,
+            "R": 0.41
+          },
+          {
+            "date": "2025-12-20",
+            "P": 107.36,
+            "N": 8.27,
+            "E": 81.14,
+            "D": 75.41,
+            "L": 4.88,
+            "R": 0.43
+          },
+          {
+            "date": "2025-12-27",
+            "P": 119.55,
+            "N": 5.3,
+            "E": 80.44,
+            "D": 70.94,
+            "L": 4.82,
+            "R": 0.4
+          },
+          {
+            "date": "2026-01-03",
+            "P": 122.81,
+            "N": 4.7,
+            "E": 84.14,
+            "D": 65.11,
+            "L": 5.99,
+            "R": 0.59
+          },
+          {
+            "date": "2026-01-10",
+            "P": 112.31,
+            "N": 4.38,
+            "E": 79.27,
+            "D": 60.64,
+            "L": 5.86,
+            "R": 0.56
+          },
+          {
+            "date": "2026-01-17",
+            "P": 129.95,
+            "N": 4.12,
+            "E": 85.41,
+            "D": 53.01,
+            "L": 5.51,
+            "R": 0.53
+          },
+          {
+            "date": "2026-01-24",
+            "P": 120.39,
+            "N": 3.58,
+            "E": 92.52,
+            "D": 86.18,
+            "L": 5.18,
+            "R": 0.49
+          },
+          {
+            "date": "2026-01-31",
+            "P": 113.2,
+            "N": 3.51,
+            "E": 86.45,
+            "D": 74.52,
+            "L": 5.08,
+            "R": 0.47
+          },
+          {
+            "date": "2026-02-07",
+            "P": 88.68,
+            "N": 2.25,
+            "E": 64.21,
+            "D": 54.05,
+            "L": 5.08,
+            "R": 0.47
+          },
+          {
+            "date": "2026-02-14",
+            "P": 100.47,
+            "N": 2.07,
+            "E": 68.3,
+            "D": 48.55,
+            "L": 4.93,
+            "R": 0.44
+          },
+          {
+            "date": "2026-02-21",
+            "P": 95.23,
+            "N": 2.02,
+            "E": 68.99,
+            "D": 53.09,
+            "L": 4.85,
+            "R": 0.43
+          },
+          {
+            "date": "2026-02-28",
+            "P": 99.18,
+            "N": 27.35,
+            "E": 71.78,
+            "D": 46.58,
+            "L": 5.12,
+            "R": 0.48
+          },
+          {
+            "date": "2026-03-07",
+            "P": 109.45,
+            "N": 23.22,
+            "E": 74.1,
+            "D": 40.96,
+            "L": 5.19,
+            "R": 0.5
+          },
+          {
+            "date": "2026-03-14",
+            "P": 139.63,
+            "N": 17.39,
+            "E": 90.56,
+            "D": 37.17,
+            "L": 3.93,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-21",
+            "P": 158.96,
+            "N": 16.66,
+            "E": 102.57,
+            "D": 35.44,
+            "L": 3.59,
+            "R": 0.34
+          },
+          {
+            "date": "2026-03-28",
+            "P": 126.78,
+            "N": 186.76,
+            "E": 116.3,
+            "D": 62.99,
+            "L": 3.72,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-04",
+            "P": 118.29,
+            "N": 137.45,
+            "E": 104.6,
+            "D": 57.45,
+            "L": 3.69,
+            "R": 0.35
+          },
+          {
+            "date": "2026-04-11",
+            "P": 115.18,
+            "N": 113.08,
+            "E": 95.13,
+            "D": 51.91,
+            "L": 4.16,
+            "R": 0.41
+          },
+          {
+            "date": "2026-04-18",
+            "P": 80.52,
+            "N": 96.41,
+            "E": 63.3,
+            "D": 36.29,
+            "L": 3.88,
+            "R": 0.38
+          },
+          {
+            "date": "2026-04-25",
+            "P": 65.81,
+            "N": 69.45,
+            "E": 58.23,
+            "D": 38.15,
+            "L": 2.72,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.5,
+            "N": 61.41,
+            "E": 54.57,
+            "D": 41.84,
+            "L": 2.78,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-09",
+            "P": 56.17,
+            "N": 55.83,
+            "E": 55.17,
+            "D": 52.82,
+            "L": 3.28,
+            "R": 0.33
+          },
+          {
+            "date": "2026-05-16",
+            "P": 53.18,
+            "N": 49.31,
+            "E": 50.5,
+            "D": 45.3,
+            "L": 3.28,
+            "R": 0.33
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_29",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "YKBNK",
+      "window_label": "son 6 ay",
+      "question": "YKBNK hissesi için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "YKBNK hissesi için son altı ay incelendiğinde negatif tweet görüntüleme ortalaması 58.3 ile yüksek seyretmiş, pozitif tweet ortalaması 37.4 düzeyinde kalmıştır. Genel etki skoru ortalaması 40.7 olarak gerçekleşmiştir. P/N oranının 0.64 seviyesinde bulunması, negatif sinyallerin baskın olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "YKBNK",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 51.95,
+            "N": 56.92,
+            "E": 45.53,
+            "D": 37.68,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2025-11-29",
+            "P": 39.18,
+            "N": 47.25,
+            "E": 36.32,
+            "D": 31.07,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-06",
+            "P": 31.61,
+            "N": 43.29,
+            "E": 30.36,
+            "D": 26.11,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-13",
+            "P": 28.75,
+            "N": 39.82,
+            "E": 28.49,
+            "D": 25.3,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-20",
+            "P": 26.68,
+            "N": 38.76,
+            "E": 27.19,
+            "D": 24.66,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-27",
+            "P": 24.19,
+            "N": 24.84,
+            "E": 23.88,
+            "D": 23.2,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2026-01-03",
+            "P": 16.64,
+            "N": 22.04,
+            "E": 19.15,
+            "D": 21.29,
+            "L": 4.76,
+            "R": 0.28
+          },
+          {
+            "date": "2026-01-10",
+            "P": 31.14,
+            "N": 20.52,
+            "E": 25.71,
+            "D": 19.83,
+            "L": 5.17,
+            "R": 0.37
+          },
+          {
+            "date": "2026-01-17",
+            "P": 28.43,
+            "N": 19.29,
+            "E": 23.21,
+            "D": 17.33,
+            "L": 5.17,
+            "R": 0.37
+          },
+          {
+            "date": "2026-01-24",
+            "P": 24.76,
+            "N": 16.8,
+            "E": 20.31,
+            "D": 15.3,
+            "L": 5.17,
+            "R": 0.37
+          },
+          {
+            "date": "2026-01-31",
+            "P": 20.71,
+            "N": 16.47,
+            "E": 17.53,
+            "D": 13.23,
+            "L": 5.17,
+            "R": 0.37
+          },
+          {
+            "date": "2026-02-07",
+            "P": 16.22,
+            "N": 10.56,
+            "E": 36.68,
+            "D": 74.22,
+            "L": 4.3,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-14",
+            "P": 20.78,
+            "N": 9.73,
+            "E": 36.14,
+            "D": 66.66,
+            "L": 4.43,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-21",
+            "P": 17.54,
+            "N": 9.46,
+            "E": 32.01,
+            "D": 61.17,
+            "L": 4.43,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-28",
+            "P": 15.73,
+            "N": 8.72,
+            "E": 41.77,
+            "D": 90.3,
+            "L": 3.58,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-07",
+            "P": 14.08,
+            "N": 29.98,
+            "E": 39.68,
+            "D": 79.41,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-14",
+            "P": 10.7,
+            "N": 22.45,
+            "E": 31.99,
+            "D": 72.05,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-21",
+            "P": 9.57,
+            "N": 21.5,
+            "E": 29.45,
+            "D": 68.71,
+            "L": 3.55,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-28",
+            "P": 11.8,
+            "N": 48.48,
+            "E": 30.7,
+            "D": 59.98,
+            "L": 4.65,
+            "R": 0.33
+          },
+          {
+            "date": "2026-04-04",
+            "P": 10.3,
+            "N": 73.85,
+            "E": 32.46,
+            "D": 54.71,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-11",
+            "P": 8.08,
+            "N": 60.76,
+            "E": 24.4,
+            "D": 36.16,
+            "L": 4.62,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-18",
+            "P": 4.86,
+            "N": 86.07,
+            "E": 164.69,
+            "D": 366.24,
+            "L": 0.54,
+            "R": 0.04
+          },
+          {
+            "date": "2026-04-25",
+            "P": 57.26,
+            "N": 62.01,
+            "E": 129.77,
+            "D": 311.71,
+            "L": 0.66,
+            "R": 0.06
+          },
+          {
+            "date": "2026-05-02",
+            "P": 75.74,
+            "N": 54.83,
+            "E": 133.34,
+            "D": 281.49,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-09",
+            "P": 66.89,
+            "N": 49.85,
+            "E": 117.56,
+            "D": 245.34,
+            "L": 0.76,
+            "R": 0.07
+          },
+          {
+            "date": "2026-05-16",
+            "P": 61.6,
+            "N": 44.03,
+            "E": 105.67,
+            "D": 210.38,
+            "L": 0.76,
+            "R": 0.07
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_30",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "FROTO",
+      "window_label": "son 3 ay",
+      "question": "FROTO için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "FROTO hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 119.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 87.1 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte azalış gözlemlenirken genel etki skoru 113.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların FROTO hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "FROTO",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 340.77,
+            "N": 127.64,
+            "E": 244.58,
+            "D": 142.24,
+            "L": 4.91,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-28",
+            "P": 360.07,
+            "N": 143.19,
+            "E": 249.79,
+            "D": 124.81,
+            "L": 4.76,
+            "R": 0.35
+          },
+          {
+            "date": "2026-03-07",
+            "P": 362.06,
+            "N": 121.56,
+            "E": 241.26,
+            "D": 109.76,
+            "L": 4.85,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-14",
+            "P": 423.36,
+            "N": 91.04,
+            "E": 291.14,
+            "D": 148.43,
+            "L": 4.1,
+            "R": 0.3
+          },
+          {
+            "date": "2026-03-21",
+            "P": 463.17,
+            "N": 87.18,
+            "E": 315.66,
+            "D": 141.56,
+            "L": 3.86,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-28",
+            "P": 396.96,
+            "N": 87.01,
+            "E": 314.66,
+            "D": 256.58,
+            "L": 3.97,
+            "R": 0.29
+          },
+          {
+            "date": "2026-04-04",
+            "P": 366.66,
+            "N": 64.03,
+            "E": 282.76,
+            "D": 234.03,
+            "L": 3.9,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-11",
+            "P": 300.64,
+            "N": 52.68,
+            "E": 219.53,
+            "D": 154.69,
+            "L": 3.92,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 204.85,
+            "N": 44.91,
+            "E": 136.51,
+            "D": 77.23,
+            "L": 3.91,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-25",
+            "P": 123.69,
+            "N": 56.22,
+            "E": 106.81,
+            "D": 81.28,
+            "L": 3.33,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 115.15,
+            "N": 49.71,
+            "E": 100.28,
+            "D": 80.04,
+            "L": 3.35,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-09",
+            "P": 116.92,
+            "N": 107.09,
+            "E": 111.14,
+            "D": 99.43,
+            "L": 3.63,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-16",
+            "P": 119.4,
+            "N": 148.55,
+            "E": 113.28,
+            "D": 92.42,
+            "L": 3.74,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_31",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "VAKBN",
+      "window_label": "son 3 ay",
+      "question": "VAKBN hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "VAKBN hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 20.6 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 30.3 ile üzerinde seyretmiştir. Etki skoru ortalaması 16.1 düzeyinde kalmıştır. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "VAKBN",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 21.71,
+            "N": 3.51,
+            "E": 13.72,
+            "D": 5.39,
+            "L": 3.77,
+            "R": 0.31
+          },
+          {
+            "date": "2026-02-28",
+            "P": 19.47,
+            "N": 35.14,
+            "E": 16.0,
+            "D": 4.73,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 17.42,
+            "N": 29.83,
+            "E": 14.14,
+            "D": 4.16,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 13.25,
+            "N": 22.34,
+            "E": 11.4,
+            "D": 3.77,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 11.85,
+            "N": 21.39,
+            "E": 10.49,
+            "D": 3.6,
+            "L": 4.08,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 9.45,
+            "N": 68.21,
+            "E": 15.49,
+            "D": 3.14,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-04",
+            "P": 8.24,
+            "N": 50.2,
+            "E": 13.35,
+            "D": 2.86,
+            "L": 5.4,
+            "R": 0.34
+          },
+          {
+            "date": "2026-04-11",
+            "P": 14.46,
+            "N": 41.3,
+            "E": 14.39,
+            "D": 1.89,
+            "L": 6.11,
+            "R": 0.56
+          },
+          {
+            "date": "2026-04-18",
+            "P": 16.47,
+            "N": 35.21,
+            "E": 11.54,
+            "D": 0.75,
+            "L": 5.02,
+            "R": 0.51
+          },
+          {
+            "date": "2026-04-25",
+            "P": 38.09,
+            "N": 25.36,
+            "E": 26.55,
+            "D": 0.64,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-02",
+            "P": 34.44,
+            "N": 22.43,
+            "E": 23.83,
+            "D": 0.57,
+            "L": 1.72,
+            "R": 0.2
+          },
+          {
+            "date": "2026-05-09",
+            "P": 32.52,
+            "N": 20.39,
+            "E": 24.03,
+            "D": 6.28,
+            "L": 2.18,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-16",
+            "P": 29.95,
+            "N": 18.01,
+            "E": 27.88,
+            "D": 25.98,
+            "L": 2.12,
+            "R": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_32",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TTKOM",
+      "window_label": "son 3 ay",
+      "question": "TTKOM için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TTKOM hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 68.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 38.6 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte güçlü artış gözlemlenirken genel etki skoru 64.8 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TTKOM hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TTKOM",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 76.05,
+            "N": 22.53,
+            "E": 50.58,
+            "D": 22.48,
+            "L": 4.68,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-28",
+            "P": 75.43,
+            "N": 20.77,
+            "E": 48.93,
+            "D": 19.72,
+            "L": 4.69,
+            "R": 0.32
+          },
+          {
+            "date": "2026-03-07",
+            "P": 82.54,
+            "N": 17.64,
+            "E": 57.82,
+            "D": 36.21,
+            "L": 5.13,
+            "R": 0.37
+          },
+          {
+            "date": "2026-03-14",
+            "P": 73.95,
+            "N": 13.21,
+            "E": 52.73,
+            "D": 32.85,
+            "L": 5.2,
+            "R": 0.4
+          },
+          {
+            "date": "2026-03-21",
+            "P": 66.12,
+            "N": 12.65,
+            "E": 48.54,
+            "D": 31.33,
+            "L": 5.2,
+            "R": 0.4
+          },
+          {
+            "date": "2026-03-28",
+            "P": 69.73,
+            "N": 61.47,
+            "E": 62.27,
+            "D": 47.87,
+            "L": 5.47,
+            "R": 0.37
+          },
+          {
+            "date": "2026-04-04",
+            "P": 81.56,
+            "N": 69.11,
+            "E": 69.21,
+            "D": 43.67,
+            "L": 5.04,
+            "R": 0.33
+          },
+          {
+            "date": "2026-04-11",
+            "P": 109.7,
+            "N": 56.86,
+            "E": 81.24,
+            "D": 42.8,
+            "L": 5.11,
+            "R": 0.42
+          },
+          {
+            "date": "2026-04-18",
+            "P": 68.72,
+            "N": 48.47,
+            "E": 46.52,
+            "D": 20.46,
+            "L": 5.03,
+            "R": 0.41
+          },
+          {
+            "date": "2026-04-25",
+            "P": 60.71,
+            "N": 34.92,
+            "E": 46.57,
+            "D": 17.41,
+            "L": 3.14,
+            "R": 0.27
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.71,
+            "N": 30.88,
+            "E": 46.26,
+            "D": 20.22,
+            "L": 3.12,
+            "R": 0.28
+          },
+          {
+            "date": "2026-05-09",
+            "P": 54.84,
+            "N": 28.07,
+            "E": 45.03,
+            "D": 27.62,
+            "L": 3.49,
+            "R": 0.31
+          },
+          {
+            "date": "2026-05-16",
+            "P": 51.96,
+            "N": 24.8,
+            "E": 47.66,
+            "D": 44.28,
+            "L": 3.28,
+            "R": 0.31
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_33",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "GARAN",
+      "window_label": "son 1 ay",
+      "question": "GARAN hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "GARAN hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 40.5, negatif tweet ortalaması 47.6 ile birbirine yakın seyretmiştir. Genel etki skoru 102.3 seviyesindedir. Belirgin bir yönün oluşmadığı bu tabloda yatırımcı yorumları hem olumlu hem olumsuz unsurları bir arada barındırmaktadır. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "GARAN",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 42.01,
+            "N": 67.06,
+            "E": 127.84,
+            "D": 338.26,
+            "L": 0.85,
+            "R": 0.08
+          },
+          {
+            "date": "2026-05-02",
+            "P": 44.54,
+            "N": 59.29,
+            "E": 120.47,
+            "D": 305.01,
+            "L": 0.95,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-09",
+            "P": 42.51,
+            "N": 53.91,
+            "E": 108.24,
+            "D": 265.84,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-16",
+            "P": 39.15,
+            "N": 47.61,
+            "E": 97.29,
+            "D": 227.96,
+            "L": 1.1,
+            "R": 0.11
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_34",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "THYAO",
+      "window_label": "son 3 ay",
+      "question": "THYAO hissesinde son üç aylık dönemde Twitter metriklerine göre yatırımcı algısı nedir?",
+      "gold_answer": "THYAO hissesi için son üç ay incelendiğinde negatif tweet görüntüleme ortalaması 285.4 ile yüksek seyretmiş, pozitif tweet ortalaması 270.3 ile birbirine yakın kalmıştır. Genel etki skoru ortalaması 396.6 düzeyinde seyretmiştir. Dengeli görünen bu tabloda negatif trendin hafif baskın olması temkinli bir yaklaşımı desteklemektedir. Genel yatırımcı duyarlılığı nötr olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "neutral",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "THYAO",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 581.46,
+            "N": 306.97,
+            "E": 485.49,
+            "D": 404.59,
+            "L": 5.3,
+            "R": 0.28
+          },
+          {
+            "date": "2026-02-28",
+            "P": 573.53,
+            "N": 308.56,
+            "E": 471.68,
+            "D": 377.35,
+            "L": 5.37,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 598.14,
+            "N": 514.8,
+            "E": 524.96,
+            "D": 424.26,
+            "L": 5.17,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-14",
+            "P": 668.73,
+            "N": 662.87,
+            "E": 579.09,
+            "D": 392.55,
+            "L": 4.45,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-21",
+            "P": 624.93,
+            "N": 634.76,
+            "E": 548.34,
+            "D": 374.38,
+            "L": 4.35,
+            "R": 0.24
+          },
+          {
+            "date": "2026-03-28",
+            "P": 617.71,
+            "N": 509.55,
+            "E": 521.24,
+            "D": 335.39,
+            "L": 4.19,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-04",
+            "P": 610.51,
+            "N": 394.27,
+            "E": 492.98,
+            "D": 305.91,
+            "L": 4.05,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-11",
+            "P": 508.95,
+            "N": 361.69,
+            "E": 532.94,
+            "D": 653.56,
+            "L": 3.62,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-18",
+            "P": 326.35,
+            "N": 322.2,
+            "E": 456.13,
+            "D": 634.86,
+            "L": 2.48,
+            "R": 0.18
+          },
+          {
+            "date": "2026-04-25",
+            "P": 197.52,
+            "N": 263.91,
+            "E": 307.91,
+            "D": 569.87,
+            "L": 2.36,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-02",
+            "P": 206.99,
+            "N": 289.37,
+            "E": 306.71,
+            "D": 533.07,
+            "L": 2.44,
+            "R": 0.18
+          },
+          {
+            "date": "2026-05-09",
+            "P": 208.31,
+            "N": 276.33,
+            "E": 296.25,
+            "D": 494.27,
+            "L": 2.45,
+            "R": 0.19
+          },
+          {
+            "date": "2026-05-16",
+            "P": 195.91,
+            "N": 244.06,
+            "E": 291.37,
+            "D": 497.84,
+            "L": 2.4,
+            "R": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_35",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "SISE",
+      "window_label": "son 3 ay",
+      "question": "SISE hissesi için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
+      "gold_answer": "SISE hissesi için son üç ay incelendiğinde pozitif tweet görüntüleme ortalaması 181.5 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 80.7 ile belirgin biçimde düşük kalmıştır. Pozitif sentimentte artış gözlemlenirken genel etki skoru 157.3 düzeyinde seyretmiştir. Bu tablo, yatırımcıların SISE hissesine yönelik olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "SISE",
+        "window": "son 3 ay",
+        "start_date": "2026-02-21",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-02-21",
+            "P": 372.64,
+            "N": 84.62,
+            "E": 254.17,
+            "D": 136.88,
+            "L": 3.56,
+            "R": 0.26
+          },
+          {
+            "date": "2026-02-28",
+            "P": 342.05,
+            "N": 78.03,
+            "E": 235.45,
+            "D": 132.35,
+            "L": 3.57,
+            "R": 0.27
+          },
+          {
+            "date": "2026-03-07",
+            "P": 312.69,
+            "N": 66.25,
+            "E": 211.45,
+            "D": 116.4,
+            "L": 3.68,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-14",
+            "P": 237.73,
+            "N": 49.61,
+            "E": 170.44,
+            "D": 105.61,
+            "L": 3.68,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-21",
+            "P": 212.58,
+            "N": 47.51,
+            "E": 164.79,
+            "D": 126.02,
+            "L": 3.74,
+            "R": 0.28
+          },
+          {
+            "date": "2026-03-28",
+            "P": 225.92,
+            "N": 113.0,
+            "E": 181.05,
+            "D": 123.51,
+            "L": 3.65,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-04",
+            "P": 197.15,
+            "N": 83.16,
+            "E": 156.07,
+            "D": 112.66,
+            "L": 3.65,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-11",
+            "P": 169.1,
+            "N": 68.42,
+            "E": 137.68,
+            "D": 114.69,
+            "L": 3.64,
+            "R": 0.28
+          },
+          {
+            "date": "2026-04-18",
+            "P": 339.32,
+            "N": 85.57,
+            "E": 199.02,
+            "D": 61.3,
+            "L": 1.52,
+            "R": 0.12
+          },
+          {
+            "date": "2026-04-25",
+            "P": 172.17,
+            "N": 61.64,
+            "E": 134.78,
+            "D": 68.38,
+            "L": 1.53,
+            "R": 0.13
+          },
+          {
+            "date": "2026-05-02",
+            "P": 170.6,
+            "N": 54.51,
+            "E": 133.41,
+            "D": 70.69,
+            "L": 1.72,
+            "R": 0.14
+          },
+          {
+            "date": "2026-05-09",
+            "P": 157.07,
+            "N": 61.51,
+            "E": 128.77,
+            "D": 82.99,
+            "L": 1.91,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-16",
+            "P": 146.1,
+            "N": 54.33,
+            "E": 122.93,
+            "D": 91.76,
+            "L": 1.92,
+            "R": 0.17
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_36",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TUPRS",
+      "window_label": "son 6 ay",
+      "question": "TUPRS hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TUPRS hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 375.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 228.6 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 350.2 düzeyinde seyretmiştir. Bu tablo, yatırımcıların TUPRS hissesine yönelik güçlü olumlu bir algı içinde olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TUPRS",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 409.57,
+            "N": 264.34,
+            "E": 279.97,
+            "D": 188.28,
+            "L": 3.94,
+            "R": 0.23
+          },
+          {
+            "date": "2025-11-29",
+            "P": 401.69,
+            "N": 219.4,
+            "E": 295.46,
+            "D": 230.0,
+            "L": 4.18,
+            "R": 0.28
+          },
+          {
+            "date": "2025-12-06",
+            "P": 352.0,
+            "N": 201.03,
+            "E": 273.26,
+            "D": 224.75,
+            "L": 4.34,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-13",
+            "P": 320.12,
+            "N": 184.92,
+            "E": 256.43,
+            "D": 217.85,
+            "L": 4.34,
+            "R": 0.3
+          },
+          {
+            "date": "2025-12-20",
+            "P": 351.16,
+            "N": 223.68,
+            "E": 286.9,
+            "D": 242.78,
+            "L": 4.24,
+            "R": 0.29
+          },
+          {
+            "date": "2025-12-27",
+            "P": 344.97,
+            "N": 143.34,
+            "E": 275.44,
+            "D": 257.98,
+            "L": 4.19,
+            "R": 0.29
+          },
+          {
+            "date": "2026-01-03",
+            "P": 353.23,
+            "N": 127.17,
+            "E": 276.97,
+            "D": 236.76,
+            "L": 4.32,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-10",
+            "P": 373.31,
+            "N": 118.43,
+            "E": 290.03,
+            "D": 236.27,
+            "L": 4.15,
+            "R": 0.31
+          },
+          {
+            "date": "2026-01-17",
+            "P": 373.48,
+            "N": 111.33,
+            "E": 285.77,
+            "D": 227.26,
+            "L": 4.37,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-24",
+            "P": 336.74,
+            "N": 96.98,
+            "E": 274.29,
+            "D": 251.89,
+            "L": 4.39,
+            "R": 0.32
+          },
+          {
+            "date": "2026-01-31",
+            "P": 350.82,
+            "N": 95.05,
+            "E": 297.51,
+            "D": 286.01,
+            "L": 4.23,
+            "R": 0.28
+          },
+          {
+            "date": "2026-02-07",
+            "P": 396.49,
+            "N": 282.89,
+            "E": 362.43,
+            "D": 345.84,
+            "L": 4.41,
+            "R": 0.26
+          },
+          {
+            "date": "2026-02-14",
+            "P": 494.52,
+            "N": 292.45,
+            "E": 412.87,
+            "D": 345.47,
+            "L": 4.15,
+            "R": 0.24
+          },
+          {
+            "date": "2026-02-21",
+            "P": 465.85,
+            "N": 284.4,
+            "E": 394.13,
+            "D": 325.58,
+            "L": 4.26,
+            "R": 0.27
+          },
+          {
+            "date": "2026-02-28",
+            "P": 489.81,
+            "N": 262.24,
+            "E": 410.74,
+            "D": 344.64,
+            "L": 4.2,
+            "R": 0.27
+          },
+          {
+            "date": "2026-03-07",
+            "P": 533.07,
+            "N": 222.64,
+            "E": 421.18,
+            "D": 329.02,
+            "L": 4.09,
+            "R": 0.25
+          },
+          {
+            "date": "2026-03-14",
+            "P": 604.67,
+            "N": 246.45,
+            "E": 462.9,
+            "D": 310.69,
+            "L": 3.56,
+            "R": 0.22
+          },
+          {
+            "date": "2026-03-21",
+            "P": 621.98,
+            "N": 236.0,
+            "E": 489.36,
+            "D": 352.41,
+            "L": 3.54,
+            "R": 0.23
+          },
+          {
+            "date": "2026-03-28",
+            "P": 548.62,
+            "N": 292.26,
+            "E": 495.19,
+            "D": 482.94,
+            "L": 3.68,
+            "R": 0.23
+          },
+          {
+            "date": "2026-04-04",
+            "P": 549.13,
+            "N": 252.76,
+            "E": 478.44,
+            "D": 461.1,
+            "L": 3.58,
+            "R": 0.22
+          },
+          {
+            "date": "2026-04-11",
+            "P": 486.43,
+            "N": 207.96,
+            "E": 397.61,
+            "D": 329.82,
+            "L": 3.69,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-18",
+            "P": 314.62,
+            "N": 190.63,
+            "E": 232.66,
+            "D": 146.99,
+            "L": 3.65,
+            "R": 0.24
+          },
+          {
+            "date": "2026-04-25",
+            "P": 205.2,
+            "N": 137.32,
+            "E": 179.57,
+            "D": 132.06,
+            "L": 3.12,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-02",
+            "P": 207.87,
+            "N": 121.42,
+            "E": 192.31,
+            "D": 175.71,
+            "L": 2.93,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-09",
+            "P": 195.59,
+            "N": 110.4,
+            "E": 188.79,
+            "D": 192.96,
+            "L": 3.01,
+            "R": 0.21
+          },
+          {
+            "date": "2026-05-16",
+            "P": 187.36,
+            "N": 97.51,
+            "E": 174.21,
+            "D": 165.46,
+            "L": 3.08,
+            "R": 0.21
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_37",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "EREGL",
+      "window_label": "son 1 ay",
+      "question": "EREGL için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "EREGL hissesi için son bir ay incelendiğinde pozitif tweet ortalaması 68.3, negatif tweet ortalaması 83.1 ile üzerinde seyretmiştir. Genel etki skoru 113.7 düzeyindedir. Negatif sinyallerin baskın olduğu bu tabloda yatırımcılar temkinli bir tutum sergilemektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "EREGL",
+        "window": "son 1 ay",
+        "start_date": "2026-04-25",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-04-25",
+            "P": 56.39,
+            "N": 72.42,
+            "E": 143.4,
+            "D": 359.09,
+            "L": 1.53,
+            "R": 0.15
+          },
+          {
+            "date": "2026-05-02",
+            "P": 59.82,
+            "N": 64.03,
+            "E": 139.94,
+            "D": 337.55,
+            "L": 1.81,
+            "R": 0.16
+          },
+          {
+            "date": "2026-05-09",
+            "P": 63.61,
+            "N": 58.22,
+            "E": 133.34,
+            "D": 304.8,
+            "L": 1.9,
+            "R": 0.17
+          },
+          {
+            "date": "2026-05-16",
+            "P": 62.72,
+            "N": 51.42,
+            "E": 129.79,
+            "D": 285.51,
+            "L": 2.04,
+            "R": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_38",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "TCELL",
+      "window_label": "son 6 ay",
+      "question": "TCELL hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "TCELL hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 82.1 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.3 ile belirgin biçimde üzerinde seyretmiştir. Negatif sentimentte artış eğilimi ve etki skoru ortalaması 73.9 olarak gerçekleşmiştir. Bu durum, yatırımcıların TCELL hissesine ilişkin kaygı ve temkinli yaklaşımlarının güçlendiğine işaret etmektedir. Genel yatırımcı duyarlılığı negatif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "negative",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "TCELL",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 117.79,
+            "N": 188.25,
+            "E": 123.84,
+            "D": 110.85,
+            "L": 5.19,
+            "R": 0.29
+          },
+          {
+            "date": "2025-11-29",
+            "P": 112.42,
+            "N": 156.25,
+            "E": 107.99,
+            "D": 91.39,
+            "L": 5.46,
+            "R": 0.37
+          },
+          {
+            "date": "2025-12-06",
+            "P": 120.74,
+            "N": 143.17,
+            "E": 102.37,
+            "D": 76.8,
+            "L": 5.64,
+            "R": 0.37
+          },
+          {
+            "date": "2025-12-13",
+            "P": 109.81,
+            "N": 252.42,
+            "E": 110.63,
+            "D": 74.44,
+            "L": 5.74,
+            "R": 0.37
+          },
+          {
+            "date": "2025-12-20",
+            "P": 113.8,
+            "N": 245.72,
+            "E": 110.68,
+            "D": 72.54,
+            "L": 5.63,
+            "R": 0.36
+          },
+          {
+            "date": "2025-12-27",
+            "P": 103.18,
+            "N": 157.46,
+            "E": 97.18,
+            "D": 68.24,
+            "L": 5.63,
+            "R": 0.36
+          },
+          {
+            "date": "2026-01-03",
+            "P": 70.98,
+            "N": 139.7,
+            "E": 77.96,
+            "D": 62.63,
+            "L": 5.63,
+            "R": 0.36
+          },
+          {
+            "date": "2026-01-10",
+            "P": 59.04,
+            "N": 130.1,
+            "E": 73.62,
+            "D": 72.56,
+            "L": 5.82,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-17",
+            "P": 80.69,
+            "N": 122.3,
+            "E": 79.99,
+            "D": 63.43,
+            "L": 6.14,
+            "R": 0.36
+          },
+          {
+            "date": "2026-01-24",
+            "P": 163.91,
+            "N": 106.53,
+            "E": 117.59,
+            "D": 56.0,
+            "L": 7.0,
+            "R": 0.37
+          },
+          {
+            "date": "2026-01-31",
+            "P": 137.07,
+            "N": 104.41,
+            "E": 105.86,
+            "D": 60.56,
+            "L": 6.93,
+            "R": 0.36
+          },
+          {
+            "date": "2026-02-07",
+            "P": 164.0,
+            "N": 66.92,
+            "E": 106.78,
+            "D": 43.93,
+            "L": 6.59,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-14",
+            "P": 160.23,
+            "N": 61.67,
+            "E": 102.77,
+            "D": 39.45,
+            "L": 6.45,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-21",
+            "P": 140.95,
+            "N": 59.97,
+            "E": 94.02,
+            "D": 36.21,
+            "L": 6.49,
+            "R": 0.34
+          },
+          {
+            "date": "2026-02-28",
+            "P": 133.63,
+            "N": 55.3,
+            "E": 87.71,
+            "D": 31.77,
+            "L": 6.41,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-07",
+            "P": 119.61,
+            "N": 46.95,
+            "E": 84.1,
+            "D": 46.09,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-14",
+            "P": 90.94,
+            "N": 35.16,
+            "E": 67.79,
+            "D": 41.82,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-21",
+            "P": 81.31,
+            "N": 33.67,
+            "E": 62.41,
+            "D": 39.88,
+            "L": 6.38,
+            "R": 0.33
+          },
+          {
+            "date": "2026-03-28",
+            "P": 142.54,
+            "N": 57.86,
+            "E": 99.91,
+            "D": 34.81,
+            "L": 4.63,
+            "R": 0.27
+          },
+          {
+            "date": "2026-04-04",
+            "P": 134.86,
+            "N": 42.58,
+            "E": 95.41,
+            "D": 43.87,
+            "L": 4.46,
+            "R": 0.25
+          },
+          {
+            "date": "2026-04-11",
+            "P": 114.07,
+            "N": 35.04,
+            "E": 88.48,
+            "D": 68.37,
+            "L": 5.02,
+            "R": 0.38
+          },
+          {
+            "date": "2026-04-18",
+            "P": 68.63,
+            "N": 29.87,
+            "E": 54.24,
+            "D": 42.85,
+            "L": 4.56,
+            "R": 0.36
+          },
+          {
+            "date": "2026-04-25",
+            "P": 60.67,
+            "N": 21.52,
+            "E": 50.99,
+            "D": 36.47,
+            "L": 3.02,
+            "R": 0.25
+          },
+          {
+            "date": "2026-05-02",
+            "P": 77.09,
+            "N": 19.03,
+            "E": 62.65,
+            "D": 41.61,
+            "L": 2.63,
+            "R": 0.24
+          },
+          {
+            "date": "2026-05-09",
+            "P": 74.48,
+            "N": 17.3,
+            "E": 59.32,
+            "D": 36.27,
+            "L": 2.53,
+            "R": 0.23
+          },
+          {
+            "date": "2026-05-16",
+            "P": 82.57,
+            "N": 15.28,
+            "E": 65.05,
+            "D": 40.98,
+            "L": 2.92,
+            "R": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_39",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "VAKBN",
+      "window_label": "guncel",
+      "question": "VAKBN için son hafta itibarıyla Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
+      "gold_answer": "VAKBN hissesi için güncel dönem incelendiğinde pozitif tweet görüntüleme değeri 30.0 seviyesinde gerçekleşmiş, negatif tweet değeri 18.0 düzeyinde kalmıştır. Genel etki skoru 27.9 seviyesindedir. P/N oranı 1.67 ile pozitif bölgede yer almakta ve yatırımcı ilgisinin arttığına işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "VAKBN",
+        "window": "guncel",
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2026-05-16",
+            "P": 29.95,
+            "N": 18.01,
+            "E": 27.88,
+            "D": 25.98,
+            "L": 2.12,
+            "R": 0.27
+          }
+        ]
+      }
+    },
+    {
+      "id": "TW_M_40",
+      "source_type": "MCP-Twitter-Metrics",
+      "company": "GARAN",
+      "window_label": "son 6 ay",
+      "question": "GARAN hissesi için son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
+      "gold_answer": "GARAN hissesi için son altı ay incelendiğinde pozitif tweet görüntüleme ortalaması 51.8 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.9 ile belirgin biçimde düşük kalmıştır. Genel etki skoru 40.2 düzeyinde seyretmiştir. P/N oranı 2.7 ile güçlü pozitif bölgede yer almakta ve yatırımcıların GARAN hissesine olan olumlu algısının kalıcı olduğuna işaret etmektedir. Genel yatırımcı duyarlılığı pozitif olarak değerlendirilmektedir.",
+      "reasoning_type": [
+        "metric_sentiment_reasoning"
+      ],
+      "expected_sentiment": "positive",
+      "human_validation_required": true,
+      "key_facts": {
+        "ticker": "GARAN",
+        "window": "son 6 ay",
+        "start_date": "2025-11-22",
+        "end_date": "2026-05-16",
+        "weekly_data": [
+          {
+            "date": "2025-11-22",
+            "P": 41.62,
+            "N": 0.97,
+            "E": 59.1,
+            "D": 87.82,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2025-11-29",
+            "P": 31.39,
+            "N": 0.81,
+            "E": 47.15,
+            "D": 72.4,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2025-12-06",
+            "P": 25.32,
+            "N": 0.74,
+            "E": 39.41,
+            "D": 60.84,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2025-12-13",
+            "P": 23.03,
+            "N": 0.68,
+            "E": 36.98,
+            "D": 58.97,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2025-12-20",
+            "P": 21.37,
+            "N": 0.66,
+            "E": 35.3,
+            "D": 57.47,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2025-12-27",
+            "P": 19.38,
+            "N": 0.42,
+            "E": 30.99,
+            "D": 54.06,
+            "L": 2.29,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-03",
+            "P": 13.33,
+            "N": 0.38,
+            "E": 31.41,
+            "D": 67.31,
+            "L": 2.98,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-10",
+            "P": 11.09,
+            "N": 0.35,
+            "E": 27.66,
+            "D": 62.69,
+            "L": 2.98,
+            "R": 0.35
+          },
+          {
+            "date": "2026-01-17",
+            "P": 21.96,
+            "N": 0.33,
+            "E": 30.95,
+            "D": 54.8,
+            "L": 3.64,
+            "R": 0.39
+          },
+          {
+            "date": "2026-01-24",
+            "P": 33.71,
+            "N": 0.29,
+            "E": 34.5,
+            "D": 48.38,
+            "L": 4.84,
+            "R": 0.43
+          },
+          {
+            "date": "2026-01-31",
+            "P": 28.19,
+            "N": 0.28,
+            "E": 29.78,
+            "D": 41.83,
+            "L": 4.84,
+            "R": 0.43
+          },
+          {
+            "date": "2026-02-07",
+            "P": 38.59,
+            "N": 0.18,
+            "E": 55.8,
+            "D": 99.92,
+            "L": 4.4,
+            "R": 0.29
+          },
+          {
+            "date": "2026-02-14",
+            "P": 40.82,
+            "N": 0.16,
+            "E": 53.35,
+            "D": 89.74,
+            "L": 4.48,
+            "R": 0.3
+          },
+          {
+            "date": "2026-02-21",
+            "P": 34.45,
+            "N": 0.16,
+            "E": 50.27,
+            "D": 90.89,
+            "L": 4.48,
+            "R": 0.32
+          },
+          {
+            "date": "2026-02-28",
+            "P": 30.89,
+            "N": 0.15,
+            "E": 58.08,
+            "D": 116.37,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-07",
+            "P": 27.65,
+            "N": 0.12,
+            "E": 51.33,
+            "D": 102.34,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-14",
+            "P": 21.02,
+            "N": 0.09,
+            "E": 41.38,
+            "D": 92.85,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-21",
+            "P": 18.8,
+            "N": 0.09,
+            "E": 38.09,
+            "D": 88.56,
+            "L": 3.85,
+            "R": 0.29
+          },
+          {
+            "date": "2026-03-28",
+            "P": 23.48,
+            "N": 31.98,
+            "E": 44.17,
+            "D": 90.81,
+            "L": 4.87,
+            "R": 0.45
+          },
+          {
+            "date": "2026-04-04",
+            "P": 24.44,
+            "N": 23.54,
+            "E": 40.32,
+            "D": 82.83,
+            "L": 4.91,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-11",
+            "P": 32.2,
+            "N": 68.98,
+            "E": 44.51,
+            "D": 54.75,
+            "L": 4.52,
+            "R": 0.43
+          },
+          {
+            "date": "2026-04-18",
+            "P": 19.37,
+            "N": 93.09,
+            "E": 182.11,
+            "D": 389.26,
+            "L": 0.79,
+            "R": 0.08
+          },
+          {
+            "date": "2026-04-25",
+            "P": 42.01,
+            "N": 67.06,
+            "E": 127.84,
+            "D": 338.26,
+            "L": 0.85,
+            "R": 0.08
+          },
+          {
+            "date": "2026-05-02",
+            "P": 44.54,
+            "N": 59.29,
+            "E": 120.47,
+            "D": 305.01,
+            "L": 0.95,
+            "R": 0.09
+          },
+          {
+            "date": "2026-05-09",
+            "P": 42.51,
+            "N": 53.91,
+            "E": 108.24,
+            "D": 265.84,
+            "L": 1.1,
+            "R": 0.11
+          },
+          {
+            "date": "2026-05-16",
+            "P": 39.15,
+            "N": 47.61,
+            "E": 97.29,
+            "D": 227.96,
+            "L": 1.1,
+            "R": 0.11
+          }
+        ]
+      }
+    }
+  ]
 }
