@@ -8,7 +8,7 @@
       "company": "YKBNK",
       "window_label": "son 2 hafta",
       "question": "YKBNK hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "YKBNK hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 64.25 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 46.94 ile düşük kalmıştır. P/N oranı 1.37 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 111.62, like oranı 0.76, retweet oranı 0.07 olarak gerçekleşmiştir.",
+      "gold_answer": "YKBNK hissesine ait son 2 hafta (2026-05-09 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 66.89'den 61.6'e gerilemiştir (düşüş: %7.9). Negatif tweet görüntülenmesi (N) 49.85'den 44.03'e gerilemiştir (düşüş: %11.7). Etki skoru (E) 117.56'den 105.67'e gerilemiştir (düşüş: %10.1). P/N oranı dönem başında 1.34, dönem sonunda 1.4 olarak gerçekleşmiştir. Like oranı (L) 0.76 ile 0.76 arasında seyretmiş, retweet oranı (R) 0.07 ile 0.07 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -47,7 +47,7 @@
       "company": "YKBNK",
       "window_label": "son 3 ay",
       "question": "YKBNK hissesi için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "YKBNK hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 44.0 ile yüksek seyretmiş, pozitif tweet ortalaması 28.01 düzeyinde zayıf kalmıştır. P/N oranı 0.64 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 70.27, like oranı 2.77, retweet oranı 0.19 olarak gerçekleşmiştir.",
+      "gold_answer": "YKBNK hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 17.54'den 61.6'e yükselmiştir (artış: %251.2). Negatif tweet görüntülenmesi (N) 9.46'den 44.03'e yükselmiştir (artış: %365.4). Etki skoru (E) 32.01'den 105.67'e yükselmiştir (artış: %230.1). P/N oranı dönem başında 1.85, dönem sonunda 1.4 olarak gerçekleşmiştir. Like oranı (L) 4.43 ile 0.76 arasında seyretmiş, retweet oranı (R) 0.27 ile 0.07 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -185,7 +185,7 @@
       "company": "VAKBN",
       "window_label": "son 1 ay",
       "question": "VAKBN hissesinde son bir aylık dönemde gözlemlenen Twitter metriklerine göre yatırımcı algısı nedir?",
-      "gold_answer": "VAKBN hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 33.75 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 21.55 ile düşük kalmıştır. P/N oranı 1.57 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 25.57, like oranı 1.94, retweet oranı 0.24 olarak gerçekleşmiştir.",
+      "gold_answer": "VAKBN hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 38.09'den 29.95'e gerilemiştir (düşüş: %21.4). Negatif tweet görüntülenmesi (N) 25.36'den 18.01'e gerilemiştir (düşüş: %29.0). Etki skoru (E) 26.55'den 27.88'e yükselmiştir (artış: %5.0). P/N oranı dönem başında 1.5, dönem sonunda 1.66 olarak gerçekleşmiştir. Like oranı (L) 1.72 ile 2.12 arasında seyretmiş, retweet oranı (R) 0.2 ile 0.27 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -242,7 +242,7 @@
       "company": "VAKBN",
       "window_label": "son 6 ay",
       "question": "VAKBN için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "VAKBN hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 18.93, negatif tweet ortalaması 20.35 ile birbirine yakın seyretmiştir. P/N oranı 0.93 düzeyindedir. Genel etki skoru ortalaması 16.06, like oranı 3.48, retweet oranı 0.32 olarak gerçekleşmiştir.",
+      "gold_answer": "VAKBN hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 37.88'den 29.95'e gerilemiştir (düşüş: %20.9). Negatif tweet görüntülenmesi (N) 21.11'den 18.01'e gerilemiştir (düşüş: %14.7). Etki skoru (E) 29.55'den 27.88'e gerilemiştir (düşüş: %5.7). P/N oranı dönem başında 1.79, dönem sonunda 1.66 olarak gerçekleşmiştir. Like oranı (L) 3.07 ile 2.12 arasında seyretmiş, retweet oranı (R) 0.32 ile 0.27 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -497,7 +497,7 @@
       "company": "TUPRS",
       "window_label": "guncel",
       "question": "TUPRS için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "TUPRS hissesi için guncel (2026-05-16 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 187.36 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 97.51 ile düşük kalmıştır. P/N oranı 1.92 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 174.21, like oranı 3.08, retweet oranı 0.21 olarak gerçekleşmiştir.",
+      "gold_answer": "TUPRS hissesine ait guncel (2026-05-16 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) değeri 187.36 olarak gerçekleşmiştir. Negatif tweet görüntülenmesi (N) değeri 97.51 olarak gerçekleşmiştir. Etki skoru (E) değeri 174.21 olarak gerçekleşmiştir. P/N oranı 1.92 olarak gerçekleşmiştir. Like oranı (L) 3.08 ile 3.08 arasında seyretmiş, retweet oranı (R) 0.21 ile 0.21 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -527,7 +527,7 @@
       "company": "TUPRS",
       "window_label": "son 3 ay",
       "question": "TUPRS için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "TUPRS hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 416.17 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 204.77 ile düşük kalmıştır. P/N oranı 2.03 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 347.47, like oranı 3.57, retweet oranı 0.23 olarak gerçekleşmiştir.",
+      "gold_answer": "TUPRS hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 465.85'den 187.36'e gerilemiştir (düşüş: %59.8). Negatif tweet görüntülenmesi (N) 284.4'den 97.51'e gerilemiştir (düşüş: %65.7). Etki skoru (E) 394.13'den 174.21'e gerilemiştir (düşüş: %55.8). P/N oranı dönem başında 1.64, dönem sonunda 1.92 olarak gerçekleşmiştir. Like oranı (L) 4.26 ile 3.08 arasında seyretmiş, retweet oranı (R) 0.27 ile 0.21 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -665,7 +665,7 @@
       "company": "TTKOM",
       "window_label": "son 2 hafta",
       "question": "TTKOM hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TTKOM hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 53.4 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 26.44 ile düşük kalmıştır. P/N oranı 2.02 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 46.34, like oranı 3.38, retweet oranı 0.31 olarak gerçekleşmiştir.",
+      "gold_answer": "TTKOM hissesine ait son 2 hafta (2026-05-09 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 54.84'den 51.96'e gerilemiştir (düşüş: %5.3). Negatif tweet görüntülenmesi (N) 28.07'den 24.8'e gerilemiştir (düşüş: %11.6). Etki skoru (E) 45.03'den 47.66'e yükselmiştir (artış: %5.8). P/N oranı dönem başında 1.95, dönem sonunda 2.1 olarak gerçekleşmiştir. Like oranı (L) 3.49 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.31 ile 0.31 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -704,7 +704,7 @@
       "company": "TTKOM",
       "window_label": "son 6 ay",
       "question": "TTKOM hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "TTKOM hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 86.98 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 50.53 ile düşük kalmıştır. P/N oranı 1.72 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 67.02, like oranı 4.81, retweet oranı 0.36 olarak gerçekleşmiştir.",
+      "gold_answer": "TTKOM hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 134.97'den 51.96'e gerilemiştir (düşüş: %61.5). Negatif tweet görüntülenmesi (N) 135.55'den 24.8'e gerilemiştir (düşüş: %81.7). Etki skoru (E) 113.67'den 47.66'e gerilemiştir (düşüş: %58.1). P/N oranı dönem başında 1.0, dönem sonunda 2.1 olarak gerçekleşmiştir. Like oranı (L) 4.84 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.39 ile 0.31 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -959,7 +959,7 @@
       "company": "TOASO",
       "window_label": "son 1 ay",
       "question": "TOASO hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TOASO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 58.66, negatif tweet ortalaması 59.0 ile birbirine yakın seyretmiştir. P/N oranı 0.99 düzeyindedir. Genel etki skoru ortalaması 54.62, like oranı 3.01, retweet oranı 0.31 olarak gerçekleşmiştir.",
+      "gold_answer": "TOASO hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 65.81'den 53.18'e gerilemiştir (düşüş: %19.2). Negatif tweet görüntülenmesi (N) 69.45'den 49.31'e gerilemiştir (düşüş: %29.0). Etki skoru (E) 58.23'den 50.5'e gerilemiştir (düşüş: %13.3). P/N oranı dönem başında 0.95, dönem sonunda 1.08 olarak gerçekleşmiştir. Like oranı (L) 2.72 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.28 ile 0.33 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1016,7 +1016,7 @@
       "company": "TOASO",
       "window_label": "son 3 ay",
       "question": "TOASO hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "TOASO hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 98.3 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 65.87 ile düşük kalmıştır. P/N oranı 1.49 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 77.37, like oranı 3.86, retweet oranı 0.37 olarak gerçekleşmiştir.",
+      "gold_answer": "TOASO hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 95.23'den 53.18'e gerilemiştir (düşüş: %44.2). Negatif tweet görüntülenmesi (N) 2.02'den 49.31'e yükselmiştir (artış: %2339.9). Etki skoru (E) 68.99'den 50.5'e gerilemiştir (düşüş: %26.8). P/N oranı dönem başında 47.12, dönem sonunda 1.08 olarak gerçekleşmiştir. Like oranı (L) 4.85 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.43 ile 0.33 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1154,7 +1154,7 @@
       "company": "THYAO",
       "window_label": "guncel",
       "question": "THYAO için son hafta itibarıyla pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-      "gold_answer": "THYAO hissesi için guncel (2026-05-16 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 195.91, negatif tweet ortalaması 244.06 ile birbirine yakın seyretmiştir. P/N oranı 0.8 düzeyindedir. Genel etki skoru ortalaması 291.37, like oranı 2.4, retweet oranı 0.2 olarak gerçekleşmiştir.",
+      "gold_answer": "THYAO hissesine ait guncel (2026-05-16 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) değeri 195.91 olarak gerçekleşmiştir. Negatif tweet görüntülenmesi (N) değeri 244.06 olarak gerçekleşmiştir. Etki skoru (E) değeri 291.37 olarak gerçekleşmiştir. P/N oranı 0.8 olarak gerçekleşmiştir. Like oranı (L) 2.4 ile 2.4 arasında seyretmiş, retweet oranı (R) 0.2 ile 0.2 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1184,7 +1184,7 @@
       "company": "THYAO",
       "window_label": "son 2 hafta",
       "question": "THYAO hissesi için son iki haftalık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "THYAO hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 260.19 ile yüksek seyretmiş, pozitif tweet ortalaması 202.11 düzeyinde zayıf kalmıştır. P/N oranı 0.78 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 293.81, like oranı 2.42, retweet oranı 0.2 olarak gerçekleşmiştir.",
+      "gold_answer": "THYAO hissesine ait son 2 hafta (2026-05-09 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 208.31'den 195.91'e gerilemiştir (düşüş: %6.0). Negatif tweet görüntülenmesi (N) 276.33'den 244.06'e gerilemiştir (düşüş: %11.7). Etki skoru (E) 296.25'den 291.37'e gerilemiştir (düşüş: %1.6). P/N oranı dönem başında 0.75, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 2.45 ile 2.4 arasında seyretmiş, retweet oranı (R) 0.19 ile 0.2 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1223,7 +1223,7 @@
       "company": "THYAO",
       "window_label": "son 6 ay",
       "question": "THYAO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "THYAO hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 443.87 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 334.08 ile düşük kalmıştır. P/N oranı 1.33 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 420.24, like oranı 4.11, retweet oranı 0.27 olarak gerçekleşmiştir.",
+      "gold_answer": "THYAO hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 272.13'den 195.91'e gerilemiştir (düşüş: %28.0). Negatif tweet görüntülenmesi (N) 388.76'den 244.06'e gerilemiştir (düşüş: %37.2). Etki skoru (E) 343.29'den 291.37'e gerilemiştir (düşüş: %15.1). P/N oranı dönem başında 0.7, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 3.7 ile 2.4 arasında seyretmiş, retweet oranı (R) 0.26 ile 0.2 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1478,7 +1478,7 @@
       "company": "TCELL",
       "window_label": "son 1 ay",
       "question": "TCELL hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TCELL hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 73.7 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.28 ile düşük kalmıştır. P/N oranı 4.03 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 59.5, like oranı 2.77, retweet oranı 0.24 olarak gerçekleşmiştir.",
+      "gold_answer": "TCELL hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 60.67'den 82.57'e yükselmiştir (artış: %36.1). Negatif tweet görüntülenmesi (N) 21.52'den 15.28'e gerilemiştir (düşüş: %29.0). Etki skoru (E) 50.99'den 65.05'e yükselmiştir (artış: %27.6). P/N oranı dönem başında 2.82, dönem sonunda 5.4 olarak gerçekleşmiştir. Like oranı (L) 3.02 ile 2.92 arasında seyretmiş, retweet oranı (R) 0.25 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1535,7 +1535,7 @@
       "company": "TCELL",
       "window_label": "son 3 ay",
       "question": "TCELL için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "TCELL hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 101.64 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 36.12 ile düşük kalmıştır. P/N oranı 2.81 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 74.78, like oranı 4.75, retweet oranı 0.3 olarak gerçekleşmiştir.",
+      "gold_answer": "TCELL hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 140.95'den 82.57'e gerilemiştir (düşüş: %41.4). Negatif tweet görüntülenmesi (N) 59.97'den 15.28'e gerilemiştir (düşüş: %74.5). Etki skoru (E) 94.02'den 65.05'e gerilemiştir (düşüş: %30.8). P/N oranı dönem başında 2.35, dönem sonunda 5.4 olarak gerçekleşmiştir. Like oranı (L) 6.49 ile 2.92 arasında seyretmiş, retweet oranı (R) 0.34 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1673,7 +1673,7 @@
       "company": "SISE",
       "window_label": "son 2 hafta",
       "question": "SISE için son iki haftalık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "SISE hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 151.58 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 57.92 ile düşük kalmıştır. P/N oranı 2.62 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 125.85, like oranı 1.92, retweet oranı 0.17 olarak gerçekleşmiştir.",
+      "gold_answer": "SISE hissesine ait son 2 hafta (2026-05-09 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 157.07'den 146.1'e gerilemiştir (düşüş: %7.0). Negatif tweet görüntülenmesi (N) 61.51'den 54.33'e gerilemiştir (düşüş: %11.7). Etki skoru (E) 128.77'den 122.93'e gerilemiştir (düşüş: %4.5). P/N oranı dönem başında 2.55, dönem sonunda 2.69 olarak gerçekleşmiştir. Like oranı (L) 1.91 ile 1.92 arasında seyretmiş, retweet oranı (R) 0.16 ile 0.17 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1712,7 +1712,7 @@
       "company": "SISE",
       "window_label": "son 6 ay",
       "question": "SISE hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "SISE hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 184.63 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 148.67 ile düşük kalmıştır. P/N oranı 1.24 olup pozitif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 159.36, like oranı 3.88, retweet oranı 0.28 olarak gerçekleşmiştir.",
+      "gold_answer": "SISE hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 110.65'den 146.1'e yükselmiştir (artış: %32.0). Negatif tweet görüntülenmesi (N) 442.58'den 54.33'e gerilemiştir (düşüş: %87.7). Etki skoru (E) 152.8'den 122.93'e gerilemiştir (düşüş: %19.5). P/N oranı dönem başında 0.25, dönem sonunda 2.69 olarak gerçekleşmiştir. Like oranı (L) 4.59 ile 1.92 arasında seyretmiş, retweet oranı (R) 0.24 ile 0.17 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1967,7 +1967,7 @@
       "company": "SASA",
       "window_label": "guncel",
       "question": "SASA hissesinde son hafta itibarıyla Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "SASA hissesi için guncel (2026-05-16 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 393.85 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 325.66 ile düşük kalmıştır. P/N oranı 1.21 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 369.3, like oranı 1.13, retweet oranı 0.09 olarak gerçekleşmiştir.",
+      "gold_answer": "SASA hissesine ait guncel (2026-05-16 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) değeri 393.85 olarak gerçekleşmiştir. Negatif tweet görüntülenmesi (N) değeri 325.66 olarak gerçekleşmiştir. Etki skoru (E) değeri 369.3 olarak gerçekleşmiştir. P/N oranı 1.21 olarak gerçekleşmiştir. Like oranı (L) 1.13 ile 1.13 arasında seyretmiş, retweet oranı (R) 0.09 ile 0.09 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -1997,7 +1997,7 @@
       "company": "SASA",
       "window_label": "son 1 ay",
       "question": "SASA hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "SASA hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 440.02 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 262.01 ile düşük kalmıştır. P/N oranı 1.68 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 343.0, like oranı 1.1, retweet oranı 0.08 olarak gerçekleşmiştir.",
+      "gold_answer": "SASA hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 475.78'den 393.85'e gerilemiştir (düşüş: %17.2). Negatif tweet görüntülenmesi (N) 259.24'den 325.66'e yükselmiştir (artış: %25.6). Etki skoru (E) 345.18'den 369.3'e yükselmiştir (artış: %7.0). P/N oranı dönem başında 1.84, dönem sonunda 1.21 olarak gerçekleşmiştir. Like oranı (L) 1.0 ile 1.13 arasında seyretmiş, retweet oranı (R) 0.07 ile 0.09 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2054,7 +2054,7 @@
       "company": "GARAN",
       "window_label": "son 2 hafta",
       "question": "GARAN hissesinde son iki haftalık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "GARAN hissesi için son 2 hafta (2026-05-09 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 40.83, negatif tweet ortalaması 50.76 ile birbirine yakın seyretmiştir. P/N oranı 0.8 düzeyindedir. Genel etki skoru ortalaması 102.77, like oranı 1.1, retweet oranı 0.11 olarak gerçekleşmiştir.",
+      "gold_answer": "GARAN hissesine ait son 2 hafta (2026-05-09 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 42.51'den 39.15'e gerilemiştir (düşüş: %7.9). Negatif tweet görüntülenmesi (N) 53.91'den 47.61'e gerilemiştir (düşüş: %11.7). Etki skoru (E) 108.24'den 97.29'e gerilemiştir (düşüş: %10.1). P/N oranı dönem başında 0.79, dönem sonunda 0.82 olarak gerçekleşmiştir. Like oranı (L) 1.1 ile 1.1 arasında seyretmiş, retweet oranı (R) 0.11 ile 0.11 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2093,7 +2093,7 @@
       "company": "GARAN",
       "window_label": "son 3 ay",
       "question": "GARAN için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "GARAN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 30.81, negatif tweet ortalaması 34.31 ile birbirine yakın seyretmiştir. P/N oranı 0.9 düzeyindedir. Genel etki skoru ortalaması 77.24, like oranı 3.0, retweet oranı 0.25 olarak gerçekleşmiştir.",
+      "gold_answer": "GARAN hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 34.45'den 39.15'e yükselmiştir (artış: %13.6). Negatif tweet görüntülenmesi (N) 0.16'den 47.61'e yükselmiştir (artış: %29472.0). Etki skoru (E) 50.27'den 97.29'e yükselmiştir (artış: %93.5). P/N oranı dönem başında 213.98, dönem sonunda 0.82 olarak gerçekleşmiştir. Like oranı (L) 4.48 ile 1.1 arasında seyretmiş, retweet oranı (R) 0.32 ile 0.11 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2231,7 +2231,7 @@
       "company": "FROTO",
       "window_label": "son 1 ay",
       "question": "FROTO hissesinde son bir aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "FROTO hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 118.79 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.39 ile düşük kalmıştır. P/N oranı 1.31 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 107.88, like oranı 3.51, retweet oranı 0.25 olarak gerçekleşmiştir.",
+      "gold_answer": "FROTO hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 123.69'den 119.4'e gerilemiştir (düşüş: %3.5). Negatif tweet görüntülenmesi (N) 56.22'den 148.55'e yükselmiştir (artış: %164.2). Etki skoru (E) 106.81'den 113.28'e yükselmiştir (artış: %6.1). P/N oranı dönem başında 2.2, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 3.33 ile 3.74 arasında seyretmiş, retweet oranı (R) 0.25 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2288,7 +2288,7 @@
       "company": "FROTO",
       "window_label": "son 6 ay",
       "question": "FROTO için son altı aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-      "gold_answer": "FROTO hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 290.88 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 115.41 ile düşük kalmıştır. P/N oranı 2.52 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 216.96, like oranı 4.23, retweet oranı 0.31 olarak gerçekleşmiştir.",
+      "gold_answer": "FROTO hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 165.01'den 119.4'e gerilemiştir (düşüş: %27.6). Negatif tweet görüntülenmesi (N) 121.65'den 148.55'e yükselmiştir (artış: %22.1). Etki skoru (E) 136.39'den 113.28'e gerilemiştir (düşüş: %16.9). P/N oranı dönem başında 1.36, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 4.12 ile 3.74 arasında seyretmiş, retweet oranı (R) 0.25 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2543,7 +2543,7 @@
       "company": "EREGL",
       "window_label": "guncel",
       "question": "EREGL için son hafta itibarıyla sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "EREGL hissesi için guncel (2026-05-16 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 62.72 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 51.42 ile düşük kalmıştır. P/N oranı 1.22 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 129.79, like oranı 2.04, retweet oranı 0.18 olarak gerçekleşmiştir.",
+      "gold_answer": "EREGL hissesine ait guncel (2026-05-16 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) değeri 62.72 olarak gerçekleşmiştir. Negatif tweet görüntülenmesi (N) değeri 51.42 olarak gerçekleşmiştir. Etki skoru (E) değeri 129.79 olarak gerçekleşmiştir. P/N oranı 1.22 olarak gerçekleşmiştir. Like oranı (L) 2.04 ile 2.04 arasında seyretmiş, retweet oranı (R) 0.18 ile 0.18 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2573,7 +2573,7 @@
       "company": "EREGL",
       "window_label": "son 3 ay",
       "question": "EREGL için son üç aylık dönemde pozitif ve negatif tweet görüntüleme verileri ne anlama gelmektedir?",
-      "gold_answer": "EREGL hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 82.32, negatif tweet ortalaması 92.45 ile birbirine yakın seyretmiştir. P/N oranı 0.89 düzeyindedir. Genel etki skoru ortalaması 114.87, like oranı 3.93, retweet oranı 0.33 olarak gerçekleşmiştir.",
+      "gold_answer": "EREGL hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 114.09'den 62.72'e gerilemiştir (düşüş: %45.0). Negatif tweet görüntülenmesi (N) 88.6'den 51.42'e gerilemiştir (düşüş: %42.0). Etki skoru (E) 102.67'den 129.79'e yükselmiştir (artış: %26.4). P/N oranı dönem başında 1.29, dönem sonunda 1.22 olarak gerçekleşmiştir. Like oranı (L) 5.54 ile 2.04 arasında seyretmiş, retweet oranı (R) 0.41 ile 0.18 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2711,7 +2711,7 @@
       "company": "EREGL",
       "window_label": "son 6 ay",
       "question": "EREGL hissesinde son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "EREGL hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 109.37, negatif tweet ortalaması 118.92 ile birbirine yakın seyretmiştir. P/N oranı 0.92 düzeyindedir. Genel etki skoru ortalaması 134.31, like oranı 4.43, retweet oranı 0.33 olarak gerçekleşmiştir.",
+      "gold_answer": "EREGL hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 170.92'den 62.72'e gerilemiştir (düşüş: %63.3). Negatif tweet görüntülenmesi (N) 276.76'den 51.42'e gerilemiştir (düşüş: %81.4). Etki skoru (E) 186.91'den 129.79'e gerilemiştir (düşüş: %30.6). P/N oranı dönem başında 0.62, dönem sonunda 1.22 olarak gerçekleşmiştir. Like oranı (L) 4.78 ile 2.04 arasında seyretmiş, retweet oranı (R) 0.3 ile 0.18 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -2966,7 +2966,7 @@
       "company": "SASA",
       "window_label": "son 6 ay",
       "question": "SASA hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "SASA hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 411.94 ile yüksek seyretmiş, pozitif tweet ortalaması 231.25 düzeyinde zayıf kalmıştır. P/N oranı 0.56 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 258.72, like oranı 3.84, retweet oranı 0.24 olarak gerçekleşmiştir.",
+      "gold_answer": "SASA hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 188.7'den 393.85'e yükselmiştir (artış: %108.7). Negatif tweet görüntülenmesi (N) 317.85'den 325.66'e yükselmiştir (artış: %2.5). Etki skoru (E) 251.42'den 369.3'e yükselmiştir (artış: %46.9). P/N oranı dönem başında 0.59, dönem sonunda 1.21 olarak gerçekleşmiştir. Like oranı (L) 3.98 ile 1.13 arasında seyretmiş, retweet oranı (R) 0.25 ile 0.09 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -3221,7 +3221,7 @@
       "company": "TOASO",
       "window_label": "son 6 ay",
       "question": "TOASO hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TOASO hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 100.97 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 35.94 ile düşük kalmıştır. P/N oranı 2.81 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 76.17, like oranı 4.44, retweet oranı 0.41 olarak gerçekleşmiştir.",
+      "gold_answer": "TOASO hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 71.25'den 53.18'e gerilemiştir (düşüş: %25.4). Negatif tweet görüntülenmesi (N) 12.15'den 49.31'e yükselmiştir (artış: %305.8). Etki skoru (E) 56.91'den 50.5'e gerilemiştir (düşüş: %11.3). P/N oranı dönem başında 5.86, dönem sonunda 1.08 olarak gerçekleşmiştir. Like oranı (L) 3.81 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.19 ile 0.33 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -3476,7 +3476,7 @@
       "company": "YKBNK",
       "window_label": "son 6 ay",
       "question": "YKBNK hissesi için son altı aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "YKBNK hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 36.09 ile yüksek seyretmiş, pozitif tweet ortalaması 27.89 düzeyinde zayıf kalmıştır. P/N oranı 0.77 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 49.38, like oranı 3.8, retweet oranı 0.25 olarak gerçekleşmiştir.",
+      "gold_answer": "YKBNK hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 51.95'den 61.6'e yükselmiştir (artış: %18.6). Negatif tweet görüntülenmesi (N) 56.92'den 44.03'e gerilemiştir (düşüş: %22.6). Etki skoru (E) 45.53'den 105.67'e yükselmiştir (artış: %132.1). P/N oranı dönem başında 0.91, dönem sonunda 1.4 olarak gerçekleşmiştir. Like oranı (L) 4.76 ile 0.76 arasında seyretmiş, retweet oranı (R) 0.28 ile 0.07 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -3731,7 +3731,7 @@
       "company": "FROTO",
       "window_label": "son 3 ay",
       "question": "FROTO için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "FROTO hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 284.13 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.83 ile düşük kalmıştır. P/N oranı 3.13 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 209.8, like oranı 4.02, retweet oranı 0.29 olarak gerçekleşmiştir.",
+      "gold_answer": "FROTO hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 340.77'den 119.4'e gerilemiştir (düşüş: %65.0). Negatif tweet görüntülenmesi (N) 127.64'den 148.55'e yükselmiştir (artış: %16.4). Etki skoru (E) 244.58'den 113.28'e gerilemiştir (düşüş: %53.7). P/N oranı dönem başında 2.67, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 4.91 ile 3.74 arasında seyretmiş, retweet oranı (R) 0.34 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -3869,7 +3869,7 @@
       "company": "VAKBN",
       "window_label": "son 3 ay",
       "question": "VAKBN hissesinde son üç aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "VAKBN hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 30.26 ile yüksek seyretmiş, pozitif tweet ortalaması 20.56 düzeyinde zayıf kalmıştır. P/N oranı 0.68 olup negatif sentimentte artış gözlemlenmiştir. Genel etki skoru ortalaması 17.14, like oranı 3.83, retweet oranı 0.32 olarak gerçekleşmiştir.",
+      "gold_answer": "VAKBN hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 21.71'den 29.95'e yükselmiştir (artış: %38.0). Negatif tweet görüntülenmesi (N) 3.51'den 18.01'e yükselmiştir (artış: %413.0). Etki skoru (E) 13.72'den 27.88'e yükselmiştir (artış: %103.2). P/N oranı dönem başında 6.18, dönem sonunda 1.66 olarak gerçekleşmiştir. Like oranı (L) 3.77 ile 2.12 arasında seyretmiş, retweet oranı (R) 0.31 ile 0.27 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4007,7 +4007,7 @@
       "company": "TTKOM",
       "window_label": "son 3 ay",
       "question": "TTKOM için son üç aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TTKOM hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 71.62 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 33.95 ile düşük kalmıştır. P/N oranı 2.11 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 54.1, like oranı 4.51, retweet oranı 0.35 olarak gerçekleşmiştir.",
+      "gold_answer": "TTKOM hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 76.05'den 51.96'e gerilemiştir (düşüş: %31.7). Negatif tweet görüntülenmesi (N) 22.53'den 24.8'e yükselmiştir (artış: %10.1). Etki skoru (E) 50.58'den 47.66'e gerilemiştir (düşüş: %5.8). P/N oranı dönem başında 3.38, dönem sonunda 2.1 olarak gerçekleşmiştir. Like oranı (L) 4.68 ile 3.28 arasında seyretmiş, retweet oranı (R) 0.32 ile 0.31 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4145,7 +4145,7 @@
       "company": "GARAN",
       "window_label": "son 1 ay",
       "question": "GARAN hissesi için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "GARAN hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde negatif tweet görüntüleme ortalaması 56.97 ile yüksek seyretmiş, pozitif tweet ortalaması 42.05 düzeyinde zayıf kalmıştır. P/N oranı 0.74 olup negatif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 113.46, like oranı 1.0, retweet oranı 0.1 olarak gerçekleşmiştir.",
+      "gold_answer": "GARAN hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 42.01'den 39.15'e gerilemiştir (düşüş: %6.8). Negatif tweet görüntülenmesi (N) 67.06'den 47.61'e gerilemiştir (düşüş: %29.0). Etki skoru (E) 127.84'den 97.29'e gerilemiştir (düşüş: %23.9). P/N oranı dönem başında 0.63, dönem sonunda 0.82 olarak gerçekleşmiştir. Like oranı (L) 0.85 ile 1.1 arasında seyretmiş, retweet oranı (R) 0.08 ile 0.11 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4202,7 +4202,7 @@
       "company": "THYAO",
       "window_label": "son 3 ay",
       "question": "THYAO hissesinde son üç aylık dönemde Twitter metriklerine göre yatırımcı algısı nedir?",
-      "gold_answer": "THYAO hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 455.31, negatif tweet ortalaması 391.49 ile birbirine yakın seyretmiştir. P/N oranı 1.16 düzeyindedir. Genel etki skoru ortalaması 447.31, like oranı 3.74, retweet oranı 0.23 olarak gerçekleşmiştir.",
+      "gold_answer": "THYAO hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 581.46'den 195.91'e gerilemiştir (düşüş: %66.3). Negatif tweet görüntülenmesi (N) 306.97'den 244.06'e gerilemiştir (düşüş: %20.5). Etki skoru (E) 485.49'den 291.37'e gerilemiştir (düşüş: %40.0). P/N oranı dönem başında 1.89, dönem sonunda 0.8 olarak gerçekleşmiştir. Like oranı (L) 5.3 ile 2.4 arasında seyretmiş, retweet oranı (R) 0.28 ile 0.2 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4340,7 +4340,7 @@
       "company": "SISE",
       "window_label": "son 3 ay",
       "question": "SISE hissesi için son üç aylık dönemde sosyal medya yatırımcı duyarlılığı nasıldır?",
-      "gold_answer": "SISE hissesi için son 3 ay (2026-02-21 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 235.01 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 69.86 ile düşük kalmıştır. P/N oranı 3.36 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 171.54, like oranı 2.91, retweet oranı 0.22 olarak gerçekleşmiştir.",
+      "gold_answer": "SISE hissesine ait son 3 ay (2026-02-21 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 372.64'den 146.1'e gerilemiştir (düşüş: %60.8). Negatif tweet görüntülenmesi (N) 84.62'den 54.33'e gerilemiştir (düşüş: %35.8). Etki skoru (E) 254.17'den 122.93'e gerilemiştir (düşüş: %51.6). P/N oranı dönem başında 4.4, dönem sonunda 2.69 olarak gerçekleşmiştir. Like oranı (L) 3.56 ile 1.92 arasında seyretmiş, retweet oranı (R) 0.26 ile 0.17 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4478,7 +4478,7 @@
       "company": "TUPRS",
       "window_label": "son 6 ay",
       "question": "TUPRS hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TUPRS hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 394.93 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 193.19 ile düşük kalmıştır. P/N oranı 2.04 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 322.48, like oranı 3.91, retweet oranı 0.26 olarak gerçekleşmiştir.",
+      "gold_answer": "TUPRS hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 409.57'den 187.36'e gerilemiştir (düşüş: %54.3). Negatif tweet görüntülenmesi (N) 264.34'den 97.51'e gerilemiştir (düşüş: %63.1). Etki skoru (E) 279.97'den 174.21'e gerilemiştir (düşüş: %37.8). P/N oranı dönem başında 1.55, dönem sonunda 1.92 olarak gerçekleşmiştir. Like oranı (L) 3.94 ile 3.08 arasında seyretmiş, retweet oranı (R) 0.23 ile 0.21 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4733,7 +4733,7 @@
       "company": "EREGL",
       "window_label": "son 1 ay",
       "question": "EREGL için son bir aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "EREGL hissesi için son 1 ay (2026-04-25 – 2026-05-16) incelendiğinde pozitif tweet ortalaması 60.63, negatif tweet ortalaması 61.52 ile birbirine yakın seyretmiştir. P/N oranı 0.99 düzeyindedir. Genel etki skoru ortalaması 136.62, like oranı 1.82, retweet oranı 0.17 olarak gerçekleşmiştir.",
+      "gold_answer": "EREGL hissesine ait son 1 ay (2026-04-25 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 56.39'den 62.72'e yükselmiştir (artış: %11.2). Negatif tweet görüntülenmesi (N) 72.42'den 51.42'e gerilemiştir (düşüş: %29.0). Etki skoru (E) 143.4'den 129.79'e gerilemiştir (düşüş: %9.5). P/N oranı dönem başında 0.78, dönem sonunda 1.22 olarak gerçekleşmiştir. Like oranı (L) 1.53 ile 2.04 arasında seyretmiş, retweet oranı (R) 0.15 ile 0.18 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -4790,7 +4790,7 @@
       "company": "TCELL",
       "window_label": "son 6 ay",
       "question": "TCELL hissesi için son altı aylık dönemde Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "TCELL hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 109.04 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 90.17 ile düşük kalmıştır. P/N oranı 1.21 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 88.05, like oranı 5.37, retweet oranı 0.32 olarak gerçekleşmiştir.",
+      "gold_answer": "TCELL hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 117.79'den 82.57'e gerilemiştir (düşüş: %29.9). Negatif tweet görüntülenmesi (N) 188.25'den 15.28'e gerilemiştir (düşüş: %91.9). Etki skoru (E) 123.84'den 65.05'e gerilemiştir (düşüş: %47.5). P/N oranı dönem başında 0.63, dönem sonunda 5.4 olarak gerçekleşmiştir. Like oranı (L) 5.19 ile 2.92 arasında seyretmiş, retweet oranı (R) 0.29 ile 0.25 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -5045,7 +5045,7 @@
       "company": "VAKBN",
       "window_label": "guncel",
       "question": "VAKBN için son hafta itibarıyla Twitter sentiment metrikleri nasıl değerlendirilmektedir?",
-      "gold_answer": "VAKBN hissesi için guncel (2026-05-16 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 29.95 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 18.01 ile düşük kalmıştır. P/N oranı 1.66 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 27.88, like oranı 2.12, retweet oranı 0.27 olarak gerçekleşmiştir.",
+      "gold_answer": "VAKBN hissesine ait guncel (2026-05-16 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) değeri 29.95 olarak gerçekleşmiştir. Negatif tweet görüntülenmesi (N) değeri 18.01 olarak gerçekleşmiştir. Etki skoru (E) değeri 27.88 olarak gerçekleşmiştir. P/N oranı 1.66 olarak gerçekleşmiştir. Like oranı (L) 2.12 ile 2.12 arasında seyretmiş, retweet oranı (R) 0.27 ile 0.27 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
@@ -5075,7 +5075,7 @@
       "company": "GARAN",
       "window_label": "son 6 ay",
       "question": "GARAN hissesi için son altı aylık dönemde Twitter etki ve sentiment skorları nasıl yorumlanmalıdır?",
-      "gold_answer": "GARAN hissesi için son 6 ay (2025-11-22 – 2026-05-16) incelendiğinde pozitif tweet görüntüleme ortalaması 28.86 seviyesinde gerçekleşmiş, negatif tweet ortalaması ise 17.4 ile düşük kalmıştır. P/N oranı 1.66 olup pozitif sentimentte azalış gözlemlenmiştir. Genel etki skoru ortalaması 58.33, like oranı 3.11, retweet oranı 0.3 olarak gerçekleşmiştir.",
+      "gold_answer": "GARAN hissesine ait son 6 ay (2025-11-22 – 2026-05-16) Twitter/X metrik verileri incelendiğinde: Pozitif tweet görüntülenmesi (P) 41.62'den 39.15'e gerilemiştir (düşüş: %5.9). Negatif tweet görüntülenmesi (N) 0.97'den 47.61'e yükselmiştir (artış: %4803.3). Etki skoru (E) 59.1'den 97.29'e yükselmiştir (artış: %64.6). P/N oranı dönem başında 42.86, dönem sonunda 0.82 olarak gerçekleşmiştir. Like oranı (L) 2.29 ile 1.1 arasında seyretmiş, retweet oranı (R) 0.35 ile 0.11 arasında gerçekleşmiştir.",
       "reasoning_type": [
         "metric_sentiment_reasoning"
       ],
