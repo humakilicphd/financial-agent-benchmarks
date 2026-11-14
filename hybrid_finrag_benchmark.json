@@ -74,7 +74,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1608065 · 1608065_KAP_Bildirim.pdf · s.3] ISIN Kodu XS2355183091 Kupon Sayısı 0 İtfa Tarihi 22.06.2031 Kayıt Tarihi 20.06.2031 * Hak sahiplerinin belirlendiği tarih. Yatırımcı Hesaplarına Ödenme Tarihi 23.06.2031 Döviz Cinsi USD Derecelendirme İhraççının Derecelendirme Notu var mı? Evet İhraççı Derecelendirme N […] ım Yapılabilir Seviyede mi? Fitch Rating AA-(tur)- Ulusal Uzun Vadeli Notu 14.04.2026 Evet Sermaye Piyasası Aracının Derecelendirme Notu Var mı? Hayır Kaynak Kuruluş'un Derecelendirme Notu Var mı? Hayır Ek Açıklamalar Bankamızca, 22 Haziran 2021 tarihinde XS2355183091 ve US00971YAJ91 ISIN kodlu olarak ihraç edilen toplamda 500 milyon ABD Doları tutarında, 10 yıl vadeli ve 5 yıl sonunda erken itfa opsiyonuna sahip sürdürülebilir sermaye benzeri tahvilin (katkı sermaye) erken itfa opsiyonunun kullanılmasına karar",
         "[1608065 · 1608065_KAP_Bildirim.pdf · s.2] Özet Bilgi XS2355183091 ve US00971YAJ91 ISIN kodlu Sürdürülebilir Sermaye Benzeri Tahvillerin erken itfa opsiyonunun kullanılması hakkında Yapılan Açıklama Güncelleme mi ? Hayır Yapılan Açıklama Düzeltme mi ? Evet Yapılan Açıklama Ertelenmiş Bir Açıklama mı ? Hayır Bildirim Konusu Erken İtfa Düzeltme Nedeni Rating Notu Güncellemesi Yönetim Kurulu Kar"
@@ -161,7 +161,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1605794 · 1605794_BIM - 31.03.2026 TR.pdf · s.11] cak 2022 tarihli finansal durum tablosundaki geçmiş yıllar karları/zararları kaleminin enflasyona göre düzeltilmiş tutarı söz konusu tablonun di ğer kalemlerinin enflasyona göre düzeltilmesinden sonra olmas ı gereken bilanço denkliğinden elde edilmiştir. 2.2 Yeni ve Düzeltilmiş Standartlar ve Yorumlar 31 Mart 2026 tarihi itibariyle sona eren ara hesap dönemine ait konsolide finansal tabloların hazırlanmasında esas alınan muhasebe politikaları aşağıda özetlenen 1 Ocak 2026 tarihi itibariyle geçerli yeni ve",
         "[1605794 · 1605794_BIM - 31.03.2026 TR.pdf · s.13] ı yayımlamıştır. TFRS 18 belirli toplam ve alt toplamların verilmesi dahil, kar veya zarar tablosunun sunumuna ilişkin yeni hükümler getirmektedir. TFRS 18 işletmelerin, kar veya zarar tablosunda yer verilen tüm gelir ve giderleri, esas faaliyetler, yatırım faaliyetleri, finansman faaliyetleri, gelir vergileri ve durdurulan faaliyetler olmak üzere beş kategoriden biri içerisinde sunmasını zorunlu kılmaktadır. Standart ayrıca yönetim tarafından belirl enmiş performans ölçütlerinin açıklanmasını gerektirmekte ve",
@@ -249,7 +249,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1605794 · 1605794_BIM - 31.03.2026 TR.pdf · s.3] gücü cinsinden bin Türk Lirası (\"TL\") olarak ifade edilmiştir.) 1 VARLIKLAR Bağımsız incelemeden Bağımsız denetimden geçmemiş geçmiş Dipnot 31 Mart 2026 31 Aralık 2025 Dönen Varlıklar 145.376.635 122.680.739 Nakit ve Nakit Benzerleri 4 4.980.275 3.808.085 Finansal Yatırımlar 5 24.977.581 11.764.683 Ticari Alacaklar 38.561.721 38.302.004 - İlişkili Olmayan Taraflardan Ticari Alacaklar 7 38.561.721 38.302.004 Diğer Alacaklar 8 2.165.261 1.608.927 - İlişkili Taraflardan Diğer Alacaklar 89.",
         "[1605794 · 1605794_KAP_Bildirim.pdf · s.5] ler 24 0 14.649 Parasal Pozisyon Kazanç ve Kayıplarıyla İlgili Düzeltmeler -5.141.554 -3.273.734 Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler 113.671 114.357 İşletme Sermayesinde Gerçekleşen Değişimler 7.073.603 12.944.388 Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler -259.717 -1.186.573 Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler -321.038 -21.827 Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler -3.313.580 -9.687.564 Ticari Borçlardaki Artış (Azalış) i",
@@ -337,7 +337,7 @@
       ],
       "difficulty": "easy",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1601423 · 1601423_Ford Otosan 1Ç26 Ara Dönem Faaliyet Raporu.pdf · s.4] leşmiştir. İthal araçların payı ( 4 ) Binek Hafif Ticari Toplam 1Ç26 %64 %77 %67 2025 %70 %78 %72 1Ç25 %68 %78 %70 2024 %70 %73 %71 2023 %68 %54 %65 Bu dönemde, Ford Otosan’ın toplam yurt içi perakende satışları %20 azalışla 18.707(23.459) adede gerilemiştir. Bu gelişmede, Focus modelinin üretiminin sonlanmasının ardından binek araç satışlarında gözlenen zayıflama ile, daha rekabetçi fiyatlama ortamı ve artan araç bulunabilirliğinin özellikle orta ticari araç sa"
       ]
@@ -423,7 +423,7 @@
       ],
       "difficulty": "hard",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1601423 · 1601423_Ford Otosan 1Ç26 Ara Dönem Faaliyet Raporu.pdf · s.4] %68 %78 %70 2024 %70 %73 %71 2023 %68 %54 %65 Bu dönemde, Ford Otosan’ın toplam yurt içi perakende satışları %20 azalışla 18.707(23.459) adede gerilemiştir. Bu gelişmede, Focus modelinin üretiminin sonlanmasının ardından binek araç satışlarında gözlenen zayıflama ile, daha rekabetçi fiyatlama ortamı ve artan araç bulunabilirliğinin özellikle orta ticari araç satışları üzerinde yarattığı baskı etkili olmuştur. Bu çerçevede Ford Otosan’ın toplam pazardaki payı %6,9 seviyesinde gerçekle",
         "[1601423 · 1601423_Ford Otosan 1Ç26 Ara Dönem Faaliyet Raporu.pdf · s.2] Public Public ŞİRKET BİLGİLERİ Yönetim Kurulu ve Komiteler Esas Mukavelemizin 10’uncu maddesine göre Şirketimiz, Genel Kurul tarafından Türk Ticaret Kanunu hükümleri ve Sermaye Piyasası Kurulu düzenlemeleri uyarınca, en çok 3 yıl için seçilecek, en az 8 üyeden oluşa",
@@ -556,7 +556,7 @@
       ],
       "difficulty": "easy",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1603784 · 1603784_Nisan 2026 Trafik.pdf · s.1] Uçulan Nokta 353 358 %1,4 Uçak Sayısı 476 536 %12,6 Arzedilen Koltuk Kilometre (milyar) 21,7 22,2 %2,2 Yolcu Doluluk Oranı (%) %83,2 %83,4 0,2 pt Yolcu Sayısı (milyon) 7,4 7,2 -%2,9 Konma Sayısı (Yolcu Seferleri) 45.101 44.738 -%0,8 Kargo + Posta (bin ton) 172,8 193,7 %12,1 Arzedilen Koltuk Kilometre (milyar) 19,7 20,2 %2,7 Yolcu Doluluk Oranı (%) %82,8 %83,3 0,5 pt Yolcu Sayısı (milyon) 4,8 4,7 -%1,9 Konma Sayısı (Yolcu Sefer"
       ]
@@ -687,7 +687,7 @@
       ],
       "difficulty": "easy",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1608029 · 1608029_KAP_Bildirim.pdf · s.2] 0013 BRKVY Nakit Temettü Ödeme 44,86068 52,77728 15/05/2026 TRY PAY SENEDİ METROPAL KURUMSAL HİZMETLER A.Ş. TREMTRP00014 MCARD Nakit Temettü Ödeme 458,96328 539,9568 15/05/2026 TRY PAY SENEDİ MİGROS TİCARET A.Ş. TREMGTI00012 MGROS Nakit Temettü Ödeme 387,31488 455,66457 15/05/2026 TRY PAY SENEDİ TURCAS PETROL A.Ş. TRATRCAS92E6 TRCAS Nakit Temettü Ödeme 199,53051 234,74178 15/05/2026 TRY Pay Mali Hak Kullanım İşlemi - Nakit Ödeme"
       ]
@@ -854,7 +854,7 @@
       ],
       "difficulty": "easy",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1608322 · 1608322_KAP_Bildirim.pdf · s.2] a İlişkin Daha Önce Yapılan Açıklamanın Tarihi - Yapılan Açıklama Ertelenmiş Bir Açıklama mı? Hayır (No) Bildirim İçeriği Açıklamalar VakıfBank, 18 ülkeden 44 bankanın katılımıyla 484 milyon ABD Doları ve 574 milyon Euro olmak üzere iki dilimden oluşan toplam 1,2 milyar ABD Doları karşılığı sürdürülebilirlik temalı sendikasyon kredisi temin ederek söz konusu sendikasyon kredisini geçen yılın aynı dönemine göre %110'ün üzerinde yenilemiştir. 367 gün vadeli kredinin toplam maliyeti ABD Doları kısmı için SOFR +%1,25"
       ]
@@ -1021,7 +1021,7 @@
       ],
       "difficulty": "easy",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": [
         "[1603672 · 1603672_KAP_Bildirim.pdf · s.2] Arsan Dokuma Boya San. ve Tic. A.Ş.'nin bağlı ortaklığı Arsan Varlık Yönetimi A.Ş.'nin, Yapı ve Kredi Bankası A.Ş.'nin 08.05.2026 tarihinde satışa çıkarttığı bireysel ve KOBİ nitelikli alacak portföylerin ihalesine iştirak etmiş olduğu ve iki adet toplam 517 Milyon TL anaparaya sahip bireysel portföy için ihaleye katılan varlık yönetim şirketleri içinde en yüksek teklifi vererek alıma hak kazandığı öğrenilmiştir. İhalenin, Yapı ve Kredi Bankası A.Ş. Yönetim Kurulu'nun onayı ile kesinleşmesini müteakip, sö"
       ]
@@ -1087,7 +1087,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1151,7 +1151,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1215,7 +1215,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1297,7 +1297,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1424,7 +1424,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1551,7 +1551,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1714,7 +1714,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1796,7 +1796,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -1923,7 +1923,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -2050,7 +2050,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     },
     {
@@ -2114,7 +2114,7 @@
       ],
       "difficulty": "medium",
       "question_type": "numerical",
-      "human_validation_required": true,
+      "human_validated": true,
       "retrieved_contexts": []
     }
   ]
