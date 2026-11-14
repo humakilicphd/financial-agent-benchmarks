@@ -13,7 +13,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "YKBNK",
         "window": "son 2 hafta",
@@ -52,7 +52,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "YKBNK",
         "window": "son 3 ay",
@@ -190,7 +190,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "VAKBN",
         "window": "son 1 ay",
@@ -247,7 +247,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "VAKBN",
         "window": "son 6 ay",
@@ -502,7 +502,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TUPRS",
         "window": "guncel",
@@ -532,7 +532,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TUPRS",
         "window": "son 3 ay",
@@ -670,7 +670,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TTKOM",
         "window": "son 2 hafta",
@@ -709,7 +709,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TTKOM",
         "window": "son 6 ay",
@@ -964,7 +964,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TOASO",
         "window": "son 1 ay",
@@ -1021,7 +1021,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TOASO",
         "window": "son 3 ay",
@@ -1159,7 +1159,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "THYAO",
         "window": "guncel",
@@ -1189,7 +1189,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "THYAO",
         "window": "son 2 hafta",
@@ -1228,7 +1228,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "THYAO",
         "window": "son 6 ay",
@@ -1483,7 +1483,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TCELL",
         "window": "son 1 ay",
@@ -1540,7 +1540,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TCELL",
         "window": "son 3 ay",
@@ -1678,7 +1678,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SISE",
         "window": "son 2 hafta",
@@ -1717,7 +1717,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SISE",
         "window": "son 6 ay",
@@ -1972,7 +1972,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SASA",
         "window": "guncel",
@@ -2002,7 +2002,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SASA",
         "window": "son 1 ay",
@@ -2059,7 +2059,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "GARAN",
         "window": "son 2 hafta",
@@ -2098,7 +2098,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "GARAN",
         "window": "son 3 ay",
@@ -2236,7 +2236,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "FROTO",
         "window": "son 1 ay",
@@ -2293,7 +2293,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "FROTO",
         "window": "son 6 ay",
@@ -2548,7 +2548,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "EREGL",
         "window": "guncel",
@@ -2578,7 +2578,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "EREGL",
         "window": "son 3 ay",
@@ -2716,7 +2716,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "EREGL",
         "window": "son 6 ay",
@@ -2971,7 +2971,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SASA",
         "window": "son 6 ay",
@@ -3226,7 +3226,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TOASO",
         "window": "son 6 ay",
@@ -3481,7 +3481,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "YKBNK",
         "window": "son 6 ay",
@@ -3736,7 +3736,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "FROTO",
         "window": "son 3 ay",
@@ -3874,7 +3874,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "VAKBN",
         "window": "son 3 ay",
@@ -4012,7 +4012,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TTKOM",
         "window": "son 3 ay",
@@ -4150,7 +4150,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "negative",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "GARAN",
         "window": "son 1 ay",
@@ -4207,7 +4207,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "THYAO",
         "window": "son 3 ay",
@@ -4345,7 +4345,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "SISE",
         "window": "son 3 ay",
@@ -4483,7 +4483,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TUPRS",
         "window": "son 6 ay",
@@ -4738,7 +4738,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "neutral",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "EREGL",
         "window": "son 1 ay",
@@ -4795,7 +4795,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "TCELL",
         "window": "son 6 ay",
@@ -5050,7 +5050,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "VAKBN",
         "window": "guncel",
@@ -5080,7 +5080,7 @@
         "metric_sentiment_reasoning"
       ],
       "expected_sentiment": "positive",
-      "human_validation_required": true,
+      "human_validated": true,
       "key_facts": {
         "ticker": "GARAN",
         "window": "son 6 ay",
